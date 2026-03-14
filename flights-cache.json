@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-14T21:09:52.105Z",
+  "fetched_at": "2026-03-14T22:08:51.152Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-14": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:50",
-          "expected_time": "2026-03-14T22:58:00.000000Z",
+          "expected_time": "2026-03-14T22:57:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:08"
+          "delay": "00:07"
         },
         {
           "flight_no": "W6 2008",
@@ -22,27 +22,14 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:55",
-          "expected_time": "2026-03-14T22:28:00.000000Z",
+          "expected_time": "2026-03-14T22:33:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-27"
+          "delay": "00:-22"
         }
       ],
-      "departures": [
-        {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "22:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
+      "departures": []
     },
     "2026-03-15": {
       "arrivals": [
@@ -52,11 +39,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "00:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-13T23:28:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 1724",
