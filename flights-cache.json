@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-15T14:13:27.929Z",
+  "fetched_at": "2026-03-15T15:10:51.997Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-15": {
       "arrivals": [
-        {
-          "flight_no": "FR 5756",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "15:00",
-          "expected_time": "2026-03-15T13:32:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-27"
-        },
         {
           "flight_no": "FR 2434",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "16:40",
-          "expected_time": "2026-03-15T15:27:00.000000Z",
+          "expected_time": "2026-03-15T15:28:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-12"
         },
         {
           "flight_no": "LS 3011",
@@ -34,11 +22,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "17:05",
-          "expected_time": "2026-03-15T15:54:00.000000Z",
+          "expected_time": "2026-03-15T15:53:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-12"
         },
         {
           "flight_no": "LS 949",
@@ -151,18 +139,6 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 5757",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "15:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
           "destination_iata": "STN",
@@ -181,7 +157,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +181,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "19:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
