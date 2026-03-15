@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-15T05:35:04.670Z",
+  "fetched_at": "2026-03-15T06:26:09.801Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-15": {
@@ -10,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "09:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T08:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 2362",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "09:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T08:02:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-28"
         },
         {
           "flight_no": "FR 6624",
@@ -34,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "09:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T08:16:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "EZY 3053",
@@ -46,11 +46,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T08:38:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 2332",
@@ -337,10 +337,10 @@
           "destination": "BRISTOL",
           "scheduled_time": "07:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 4203",
@@ -349,7 +349,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "07:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
