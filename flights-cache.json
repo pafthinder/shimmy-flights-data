@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-15T07:23:02.258Z",
+  "fetched_at": "2026-03-15T08:14:22.442Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-15": {
@@ -10,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "09:15",
-          "expected_time": "2026-03-15T08:00:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-15T07:54:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 2362",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "09:30",
-          "expected_time": "2026-03-15T07:57:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-15T07:51:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-33"
+          "delay": "00:-39"
         },
         {
           "flight_no": "FR 6624",
@@ -34,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-15T08:14:00.000000Z",
+          "expected_time": "2026-03-15T08:09:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-26"
         },
         {
           "flight_no": "EZY 3053",
@@ -46,11 +46,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:45",
-          "expected_time": "2026-03-15T08:36:00.000000Z",
+          "expected_time": "2026-03-15T08:37:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-9"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2332",
@@ -58,11 +58,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "10:15",
-          "expected_time": "2026-03-15T08:29:00.000000Z",
+          "expected_time": "2026-03-15T08:33:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-46"
+          "delay": "00:-42"
         },
         {
           "flight_no": "EZY 3313",
@@ -82,11 +82,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T10:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "W6 2002",
@@ -337,7 +337,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "09:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -349,7 +349,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "09:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
