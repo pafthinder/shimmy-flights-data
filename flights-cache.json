@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-15T09:13:48.677Z",
+  "fetched_at": "2026-03-15T10:10:06.305Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-15": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "10:15",
-          "expected_time": "2026-03-15T08:27:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-47"
-        },
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "10:35",
-          "expected_time": "2026-03-15T09:27:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
         {
           "flight_no": "FR 1465",
           "airline": "Ryanair",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": "2026-03-15T10:05:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-15T10:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-25"
         },
         {
           "flight_no": "W6 2002",
@@ -46,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "11:50",
-          "expected_time": "2026-03-15T10:28:00.000000Z",
+          "expected_time": "2026-03-15T10:29:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-22"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 6360",
@@ -58,11 +34,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:55",
-          "expected_time": "2026-03-15T10:28:00.000000Z",
+          "expected_time": "2026-03-15T10:30:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-27"
+          "delay": "00:-25"
         },
         {
           "flight_no": "RK 2141",
@@ -70,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "12:30",
-          "expected_time": "2026-03-15T11:10:00.000000Z",
+          "expected_time": "2026-03-15T11:09:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 1813",
@@ -82,11 +58,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "12:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T11:17:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 5517",
@@ -94,11 +70,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "12:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T11:14:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 6628",
@@ -106,11 +82,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "13:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-15T12:17:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 4204",
@@ -283,49 +259,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "10:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 3054",
-          "airline": "EasyJet",
-          "destination_iata": "BFS",
-          "destination": "BELFAST",
-          "scheduled_time": "10:15",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "10:40",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 3314",
           "airline": "EasyJet",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "11:10",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -337,7 +277,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
