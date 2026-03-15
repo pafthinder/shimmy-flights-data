@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-15T21:10:18.169Z",
+  "fetched_at": "2026-03-15T22:08:54.968Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-15": {
@@ -10,39 +10,14 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:55",
-          "expected_time": "2026-03-15T22:32:00.000000Z",
+          "expected_time": "2026-03-15T22:33:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-22"
         }
       ],
-      "departures": [
-        {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:05"
-        },
-        {
-          "flight_no": "FR 9954",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "22:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
+      "departures": []
     },
     "2026-03-16": {
       "arrivals": [
@@ -403,7 +378,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "05:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -427,7 +402,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "06:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -439,7 +414,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "07:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -451,7 +426,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "07:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -499,7 +474,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "11:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -511,7 +486,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "11:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -535,7 +510,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -559,7 +534,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "15:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -571,7 +546,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "16:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -583,7 +558,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "17:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -595,7 +570,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "17:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -619,7 +594,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "18:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -667,7 +642,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "20:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -727,7 +702,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "21:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -739,7 +714,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "21:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
