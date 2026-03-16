@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-16T07:35:54.264Z",
+  "fetched_at": "2026-03-16T08:28:44.446Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-16": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "09:25",
-          "expected_time": "2026-03-16T08:06:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-16T08:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-25"
         },
         {
           "flight_no": "RK 6806",
@@ -22,8 +22,8 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-16T08:15:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-16T08:14:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-20"
@@ -46,11 +46,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "10:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T09:30:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 6360",
@@ -70,11 +70,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T09:52:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 2362",
@@ -82,11 +82,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T09:57:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "W6 2002",
@@ -361,7 +361,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "09:55",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -373,7 +373,7 @@
           "destination": "BELFAST",
           "scheduled_time": "10:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
