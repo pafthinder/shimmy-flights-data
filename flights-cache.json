@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-16T05:40:21.764Z",
+  "fetched_at": "2026-03-16T06:38:43.104Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-16": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "09:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T08:04:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "RK 6806",
@@ -22,11 +22,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T08:10:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-25"
         },
         {
           "flight_no": "EZY 3479",
@@ -355,37 +355,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "06:45",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 451",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "07:00",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2142",
           "airline": "Ryanair",
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "07:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -397,7 +373,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "09:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -421,7 +397,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "10:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -457,7 +433,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "11:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
