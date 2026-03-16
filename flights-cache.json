@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-16T12:23:31.357Z",
+  "fetched_at": "2026-03-16T13:36:39.484Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-16": {
       "arrivals": [
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "13:05",
-          "expected_time": "2026-03-16T11:28:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-37"
-        },
-        {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "13:40",
-          "expected_time": "2026-03-16T12:11:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-28"
-        },
         {
           "flight_no": "EZY 3313",
           "airline": "EasyJet",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:10",
-          "expected_time": "2026-03-16T13:51:00.000000Z",
+          "expected_time": "2026-03-16T13:53:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 2432",
@@ -46,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:10",
-          "expected_time": "2026-03-16T13:59:00.000000Z",
+          "expected_time": "2026-03-16T14:00:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 1465",
@@ -58,11 +34,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "15:20",
-          "expected_time": "2026-03-16T14:02:00.000000Z",
+          "expected_time": "2026-03-16T14:03:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 6624",
@@ -70,11 +46,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "16:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T15:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 2343",
@@ -265,7 +241,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "15:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -325,7 +301,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -379,18 +355,6 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "LS 114",
-          "airline": "Jet2.com",
-          "destination_iata": "GLA",
-          "destination": "GLASGOW",
-          "scheduled_time": "20:05",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 1725",
           "airline": "Ryanair",
           "destination_iata": "EMA",
@@ -398,6 +362,18 @@
           "scheduled_time": "20:05",
           "expected_time": null,
           "status": "ODPRAWA %checkin",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "LS 114",
+          "airline": "Jet2.com",
+          "destination_iata": "GLA",
+          "destination": "GLASGOW",
+          "scheduled_time": "20:05",
+          "expected_time": null,
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
