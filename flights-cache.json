@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-16T11:22:36.001Z",
+  "fetched_at": "2026-03-16T12:23:31.357Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-16": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "12:30",
-          "expected_time": "2026-03-16T11:05:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-24"
-        },
         {
           "flight_no": "FR 450",
           "airline": "Ryanair",
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "13:05",
-          "expected_time": "2026-03-16T11:31:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-16T11:28:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-34"
+          "delay": "00:-37"
         },
         {
           "flight_no": "FR 2141",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "13:40",
-          "expected_time": "2026-03-16T12:10:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-16T12:11:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-30"
+          "delay": "00:-28"
         },
         {
           "flight_no": "EZY 3313",
@@ -46,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T13:51:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 2432",
@@ -58,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T13:59:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 1465",
@@ -70,11 +58,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "15:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-16T14:02:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 6624",
@@ -391,18 +379,6 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 1725",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "20:05",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "LS 114",
           "airline": "Jet2.com",
           "destination_iata": "GLA",
@@ -410,6 +386,18 @@
           "scheduled_time": "20:05",
           "expected_time": null,
           "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 1725",
+          "airline": "Ryanair",
+          "destination_iata": "EMA",
+          "destination": "EAST MIDLANDS",
+          "scheduled_time": "20:05",
+          "expected_time": null,
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
