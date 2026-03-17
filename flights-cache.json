@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-17T14:32:44.037Z",
+  "fetched_at": "2026-03-17T15:28:11.514Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-17": {
@@ -67,25 +67,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "15:55",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 4203",
           "airline": "Ryanair",
           "destination_iata": "GLA",
           "destination": "GLASGOW",
           "scheduled_time": "16:35",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
