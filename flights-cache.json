@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-17T05:33:42.079Z",
+  "fetched_at": "2026-03-17T06:28:25.597Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-17": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "09:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-17T08:10:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "LS 6029",
@@ -205,7 +205,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "07:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
