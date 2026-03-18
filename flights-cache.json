@@ -1,29 +1,17 @@
 {
-  "fetched_at": "2026-03-18T13:36:54.666Z",
+  "fetched_at": "2026-03-18T14:34:51.433Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-18": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "15:20",
-          "expected_time": "2026-03-18T13:57:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-23"
-        },
         {
           "flight_no": "FR 1465",
           "airline": "Ryanair",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "16:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-18T15:50:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -34,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-18T15:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 2141",
@@ -145,7 +133,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "15:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +145,7 @@
           "destination": "ABERDEEN",
           "scheduled_time": "16:15",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
