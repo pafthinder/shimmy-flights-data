@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-18T18:26:06.771Z",
+  "fetched_at": "2026-03-18T19:24:10.560Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-18": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2263",
-          "airline": "EasyJet",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "19:00",
-          "expected_time": "2026-03-18T17:48:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-11"
-        },
         {
           "flight_no": "EZY 6629",
           "airline": "EasyJet",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "20:35",
-          "expected_time": "2026-03-18T19:28:00.000000Z",
+          "expected_time": "2026-03-18T19:22:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-7"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 6364",
@@ -34,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "21:35",
-          "expected_time": "2026-03-18T20:08:00.000000Z",
+          "expected_time": "2026-03-18T20:10:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-27"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 8842",
@@ -46,11 +34,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-18T20:35:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 1724",
@@ -91,25 +79,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "19:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "TOM 8027",
           "airline": "TUI Airways",
           "destination_iata": "LGW",
           "destination": "LONDON GATWICK",
           "scheduled_time": "20:45",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
