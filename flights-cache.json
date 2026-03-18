@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-18T15:32:55.256Z",
+  "fetched_at": "2026-03-18T16:28:20.115Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-18": {
       "arrivals": [
-        {
-          "flight_no": "FR 1465",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "16:50",
-          "expected_time": "2026-03-18T15:52:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:02"
-        },
         {
           "flight_no": "FR 2332",
           "airline": "Ryanair",
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "17:05",
-          "expected_time": "2026-03-18T15:47:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-18T15:39:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 2141",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:45",
-          "expected_time": "2026-03-18T17:25:00.000000Z",
+          "expected_time": "2026-03-18T17:22:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-23"
         },
         {
           "flight_no": "EZY 2263",
@@ -46,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "19:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-18T17:52:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "EZY 6629",
@@ -133,7 +121,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "17:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +133,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +145,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +157,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "18:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
