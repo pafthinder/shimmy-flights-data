@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-19T08:17:54.064Z",
+  "fetched_at": "2026-03-19T09:19:48.795Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-19": {
       "arrivals": [
-        {
-          "flight_no": "FR 1724",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "09:30",
-          "expected_time": "2026-03-19T08:18:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-12"
-        },
         {
           "flight_no": "RK 6806",
           "airline": "Ryanair United Kingdom",
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "11:20",
-          "expected_time": "2026-03-19T10:22:00.000000Z",
+          "expected_time": "2026-03-19T10:18:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:02"
+          "delayed": false,
+          "delay": "00:-2"
         },
         {
           "flight_no": "W6 2002",
@@ -34,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-19T10:47:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-3"
         },
         {
           "flight_no": "LS 949",
@@ -46,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "12:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-19T11:10:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "FR 2362",
@@ -70,11 +58,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "12:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-19T11:27:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 6624",
@@ -294,42 +282,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2350",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "09:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-1"
-        },
-        {
-          "flight_no": "FR 1466",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "09:40",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1725",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "09:55",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "RK 6807",
           "airline": "Ryanair United Kingdom",
