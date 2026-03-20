@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-20T16:18:23.417Z",
+  "fetched_at": "2026-03-20T17:17:46.314Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-20": {
       "arrivals": [
-        {
-          "flight_no": "LS 1251",
-          "airline": "Jet2.com",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "17:50",
-          "expected_time": "2026-03-20T17:51:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:01"
-        },
-        {
-          "flight_no": "FR 2351",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "17:55",
-          "expected_time": "2026-03-20T18:15:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:20"
-        },
         {
           "flight_no": "LS 1901",
           "airline": "Jet2.com",
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "18:20",
-          "expected_time": "2026-03-20T17:22:00.000000Z",
+          "expected_time": "2026-03-20T17:16:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:02"
+          "delayed": false,
+          "delay": "00:-4"
         },
         {
           "flight_no": "EZY 8821",
@@ -46,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "18:25",
-          "expected_time": "2026-03-20T17:48:00.000000Z",
+          "expected_time": "2026-03-20T17:46:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:23"
+          "delay": "00:21"
         },
         {
           "flight_no": "LS 295",
@@ -70,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:35",
-          "expected_time": "2026-03-20T18:11:00.000000Z",
+          "expected_time": "2026-03-20T18:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:36"
+          "delay": "00:39"
         },
         {
           "flight_no": "LS 113",
@@ -82,11 +58,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "19:10",
-          "expected_time": "2026-03-20T18:13:00.000000Z",
+          "expected_time": "2026-03-20T18:11:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:03"
+          "delay": "00:01"
         },
         {
           "flight_no": "EZY 3479",
@@ -151,49 +127,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6220",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 6359",
-          "airline": "Ryanair",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "17:10",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2149",
           "airline": "Ryanair",
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +145,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -216,11 +156,11 @@
           "destination_iata": "LTN",
           "destination": "LONDON LUTON",
           "scheduled_time": "18:20",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-03-20T18:30:00.000000Z",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "01:10"
         },
         {
           "flight_no": "FR 6629",
@@ -229,7 +169,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "18:35",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -240,11 +180,11 @@
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "18:50",
-          "expected_time": "2026-03-20T18:25:00.000000Z",
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-03-20T18:52:00.000000Z",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:35"
+          "delay": "01:02"
         },
         {
           "flight_no": "EZY 8822",
