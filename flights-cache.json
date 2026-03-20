@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-20T14:20:48.640Z",
+  "fetched_at": "2026-03-20T15:19:40.908Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-20": {
@@ -10,11 +10,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "16:40",
-          "expected_time": "2026-03-20T15:35:00.000000Z",
+          "expected_time": "2026-03-20T15:34:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-5"
+          "delay": "00:-6"
         },
         {
           "flight_no": "FR 6360",
@@ -22,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "16:40",
-          "expected_time": "2026-03-20T15:22:00.000000Z",
+          "expected_time": "2026-03-20T15:18:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 2332",
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:45",
-          "expected_time": "2026-03-20T15:29:00.000000Z",
+          "expected_time": "2026-03-20T15:25:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-20"
         },
         {
           "flight_no": "LS 1251",
@@ -47,7 +47,7 @@
           "origin": "BIRMINGHAM",
           "scheduled_time": "17:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -59,7 +59,7 @@
           "origin": "LONDON LUTON",
           "scheduled_time": "17:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -70,11 +70,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "18:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T17:22:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:02"
         },
         {
           "flight_no": "EZY 8821",
@@ -94,11 +94,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "18:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T17:28:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "LS 949",
@@ -187,18 +187,6 @@
       ],
       "departures": [
         {
-          "flight_no": "RK 6807",
-          "airline": "Ryanair United Kingdom",
-          "destination_iata": "BFS",
-          "destination": "BELFAST",
-          "scheduled_time": "15:10",
-          "expected_time": "2026-03-20T15:00:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:50"
-        },
-        {
           "flight_no": "FR 6220",
           "airline": "Ryanair",
           "destination_iata": "BRS",
@@ -229,7 +217,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "17:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -288,11 +276,11 @@
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "18:50",
-          "expected_time": "2026-03-20T18:30:00.000000Z",
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T18:25:00.000000Z",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:40"
+          "delay": "00:35"
         },
         {
           "flight_no": "EZY 8822",
@@ -313,7 +301,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "19:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -325,7 +313,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -337,7 +325,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "19:35",
           "expected_time": "2026-03-20T19:05:00.000000Z",
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": true,
           "delay": "00:30"
@@ -349,7 +337,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "20:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -501,6 +489,18 @@
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 6624",
+          "airline": "Ryanair",
+          "origin_iata": "EDI",
+          "origin": "EDINBURGH",
+          "scheduled_time": "12:45",
+          "expected_time": "2026-03-20T12:13:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "-23:-32"
         },
         {
           "flight_no": "FR 450",
