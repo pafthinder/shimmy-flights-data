@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-03-20T09:17:45.124Z",
+  "fetched_at": "2026-03-20T10:16:04.506Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-20": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2937",
-          "airline": "EasyJet",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "10:00",
-          "expected_time": "2026-03-20T08:47:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-12"
-        },
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "10:00",
-          "expected_time": "2026-03-20T09:11:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:11"
-        },
-        {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "10:10",
-          "expected_time": "2026-03-20T09:05:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "11:20",
-          "expected_time": null,
-          "status": "OPÓŹNIONY",
+          "expected_time": "2026-03-20T11:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "01:34"
         },
         {
           "flight_no": "EZY 6629",
@@ -58,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:45",
-          "expected_time": "2026-03-20T10:59:00.000000Z",
+          "expected_time": "2026-03-20T10:58:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:14"
+          "delay": "00:13"
         },
         {
           "flight_no": "W6 2002",
@@ -82,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T11:34:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:24"
         },
         {
           "flight_no": "FR 6624",
@@ -94,11 +58,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "12:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T12:13:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:28"
         },
         {
           "flight_no": "BA 876",
@@ -106,11 +70,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T11:51:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-4"
         },
         {
           "flight_no": "FR 4204",
@@ -118,11 +82,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "13:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T12:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:15"
         },
         {
           "flight_no": "FR 5517",
@@ -130,11 +94,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T11:51:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 1465",
@@ -142,11 +106,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "13:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T12:24:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:14"
         },
         {
           "flight_no": "FR 2432",
@@ -354,66 +318,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2363",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "10:15",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "10:30",
-          "expected_time": "2026-03-20T09:50:00.000000Z",
-          "status": "OPÓZNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:20"
-        },
-        {
-          "flight_no": "EZY 3314",
-          "airline": "EasyJet",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "10:35",
-          "expected_time": "2026-03-20T10:00:00.000000Z",
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:25"
-        },
-        {
-          "flight_no": "EZY 2938",
-          "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "10:40",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "10:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 6630",
           "airline": "EasyJet",
