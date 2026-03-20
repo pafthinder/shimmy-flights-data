@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-20T05:27:19.303Z",
+  "fetched_at": "2026-03-20T06:23:50.108Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-20": {
@@ -391,40 +391,16 @@
       ],
       "departures": [
         {
-          "flight_no": "W6 2001",
-          "airline": "Wizz Air",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "06:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:13"
-        },
-        {
-          "flight_no": "FR 8581",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "06:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "07:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:14"
         },
         {
           "flight_no": "FR 4203",
@@ -433,7 +409,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "07:05",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -445,7 +421,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "07:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
