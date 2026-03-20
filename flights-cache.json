@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-20T21:11:00.775Z",
+  "fetched_at": "2026-03-20T22:09:28.850Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-20": {
@@ -10,11 +10,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "23:55",
-          "expected_time": "2026-03-20T22:45:00.000000Z",
+          "expected_time": "2026-03-20T22:46:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-9"
         },
         {
           "flight_no": "W6 2008",
@@ -22,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:55",
-          "expected_time": "2026-03-20T22:42:00.000000Z",
+          "expected_time": "2026-03-20T22:45:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-10"
         }
       ],
       "departures": []
@@ -39,11 +39,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "00:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-19T23:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 6360",
