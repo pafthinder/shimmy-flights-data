@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-20T18:17:36.381Z",
+  "fetched_at": "2026-03-20T19:18:21.036Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-20": {
       "arrivals": [
-        {
-          "flight_no": "LS 113",
-          "airline": "Jet2.com",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "19:10",
-          "expected_time": "2026-03-20T18:06:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-3"
-        },
         {
           "flight_no": "EZY 3479",
           "airline": "EasyJet",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "20:50",
-          "expected_time": "2026-03-20T20:34:00.000000Z",
+          "expected_time": "2026-03-20T20:38:00.000000Z",
           "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:44"
+          "delay": "00:48"
         },
         {
           "flight_no": "FR 2499",
@@ -34,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "21:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T20:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:07"
         },
         {
           "flight_no": "FR 5756",
@@ -46,11 +34,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "21:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-20T20:57:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:27"
         },
         {
           "flight_no": "FR 2148",
@@ -79,61 +67,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "19:05",
-          "expected_time": "2026-03-20T18:20:00.000000Z",
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:15"
-        },
-        {
-          "flight_no": "LS 1902",
-          "airline": "Jet2.com",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "LS 296",
-          "airline": "Jet2.com",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "19:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "LS 950",
-          "airline": "Jet2.com",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "19:35",
-          "expected_time": "2026-03-20T19:05:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:30"
-        },
-        {
           "flight_no": "LS 114",
           "airline": "Jet2.com",
           "destination_iata": "GLA",
           "destination": "GLASGOW",
           "scheduled_time": "20:05",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
