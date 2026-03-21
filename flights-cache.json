@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-21T07:17:04.184Z",
+  "fetched_at": "2026-03-21T08:11:05.474Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-21": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "09:45",
-          "expected_time": "2026-03-21T08:19:00.000000Z",
+          "expected_time": "2026-03-21T08:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-26"
+          "delay": "00:-31"
         },
         {
           "flight_no": "FR 6624",
@@ -22,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "10:10",
-          "expected_time": "2026-03-21T08:58:00.000000Z",
+          "expected_time": "2026-03-21T08:57:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 1724",
@@ -34,11 +34,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "10:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-21T09:50:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "FR 2362",
