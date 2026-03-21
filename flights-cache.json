@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-21T18:11:10.741Z",
+  "fetched_at": "2026-03-21T19:10:08.336Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-21": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "19:20",
-          "expected_time": "2026-03-21T18:43:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:23"
-        },
         {
           "flight_no": "FR 2434",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "21:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-21T20:39:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 1465",
@@ -54,30 +42,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 3314",
-          "airline": "EasyJet",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "19:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 8843",
-          "airline": "Ryanair",
-          "destination_iata": "ABZ",
-          "destination": "ABERDEEN",
-          "scheduled_time": "19:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
