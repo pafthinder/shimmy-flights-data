@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-21T13:20:37.063Z",
+  "fetched_at": "2026-03-21T14:09:47.394Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-21": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2937",
-          "airline": "EasyJet",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "14:35",
-          "expected_time": "2026-03-21T13:32:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-3"
-        },
         {
           "flight_no": "FR 6364",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "16:30",
-          "expected_time": "2026-03-21T15:01:00.000000Z",
+          "expected_time": "2026-03-21T15:02:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-29"
+          "delay": "00:-28"
         },
         {
           "flight_no": "FR 2343",
@@ -115,25 +103,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6220",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "14:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 2938",
           "airline": "EasyJet",
           "destination_iata": "BRS",
           "destination": "BRISTOL",
           "scheduled_time": "15:05",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -589,10 +565,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 6629",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
+          "flight_no": "W6 2001",
+          "airline": "Wizz Air",
+          "destination_iata": "LTN",
+          "destination": "LONDON LUTON",
           "scheduled_time": "06:00",
           "expected_time": null,
           "status": "ON TIME",
@@ -601,10 +577,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "W6 2001",
-          "airline": "Wizz Air",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
+          "flight_no": "FR 6629",
+          "airline": "Ryanair",
+          "destination_iata": "EDI",
+          "destination": "EDINBURGH",
           "scheduled_time": "06:00",
           "expected_time": null,
           "status": "ON TIME",
