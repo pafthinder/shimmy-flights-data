@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-21T05:22:09.925Z",
+  "fetched_at": "2026-03-21T06:17:37.538Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-21": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "09:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-21T08:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 6624",
@@ -235,28 +235,16 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2363",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "06:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:10"
-        },
-        {
           "flight_no": "FR 2333",
           "airline": "Ryanair",
           "destination_iata": "LBA",
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "07:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:06"
         },
         {
           "flight_no": "FR 6359",
