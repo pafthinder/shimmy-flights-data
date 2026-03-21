@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-21T12:12:39.714Z",
+  "fetched_at": "2026-03-21T13:20:37.063Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-21": {
       "arrivals": [
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "13:05",
-          "expected_time": "2026-03-21T11:38:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-26"
-        },
-        {
-          "flight_no": "FR 6221",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "13:55",
-          "expected_time": "2026-03-21T12:56:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:01"
-        },
         {
           "flight_no": "EZY 2937",
           "airline": "EasyJet",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "14:35",
-          "expected_time": "2026-03-21T13:35:00.000000Z",
+          "expected_time": "2026-03-21T13:32:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-3"
         },
         {
           "flight_no": "FR 6364",
@@ -46,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "16:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-21T15:01:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-29"
         },
         {
           "flight_no": "FR 2343",
@@ -139,37 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 451",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "13:30",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 6220",
           "airline": "Ryanair",
           "destination_iata": "BRS",
           "destination": "BRISTOL",
           "scheduled_time": "14:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -181,7 +133,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "15:05",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
