@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-03-21T09:11:39.248Z",
+  "fetched_at": "2026-03-21T10:08:33.727Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-21": {
       "arrivals": [
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "10:10",
-          "expected_time": "2026-03-21T08:52:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-17"
-        },
-        {
-          "flight_no": "FR 1724",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "10:55",
-          "expected_time": "2026-03-21T09:48:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-7"
-        },
         {
           "flight_no": "FR 2362",
           "airline": "Ryanair",
@@ -58,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "11:55",
-          "expected_time": "2026-03-21T10:36:00.000000Z",
+          "expected_time": "2026-03-21T10:37:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-18"
         },
         {
           "flight_no": "EZY 8821",
@@ -70,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "12:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-21T11:29:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:14"
         },
         {
           "flight_no": "FR 2332",
@@ -82,11 +58,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "12:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-21T11:21:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-24"
         },
         {
           "flight_no": "FR 450",
@@ -94,11 +70,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "13:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-21T11:44:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 6221",
@@ -223,37 +199,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6359",
-          "airline": "Ryanair",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "10:10",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "10:35",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 1725",
           "airline": "Ryanair",
           "destination_iata": "EMA",
           "destination": "EAST MIDLANDS",
           "scheduled_time": "11:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -265,7 +217,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "12:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -289,7 +241,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "12:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
