@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-22T07:19:43.826Z",
+  "fetched_at": "2026-03-22T08:11:58.721Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-22": {
@@ -10,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "09:15",
-          "expected_time": "2026-03-22T08:08:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-22T08:03:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-7"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2362",
@@ -34,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-22T08:23:00.000000Z",
+          "expected_time": "2026-03-22T08:17:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-18"
         },
         {
           "flight_no": "EZY 3053",
@@ -106,11 +106,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:55",
-          "expected_time": null,
+          "expected_time": "2026-03-22T10:34:00.000000Z",
           "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "RK 2141",
@@ -337,7 +337,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "09:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -349,7 +349,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "09:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
