@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-22T13:21:28.433Z",
+  "fetched_at": "2026-03-22T14:11:10.213Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-22": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "14:00",
-          "expected_time": "2026-03-22T12:46:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "FR 5756",
           "airline": "Ryanair",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "15:00",
-          "expected_time": "2026-03-22T14:01:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-22T13:57:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:01"
+          "delayed": false,
+          "delay": "00:-1"
         },
         {
           "flight_no": "FR 2434",
@@ -34,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "16:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T15:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:03"
         },
         {
           "flight_no": "LS 3011",
@@ -46,11 +34,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T16:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "LS 949",
@@ -163,25 +151,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "14:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "15:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -217,7 +193,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
