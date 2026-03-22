@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-22T17:09:01.018Z",
+  "fetched_at": "2026-03-22T18:11:56.171Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-22": {
       "arrivals": [
-        {
-          "flight_no": "LS 949",
-          "airline": "Jet2.com",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "18:30",
-          "expected_time": "2026-03-22T17:24:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-6"
-        },
         {
           "flight_no": "FR 2148",
           "airline": "Ryanair",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:20",
-          "expected_time": "2026-03-22T18:48:00.000000Z",
+          "expected_time": "2026-03-22T18:47:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-32"
+          "delay": "00:-33"
         },
         {
           "flight_no": "EZY 8821",
@@ -34,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "20:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T19:27:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-3"
         },
         {
           "flight_no": "EZY 6629",
@@ -46,11 +34,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "20:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T19:40:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:05"
         },
         {
           "flight_no": "EZY 2937",
@@ -58,11 +46,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T19:32:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 9953",
@@ -70,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T19:44:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-26"
         },
         {
           "flight_no": "EZY 2263",
@@ -115,25 +103,13 @@
       ],
       "departures": [
         {
-          "flight_no": "W6 2007",
-          "airline": "Wizz Air",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "18:00",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "LS 950",
           "airline": "Jet2.com",
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "19:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +133,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "21:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +145,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "21:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -181,7 +157,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
