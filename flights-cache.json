@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-22T05:28:53.506Z",
+  "fetched_at": "2026-03-22T06:22:15.388Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-22": {
@@ -10,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "09:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T08:09:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-6"
         },
         {
           "flight_no": "FR 2362",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "09:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T08:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 6624",
@@ -34,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "09:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T08:25:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         },
         {
           "flight_no": "EZY 3053",
@@ -46,11 +46,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-22T08:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2332",
@@ -331,40 +331,16 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6629",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "06:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:14"
-        },
-        {
-          "flight_no": "W6 2001",
-          "airline": "Wizz Air",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "06:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:07"
-        },
-        {
           "flight_no": "FR 5518",
           "airline": "Ryanair",
           "destination_iata": "BRS",
           "destination": "BRISTOL",
           "scheduled_time": "07:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:13"
         },
         {
           "flight_no": "FR 4203",
@@ -373,7 +349,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "07:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
