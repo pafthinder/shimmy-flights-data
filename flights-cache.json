@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-23T11:24:11.162Z",
+  "fetched_at": "2026-03-23T12:22:07.377Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-23": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "12:30",
-          "expected_time": "2026-03-23T11:12:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-18"
-        },
         {
           "flight_no": "FR 450",
           "airline": "Ryanair",
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "13:05",
-          "expected_time": "2026-03-23T11:41:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-23T11:37:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-28"
         },
         {
           "flight_no": "FR 2141",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "13:40",
-          "expected_time": "2026-03-23T12:14:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-23T12:11:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-26"
+          "delay": "00:-29"
         },
         {
           "flight_no": "EZY 3313",
@@ -46,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-23T14:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-2"
         },
         {
           "flight_no": "FR 2432",
@@ -70,11 +58,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "15:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-23T14:05:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 6624",
