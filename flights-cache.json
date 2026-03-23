@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-03-23T12:22:07.377Z",
+  "fetched_at": "2026-03-23T13:35:48.527Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-23": {
       "arrivals": [
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "13:05",
-          "expected_time": "2026-03-23T11:37:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-28"
-        },
-        {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "13:40",
-          "expected_time": "2026-03-23T12:11:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-29"
-        },
         {
           "flight_no": "EZY 3313",
           "airline": "EasyJet",
@@ -46,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-23T14:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:13"
         },
         {
           "flight_no": "FR 1465",
@@ -70,11 +46,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "16:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-23T15:38:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2343",
@@ -265,7 +241,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "15:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
