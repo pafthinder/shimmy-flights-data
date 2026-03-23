@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-23T06:32:43.051Z",
+  "fetched_at": "2026-03-23T07:33:48.637Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-23": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "09:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-23T08:29:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "RK 6806",
@@ -22,11 +22,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-23T08:22:00.000000Z",
+          "expected_time": "2026-03-23T08:19:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-16"
         },
         {
           "flight_no": "EZY 3479",
@@ -34,8 +34,8 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "10:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-23T09:25:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -58,11 +58,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "10:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-23T09:21:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-34"
         },
         {
           "flight_no": "EZY 8821",
@@ -355,25 +355,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "07:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 6630",
           "airline": "EasyJet",
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "09:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -385,7 +373,7 @@
           "destination": "BELFAST",
           "scheduled_time": "10:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -397,7 +385,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "10:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -433,7 +421,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "11:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
