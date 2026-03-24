@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-24T18:25:20.689Z",
+  "fetched_at": "2026-03-24T19:26:57.134Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-24": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "19:10",
-          "expected_time": "2026-03-24T17:40:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-30"
-        },
         {
           "flight_no": "FR 5517",
           "airline": "Ryanair",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": "2026-03-24T19:44:00.000000Z",
+          "expected_time": "2026-03-24T19:46:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 2141",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-24T20:21:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-29"
         },
         {
           "flight_no": "FR 4204",
@@ -77,20 +65,7 @@
           "delay": "00:00"
         }
       ],
-      "departures": [
-        {
-          "flight_no": "EZY 3314",
-          "airline": "EasyJet",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "19:55",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
+      "departures": []
     },
     "2026-03-25": {
       "arrivals": [
