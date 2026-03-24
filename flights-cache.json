@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-24T16:27:43.167Z",
+  "fetched_at": "2026-03-24T17:24:34.594Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-24": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "19:10",
-          "expected_time": "2026-03-24T17:50:00.000000Z",
+          "expected_time": "2026-03-24T17:45:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 5517",
@@ -85,10 +85,10 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:03"
         },
         {
           "flight_no": "FR 2433",
@@ -97,7 +97,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "18:15",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -109,7 +109,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "19:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
