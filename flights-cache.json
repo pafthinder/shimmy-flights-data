@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-24T07:27:39.804Z",
+  "fetched_at": "2026-03-24T08:20:21.074Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-24": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "09:30",
-          "expected_time": "2026-03-24T08:01:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-24T07:58:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-29"
+          "delay": "00:-31"
         },
         {
           "flight_no": "FR 1813",
@@ -22,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "10:15",
-          "expected_time": "2026-03-24T08:35:00.000000Z",
+          "expected_time": "2026-03-24T08:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-40"
+          "delay": "00:-39"
         },
         {
           "flight_no": "EZY 2937",
@@ -34,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "10:35",
-          "expected_time": "2026-03-24T09:12:00.000000Z",
+          "expected_time": "2026-03-24T09:13:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-22"
         },
         {
           "flight_no": "EZY 2263",
@@ -46,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "10:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-24T09:34:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2362",
@@ -58,11 +58,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-24T09:32:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-38"
         },
         {
           "flight_no": "W6 2002",
@@ -205,7 +205,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "09:35",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -217,7 +217,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "09:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
