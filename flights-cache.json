@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-24T06:28:55.378Z",
+  "fetched_at": "2026-03-24T07:27:39.804Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-24": {
@@ -22,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "10:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-24T08:35:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-40"
         },
         {
           "flight_no": "EZY 2937",
@@ -34,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "10:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-24T09:12:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "EZY 2263",
@@ -199,18 +199,6 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 451",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "07:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-1"
-        },
-        {
           "flight_no": "FR 2333",
           "airline": "Ryanair",
           "destination_iata": "LBA",
@@ -253,7 +241,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "11:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -265,7 +253,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "11:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -277,7 +265,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "12:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
