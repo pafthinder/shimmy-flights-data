@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-24T19:26:57.134Z",
+  "fetched_at": "2026-03-24T20:18:26.459Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-24": {
@@ -10,11 +10,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": "2026-03-24T19:46:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-24T19:47:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2141",
@@ -22,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:50",
-          "expected_time": "2026-03-24T20:21:00.000000Z",
+          "expected_time": "2026-03-24T20:16:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-29"
+          "delay": "00:-34"
         },
         {
           "flight_no": "FR 4204",
@@ -34,11 +34,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "22:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-24T21:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:12"
         },
         {
           "flight_no": "FR 2432",
