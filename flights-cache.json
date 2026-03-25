@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-25T12:22:04.096Z",
+  "fetched_at": "2026-03-25T13:35:30.475Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
       "arrivals": [
-        {
-          "flight_no": "FR 2434",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "13:05",
-          "expected_time": "2026-03-25T11:46:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-18"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "15:20",
-          "expected_time": "2026-03-25T13:32:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-25T13:29:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-48"
+          "delay": "00:-49"
         },
         {
           "flight_no": "FR 1465",
@@ -150,18 +138,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "13:30",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 1812",
           "airline": "Ryanair",
