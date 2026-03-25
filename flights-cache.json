@@ -1,92 +1,20 @@
 {
-  "fetched_at": "2026-03-25T08:19:48.920Z",
+  "fetched_at": "2026-03-25T09:22:20.515Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
       "arrivals": [
-        {
-          "flight_no": "FR 2351",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "09:20",
-          "expected_time": "2026-03-25T07:44:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-36"
-        },
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "09:25",
-          "expected_time": "2026-03-25T08:00:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-24"
-        },
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "09:35",
-          "expected_time": "2026-03-25T08:28:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-7"
-        },
-        {
-          "flight_no": "EZY 3479",
-          "airline": "EasyJet",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "09:35",
-          "expected_time": "2026-03-25T08:14:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
-        {
-          "flight_no": "EZY 3053",
-          "airline": "EasyJet",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "09:45",
-          "expected_time": "2026-03-25T08:36:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-9"
-        },
-        {
-          "flight_no": "FR 5517",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "09:55",
-          "expected_time": "2026-03-25T08:28:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-27"
-        },
         {
           "flight_no": "EZY 8821",
           "airline": "EasyJet",
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:05",
-          "expected_time": "2026-03-25T09:42:00.000000Z",
+          "expected_time": "2026-03-25T09:44:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-21"
         },
         {
           "flight_no": "BA 876",
@@ -94,11 +22,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "11:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T10:19:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-6"
         },
         {
           "flight_no": "EZY 2937",
@@ -106,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T10:20:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-30"
         },
         {
           "flight_no": "W6 2002",
@@ -118,11 +46,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T10:55:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:05"
         },
         {
           "flight_no": "FR 2434",
@@ -271,37 +199,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2350",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "09:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "09:50",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 3314",
           "airline": "EasyJet",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "10:10",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -313,7 +217,7 @@
           "destination": "BELFAST",
           "scheduled_time": "10:15",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -325,7 +229,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "10:15",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -337,7 +241,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "10:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -373,7 +277,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "12:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
