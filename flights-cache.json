@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-25T05:33:16.296Z",
+  "fetched_at": "2026-03-25T06:28:50.714Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
@@ -10,11 +10,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "09:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T07:46:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-34"
         },
         {
           "flight_no": "FR 2432",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "09:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T07:59:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-26"
         },
         {
           "flight_no": "EZY 3313",
@@ -34,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "09:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T08:27:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "EZY 3479",
@@ -46,11 +46,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "09:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T08:19:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "EZY 3053",
@@ -58,11 +58,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T08:41:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-4"
         },
         {
           "flight_no": "FR 5517",
