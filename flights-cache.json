@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-25T16:31:07.912Z",
+  "fetched_at": "2026-03-25T17:25:46.767Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
@@ -10,11 +10,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:45",
-          "expected_time": "2026-03-25T17:32:00.000000Z",
+          "expected_time": "2026-03-25T17:30:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-15"
         },
         {
           "flight_no": "EZY 2263",
@@ -22,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "19:00",
-          "expected_time": "2026-03-25T17:34:00.000000Z",
+          "expected_time": "2026-03-25T17:37:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-26"
+          "delay": "00:-23"
         },
         {
           "flight_no": "EZY 6629",
@@ -103,40 +103,16 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "17:30",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1725",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "17:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "W6 2007",
           "airline": "Wizz Air",
           "destination_iata": "LGW",
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 2363",
@@ -145,10 +121,10 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "18:10",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:02"
         },
         {
           "flight_no": "EZY 2264",
@@ -157,7 +133,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "19:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +145,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "21:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
