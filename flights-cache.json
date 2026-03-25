@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-25T06:28:50.714Z",
+  "fetched_at": "2026-03-25T07:26:38.956Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
@@ -34,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-25T08:27:00.000000Z",
+          "expected_time": "2026-03-25T08:29:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-6"
         },
         {
           "flight_no": "EZY 3479",
@@ -46,11 +46,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-25T08:19:00.000000Z",
+          "expected_time": "2026-03-25T08:23:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-12"
         },
         {
           "flight_no": "EZY 3053",
@@ -58,11 +58,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:45",
-          "expected_time": "2026-03-25T08:41:00.000000Z",
+          "expected_time": "2026-03-25T08:35:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-4"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 5517",
@@ -70,11 +70,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "09:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T08:28:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-27"
         },
         {
           "flight_no": "EZY 8821",
@@ -301,7 +301,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "10:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -313,7 +313,7 @@
           "destination": "BELFAST",
           "scheduled_time": "10:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -325,7 +325,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "10:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -361,7 +361,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "11:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -385,7 +385,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "12:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
