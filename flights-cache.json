@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-25T07:26:38.956Z",
+  "fetched_at": "2026-03-25T08:19:48.920Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
@@ -10,11 +10,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "09:20",
-          "expected_time": "2026-03-25T07:46:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-25T07:44:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-34"
+          "delay": "00:-36"
         },
         {
           "flight_no": "FR 2432",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "09:25",
-          "expected_time": "2026-03-25T07:59:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-25T08:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-26"
+          "delay": "00:-24"
         },
         {
           "flight_no": "EZY 3313",
@@ -34,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-25T08:29:00.000000Z",
+          "expected_time": "2026-03-25T08:28:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-7"
         },
         {
           "flight_no": "EZY 3479",
@@ -46,11 +46,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "09:35",
-          "expected_time": "2026-03-25T08:23:00.000000Z",
+          "expected_time": "2026-03-25T08:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-21"
         },
         {
           "flight_no": "EZY 3053",
@@ -58,11 +58,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:45",
-          "expected_time": "2026-03-25T08:35:00.000000Z",
+          "expected_time": "2026-03-25T08:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 5517",
@@ -82,11 +82,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T09:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "BA 876",
@@ -277,7 +277,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "09:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -289,7 +289,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "09:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
