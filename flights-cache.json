@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-25T14:31:28.226Z",
+  "fetched_at": "2026-03-25T15:30:52.538Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "16:50",
-          "expected_time": "2026-03-25T15:37:00.000000Z",
+          "expected_time": "2026-03-25T15:40:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 2332",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "17:05",
-          "expected_time": "2026-03-25T15:26:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-25T15:24:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-39"
+          "delay": "00:-40"
         },
         {
           "flight_no": "FR 2141",
@@ -126,30 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "15:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 8843",
-          "airline": "Ryanair",
-          "destination_iata": "ABZ",
-          "destination": "ABERDEEN",
-          "scheduled_time": "16:15",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2333",
           "airline": "Ryanair",
