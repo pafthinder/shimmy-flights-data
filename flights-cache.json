@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-25T18:24:40.478Z",
+  "fetched_at": "2026-03-25T19:25:10.382Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2263",
-          "airline": "EasyJet",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "19:00",
-          "expected_time": "2026-03-25T17:32:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-28"
-        },
         {
           "flight_no": "EZY 6629",
           "airline": "EasyJet",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "20:35",
-          "expected_time": "2026-03-25T19:48:00.000000Z",
+          "expected_time": "2026-03-25T19:49:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:13"
+          "delay": "00:14"
         },
         {
           "flight_no": "FR 6364",
@@ -34,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "21:35",
-          "expected_time": "2026-03-25T19:59:00.000000Z",
+          "expected_time": "2026-03-25T19:58:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-36"
+          "delay": "00:-37"
         },
         {
           "flight_no": "FR 8842",
@@ -46,11 +34,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T20:50:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 1724",
@@ -90,18 +78,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "19:40",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 6630",
           "airline": "EasyJet",
