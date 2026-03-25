@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-25T13:35:30.475Z",
+  "fetched_at": "2026-03-25T14:31:28.226Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "15:20",
-          "expected_time": "2026-03-25T13:29:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-49"
-        },
         {
           "flight_no": "FR 1465",
           "airline": "Ryanair",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "16:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T15:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 2332",
@@ -34,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-25T15:26:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-39"
         },
         {
           "flight_no": "FR 2141",
@@ -145,7 +133,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "15:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +145,7 @@
           "destination": "ABERDEEN",
           "scheduled_time": "16:15",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
