@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-25T19:25:10.382Z",
+  "fetched_at": "2026-03-25T20:16:05.485Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-25": {
       "arrivals": [
-        {
-          "flight_no": "EZY 6629",
-          "airline": "EasyJet",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "20:35",
-          "expected_time": "2026-03-25T19:49:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:14"
-        },
         {
           "flight_no": "FR 6364",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "21:35",
-          "expected_time": "2026-03-25T19:58:00.000000Z",
+          "expected_time": "2026-03-25T19:57:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-37"
+          "delay": "00:-38"
         },
         {
           "flight_no": "FR 8842",
@@ -34,11 +22,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "22:00",
-          "expected_time": "2026-03-25T20:50:00.000000Z",
+          "expected_time": "2026-03-25T20:51:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 1724",
@@ -47,7 +35,7 @@
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -85,7 +73,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "21:10",
           "expected_time": "2026-03-25T20:20:00.000000Z",
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": true,
           "delay": "00:10"
@@ -97,7 +85,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
