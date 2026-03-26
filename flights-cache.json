@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-26T09:25:46.941Z",
+  "fetched_at": "2026-03-26T10:24:15.611Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-26": {
@@ -10,11 +10,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "11:20",
-          "expected_time": "2026-03-26T10:03:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-26T09:56:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-23"
         },
         {
           "flight_no": "W6 2002",
@@ -22,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "11:50",
-          "expected_time": "2026-03-26T10:38:00.000000Z",
+          "expected_time": "2026-03-26T10:39:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-11"
         },
         {
           "flight_no": "LS 949",
@@ -46,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:35",
-          "expected_time": "2026-03-26T11:07:00.000000Z",
+          "expected_time": "2026-03-26T11:04:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-28"
+          "delay": "00:-31"
         },
         {
           "flight_no": "FR 6364",
@@ -58,11 +58,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "12:50",
-          "expected_time": "2026-03-26T11:19:00.000000Z",
+          "expected_time": "2026-03-26T11:18:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-31"
+          "delay": "00:-32"
         },
         {
           "flight_no": "FR 6624",
@@ -70,11 +70,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "13:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-26T11:59:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 2351",
@@ -289,7 +289,7 @@
           "destination": "BELFAST",
           "scheduled_time": "11:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -301,7 +301,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "13:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
