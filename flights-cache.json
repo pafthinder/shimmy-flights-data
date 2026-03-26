@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-26T06:31:42.411Z",
+  "fetched_at": "2026-03-26T07:31:35.996Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-26": {
@@ -10,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "09:30",
-          "expected_time": "2026-03-26T08:11:00.000000Z",
+          "expected_time": "2026-03-26T08:10:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-20"
         },
         {
           "flight_no": "RK 6806",
@@ -301,7 +301,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "09:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
