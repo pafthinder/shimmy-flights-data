@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-26T20:13:27.737Z",
+  "fetched_at": "2026-03-26T21:12:51.897Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-26": {
       "arrivals": [
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "21:05",
-          "expected_time": "2026-03-26T19:30:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-35"
-        },
         {
           "flight_no": "FR 4204",
           "airline": "Ryanair",
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "22:30",
-          "expected_time": "2026-03-26T21:15:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-26T21:09:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 2434",
@@ -34,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:40",
-          "expected_time": "2026-03-26T21:15:00.000000Z",
+          "expected_time": "2026-03-26T21:19:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-25"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 5756",
@@ -46,11 +34,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:00",
-          "expected_time": "2026-03-26T21:55:00.000000Z",
+          "expected_time": "2026-03-26T21:54:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-5"
+          "delay": "00:-6"
         },
         {
           "flight_no": "W6 2008",
@@ -58,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-26T22:30:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-25"
         }
       ],
       "departures": [
@@ -73,10 +61,10 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "22:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-6"
         }
       ]
     },
