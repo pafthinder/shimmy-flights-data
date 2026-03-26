@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-26T07:31:35.996Z",
+  "fetched_at": "2026-03-26T08:23:03.082Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-26": {
@@ -11,7 +11,7 @@
           "origin": "EAST MIDLANDS",
           "scheduled_time": "09:30",
           "expected_time": "2026-03-26T08:10:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-20"
@@ -22,11 +22,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "11:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-26T10:01:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "W6 2002",
@@ -301,10 +301,10 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "09:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:08"
         },
         {
           "flight_no": "FR 1466",
@@ -313,7 +313,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "09:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -325,7 +325,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "09:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
