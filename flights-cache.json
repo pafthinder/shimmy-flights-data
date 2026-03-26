@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-03-26T13:35:41.817Z",
+  "fetched_at": "2026-03-26T14:37:28.085Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-26": {
       "arrivals": [
-        {
-          "flight_no": "FR 2351",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "14:45",
-          "expected_time": "2026-03-26T13:12:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-32"
-        },
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "14:50",
-          "expected_time": "2026-03-26T13:17:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-32"
-        },
-        {
-          "flight_no": "FR 1465",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "15:05",
-          "expected_time": "2026-03-26T13:48:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-17"
-        },
         {
           "flight_no": "EZY 2937",
           "airline": "EasyJet",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "15:30",
-          "expected_time": "2026-03-26T14:16:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-26T14:11:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-19"
         },
         {
           "flight_no": "LS 3011",
@@ -58,11 +22,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-26T16:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "FR 1813",
@@ -211,25 +175,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "15:15",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 4203",
           "airline": "Ryanair",
           "destination_iata": "GLA",
           "destination": "GLASGOW",
           "scheduled_time": "15:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -241,7 +193,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "16:00",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -277,7 +229,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
