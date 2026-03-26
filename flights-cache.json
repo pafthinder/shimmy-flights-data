@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-26T15:33:10.293Z",
+  "fetched_at": "2026-03-26T16:30:44.186Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-26": {
       "arrivals": [
-        {
-          "flight_no": "LS 3011",
-          "airline": "Jet2.com",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "17:05",
-          "expected_time": "2026-03-26T16:00:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "17:50",
-          "expected_time": "2026-03-26T16:32:00.000000Z",
+          "expected_time": "2026-03-26T16:28:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-22"
         },
         {
           "flight_no": "EZY 8821",
@@ -34,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "17:55",
-          "expected_time": "2026-03-26T16:46:00.000000Z",
+          "expected_time": "2026-03-26T16:44:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-9"
+          "delay": "00:-11"
         },
         {
           "flight_no": "EZY 3313",
@@ -46,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "18:45",
-          "expected_time": "2026-03-26T17:30:00.000000Z",
+          "expected_time": "2026-03-26T17:29:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 2148",
@@ -58,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "19:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-26T18:11:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-24"
         },
         {
           "flight_no": "FR 6360",
@@ -70,11 +58,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "19:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-26T18:20:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-35"
         },
         {
           "flight_no": "FR 5517",
@@ -163,25 +151,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "17:15",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "17:35",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,7 +169,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +181,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -217,7 +193,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "18:15",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -229,7 +205,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -241,7 +217,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "19:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -289,7 +265,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "20:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -515,10 +491,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 6221",
+          "flight_no": "FR 6360",
           "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
+          "origin_iata": "LPL",
+          "origin": "LIVERPOOL",
           "scheduled_time": "16:40",
           "expected_time": null,
           "status": "ON TIME",
@@ -527,10 +503,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 6360",
+          "flight_no": "FR 6221",
           "airline": "Ryanair",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
+          "origin_iata": "BRS",
+          "origin": "BRISTOL",
           "scheduled_time": "16:40",
           "expected_time": null,
           "status": "ON TIME",
