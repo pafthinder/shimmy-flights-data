@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-26T19:28:30.385Z",
+  "fetched_at": "2026-03-26T20:13:27.737Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-26": {
       "arrivals": [
-        {
-          "flight_no": "FR 5517",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "20:10",
-          "expected_time": "2026-03-26T19:08:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-2"
-        },
-        {
-          "flight_no": "EZY 2263",
-          "airline": "EasyJet",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "20:15",
-          "expected_time": "2026-03-26T20:47:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:32"
-        },
         {
           "flight_no": "FR 450",
           "airline": "Ryanair",
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "21:05",
-          "expected_time": "2026-03-26T19:33:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-26T19:30:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-32"
+          "delay": "00:-35"
         },
         {
           "flight_no": "FR 4204",
@@ -70,11 +46,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-26T21:55:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "W6 2008",
@@ -90,54 +66,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2149",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "20:15",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 6359",
-          "airline": "Ryanair",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "20:35",
-          "expected_time": "2026-03-26T19:45:00.000000Z",
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:10"
-        },
-        {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "20:50",
-          "expected_time": "2026-03-26T21:15:00.000000Z",
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:25"
-        },
         {
           "flight_no": "FR 451",
           "airline": "Ryanair",
