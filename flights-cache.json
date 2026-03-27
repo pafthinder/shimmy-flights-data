@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-27T19:20:02.126Z",
+  "fetched_at": "2026-03-27T20:14:03.151Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-27": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3069",
-          "airline": "EasyJet",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "20:45",
-          "expected_time": "2026-03-27T19:39:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-6"
-        },
-        {
-          "flight_no": "EZY 3479",
-          "airline": "EasyJet",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "20:50",
-          "expected_time": "2026-03-27T19:37:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-13"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "21:30",
-          "expected_time": "2026-03-27T20:09:00.000000Z",
+          "expected_time": "2026-03-27T20:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 5756",
@@ -46,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "21:30",
-          "expected_time": "2026-03-27T20:02:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-27T20:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-28"
+          "delay": "00:-30"
         },
         {
           "flight_no": "FR 2148",
@@ -79,25 +55,13 @@
       ],
       "departures": [
         {
-          "flight_no": "LS 114",
-          "airline": "Jet2.com",
-          "destination_iata": "GLA",
-          "destination": "GLASGOW",
-          "scheduled_time": "20:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 3070",
           "airline": "EasyJet",
           "destination_iata": "BFS",
           "destination": "BELFAST",
           "scheduled_time": "21:15",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -109,7 +73,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "21:20",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -121,7 +85,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "21:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +97,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "21:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
