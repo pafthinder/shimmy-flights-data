@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-27T13:33:47.579Z",
+  "fetched_at": "2026-03-27T14:25:10.648Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-27": {
       "arrivals": [
-        {
-          "flight_no": "RK 6806",
-          "airline": "Ryanair United Kingdom",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "14:45",
-          "expected_time": "2026-03-27T13:29:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
         {
           "flight_no": "FR 6221",
           "airline": "Ryanair",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "16:40",
-          "expected_time": "2026-03-27T15:23:00.000000Z",
+          "expected_time": "2026-03-27T15:21:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 6360",
@@ -34,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "16:40",
-          "expected_time": "2026-03-27T15:07:00.000000Z",
+          "expected_time": "2026-03-27T15:05:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-33"
+          "delay": "00:-35"
         },
         {
           "flight_no": "FR 2332",
@@ -46,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-27T15:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "LS 1251",
@@ -211,25 +199,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "14:30",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "RK 6807",
           "airline": "Ryanair United Kingdom",
           "destination_iata": "BFS",
           "destination": "BELFAST",
           "scheduled_time": "15:10",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
