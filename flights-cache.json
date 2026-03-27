@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-03-27T10:19:59.804Z",
+  "fetched_at": "2026-03-27T11:20:08.783Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-27": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "11:20",
-          "expected_time": "2026-03-27T09:52:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-29"
-        },
-        {
-          "flight_no": "EZY 6629",
-          "airline": "EasyJet",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "11:45",
-          "expected_time": "2026-03-27T10:37:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
-        {
-          "flight_no": "W6 2002",
-          "airline": "Wizz Air",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "11:50",
-          "expected_time": "2026-03-27T10:54:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:04"
-        },
         {
           "flight_no": "FR 8580",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:10",
-          "expected_time": "2026-03-27T10:40:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-27T10:38:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-30"
+          "delay": "00:-32"
         },
         {
           "flight_no": "FR 6624",
@@ -58,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "12:45",
-          "expected_time": "2026-03-27T11:57:00.000000Z",
+          "expected_time": "2026-03-27T11:58:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:12"
+          "delay": "00:13"
         },
         {
           "flight_no": "BA 876",
@@ -82,11 +46,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "13:00",
-          "expected_time": "2026-03-27T12:09:00.000000Z",
+          "expected_time": "2026-03-27T12:06:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:09"
+          "delay": "00:06"
         },
         {
           "flight_no": "FR 5517",
@@ -94,11 +58,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:05",
-          "expected_time": "2026-03-27T11:53:00.000000Z",
+          "expected_time": "2026-03-27T11:51:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 1465",
@@ -118,11 +82,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "14:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-27T12:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "RK 6806",
@@ -130,11 +94,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "14:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-27T13:34:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 6221",
@@ -337,7 +301,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "12:15",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -349,7 +313,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "12:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -373,7 +337,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
