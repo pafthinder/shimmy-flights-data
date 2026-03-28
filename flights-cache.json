@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-28T16:11:24.444Z",
+  "fetched_at": "2026-03-28T17:11:00.566Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-28": {
       "arrivals": [
-        {
-          "flight_no": "FR 2343",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "17:40",
-          "expected_time": "2026-03-28T16:10:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-30"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "18:05",
-          "expected_time": "2026-03-28T16:35:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-28T16:38:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-30"
+          "delay": "00:-27"
         },
         {
           "flight_no": "EZY 3313",
@@ -34,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "18:30",
-          "expected_time": "2026-03-28T17:08:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-28T17:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-22"
+          "delay": "00:-30"
         },
         {
           "flight_no": "FR 2432",
@@ -97,10 +85,10 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 2342",
@@ -109,7 +97,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "18:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -121,7 +109,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "18:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +121,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "18:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
