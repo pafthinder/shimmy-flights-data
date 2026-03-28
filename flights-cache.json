@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-28T14:13:55.535Z",
+  "fetched_at": "2026-03-28T15:11:39.780Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-28": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "16:30",
-          "expected_time": "2026-03-28T14:55:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-28T14:52:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-35"
+          "delay": "00:-37"
         },
         {
           "flight_no": "FR 2343",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "17:40",
-          "expected_time": "2026-03-28T16:08:00.000000Z",
+          "expected_time": "2026-03-28T16:07:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-32"
+          "delay": "00:-33"
         },
         {
           "flight_no": "FR 1813",
@@ -34,11 +34,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "18:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-28T16:34:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-31"
         },
         {
           "flight_no": "EZY 3313",
@@ -46,11 +46,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "18:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-28T17:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 2432",
@@ -103,25 +103,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 2938",
-          "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "15:05",
-          "expected_time": "2026-03-28T14:35:00.000000Z",
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:30"
-        },
-        {
           "flight_no": "FR 6363",
           "airline": "Ryanair",
           "destination_iata": "LPL",
           "destination": "LIVERPOOL",
           "scheduled_time": "16:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
