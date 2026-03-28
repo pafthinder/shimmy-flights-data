@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-28T05:30:58.324Z",
+  "fetched_at": "2026-03-28T06:25:58.493Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-28": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "09:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-28T08:19:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-26"
         },
         {
           "flight_no": "FR 6624",
@@ -253,10 +253,10 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "07:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:02"
         },
         {
           "flight_no": "FR 6359",
