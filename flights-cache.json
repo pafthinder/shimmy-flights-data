@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-28T17:11:00.566Z",
+  "fetched_at": "2026-03-28T18:12:51.277Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-28": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "18:05",
-          "expected_time": "2026-03-28T16:38:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-27"
-        },
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "18:30",
-          "expected_time": "2026-03-28T17:00:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-30"
-        },
         {
           "flight_no": "FR 2432",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "19:20",
-          "expected_time": "2026-03-28T17:55:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-28T17:53:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-25"
+          "delay": "00:-27"
         },
         {
           "flight_no": "FR 2434",
@@ -79,64 +55,16 @@
       ],
       "departures": [
         {
-          "flight_no": "W6 2007",
-          "airline": "Wizz Air",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "18:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:04"
-        },
-        {
-          "flight_no": "FR 2342",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "18:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1466",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "18:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "18:30",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 3314",
           "airline": "EasyJet",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "19:05",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:02"
         },
         {
           "flight_no": "FR 8843",
@@ -145,10 +73,10 @@
           "destination": "ABERDEEN",
           "scheduled_time": "19:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 2435",
