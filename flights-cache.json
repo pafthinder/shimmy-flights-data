@@ -1,80 +1,20 @@
 {
-  "fetched_at": "2026-03-29T18:13:49.273Z",
+  "fetched_at": "2026-03-29T19:15:43.994Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-29": {
       "arrivals": [
-        {
-          "flight_no": "LS 3011",
-          "airline": "Jet2.com",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "20:10",
-          "expected_time": "2026-03-29T17:48:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
-        {
-          "flight_no": "LS 949",
-          "airline": "Jet2.com",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "20:20",
-          "expected_time": "2026-03-29T18:01:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-18"
-        },
-        {
-          "flight_no": "EZY 2937",
-          "airline": "EasyJet",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "20:35",
-          "expected_time": "2026-03-29T18:21:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
-        {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "20:35",
-          "expected_time": "2026-03-29T18:31:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-4"
-        },
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "20:45",
-          "expected_time": "2026-03-29T18:34:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-11"
-        },
         {
           "flight_no": "EZY 8823",
           "airline": "EasyJet",
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "21:10",
-          "expected_time": "2026-03-29T19:04:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-29T19:07:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-2"
         },
         {
           "flight_no": "FR 1813",
@@ -82,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "21:30",
-          "expected_time": "2026-03-29T19:22:00.000000Z",
+          "expected_time": "2026-03-29T19:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 2432",
@@ -94,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-29T19:55:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 1724",
@@ -121,7 +61,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "21:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +73,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "21:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +85,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:15",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +97,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "21:40",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -168,11 +108,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "21:45",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-03-29T19:15:00.000000Z",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-30"
         },
         {
           "flight_no": "FR 1812",
