@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-03-29T17:11:59.057Z",
+  "fetched_at": "2026-03-29T18:13:49.273Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-29": {
       "arrivals": [
-        {
-          "flight_no": "BA 876",
-          "airline": "British Airways",
-          "origin_iata": "LHR",
-          "origin": "LONDYN HEATHROW",
-          "scheduled_time": "19:00",
-          "expected_time": "2026-03-29T16:55:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
         {
           "flight_no": "LS 3011",
           "airline": "Jet2.com",
@@ -23,10 +11,10 @@
           "origin": "EAST MIDLANDS",
           "scheduled_time": "20:10",
           "expected_time": "2026-03-29T17:48:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-22"
+          "delay": "00:-21"
         },
         {
           "flight_no": "LS 949",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:20",
-          "expected_time": "2026-03-29T18:00:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-29T18:01:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-18"
         },
         {
           "flight_no": "EZY 2937",
@@ -46,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:35",
-          "expected_time": "2026-03-29T18:23:00.000000Z",
+          "expected_time": "2026-03-29T18:21:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 2141",
@@ -58,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:35",
-          "expected_time": "2026-03-29T18:29:00.000000Z",
+          "expected_time": "2026-03-29T18:31:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-4"
         },
         {
           "flight_no": "FR 450",
@@ -70,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "20:45",
-          "expected_time": "2026-03-29T18:42:00.000000Z",
+          "expected_time": "2026-03-29T18:34:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-3"
+          "delay": "00:-11"
         },
         {
           "flight_no": "EZY 8823",
@@ -82,11 +70,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-29T19:04:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-6"
         },
         {
           "flight_no": "FR 1813",
@@ -94,11 +82,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "21:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-29T19:22:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2432",
@@ -126,30 +114,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "BA 877",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "LS 3012",
           "airline": "Jet2.com",
