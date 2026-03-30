@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-30T15:33:40.849Z",
+  "fetched_at": "2026-03-30T16:26:21.225Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-30": {
@@ -10,11 +10,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "19:20",
-          "expected_time": "2026-03-30T16:56:00.000000Z",
+          "expected_time": "2026-03-30T16:57:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-23"
         },
         {
           "flight_no": "LS 295",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "19:50",
-          "expected_time": "2026-03-30T17:35:00.000000Z",
+          "expected_time": "2026-03-30T17:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-14"
         },
         {
           "flight_no": "LS 1251",
@@ -46,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-30T17:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "LS 1901",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-30T18:03:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 2499",
@@ -157,7 +157,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "19:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
