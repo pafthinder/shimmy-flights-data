@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-30T11:26:05.302Z",
+  "fetched_at": "2026-03-30T12:25:44.423Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-30": {
       "arrivals": [
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "13:15",
-          "expected_time": "2026-03-30T11:17:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:03"
-        },
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "13:30",
-          "expected_time": "2026-03-30T11:14:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "14:35",
-          "expected_time": "2026-03-30T12:14:00.000000Z",
+          "expected_time": "2026-03-30T12:12:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-23"
         },
         {
           "flight_no": "LS 113",
