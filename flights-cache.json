@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-03-30T09:37:13.394Z",
+  "fetched_at": "2026-03-30T10:33:48.493Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-30": {
       "arrivals": [
-        {
-          "flight_no": "W6 2008",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "11:50",
-          "expected_time": "2026-03-30T09:33:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-16"
-        },
-        {
-          "flight_no": "FR 2362",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "12:15",
-          "expected_time": "2026-03-30T10:00:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "12:20",
-          "expected_time": "2026-03-30T10:04:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-16"
-        },
         {
           "flight_no": "FR 6624",
           "airline": "Ryanair",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "13:15",
-          "expected_time": "2026-03-30T11:19:00.000000Z",
+          "expected_time": "2026-03-30T11:16:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:04"
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 2332",
@@ -58,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "13:30",
-          "expected_time": "2026-03-30T11:18:00.000000Z",
+          "expected_time": "2026-03-30T11:17:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 6360",
@@ -70,11 +34,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "14:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-30T12:13:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "LS 113",
@@ -222,18 +186,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 3490",
-          "airline": "EasyJet",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "11:30",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 4203",
           "airline": "Ryanair",
