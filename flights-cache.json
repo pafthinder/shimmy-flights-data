@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-30T05:46:20.342Z",
+  "fetched_at": "2026-03-30T06:44:17.974Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-30": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "09:10",
-          "expected_time": "2026-03-30T06:46:00.000000Z",
+          "expected_time": "2026-03-30T06:47:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-23"
         },
         {
           "flight_no": "EZY 8821",
@@ -22,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "09:15",
-          "expected_time": "2026-03-30T06:53:00.000000Z",
+          "expected_time": "2026-03-30T06:54:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-22"
+          "delay": "00:-21"
         },
         {
           "flight_no": "RK 6806",
@@ -46,11 +46,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "10:00",
-          "expected_time": "2026-03-30T07:44:00.000000Z",
+          "expected_time": "2026-03-30T07:48:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2141",
@@ -58,11 +58,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "10:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-30T08:24:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "EZY 2937",
@@ -82,11 +82,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-30T08:44:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "W6 2008",
@@ -307,25 +307,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "08:10",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 6359",
           "airline": "Ryanair",
           "destination_iata": "LPL",
           "destination": "LIVERPOOL",
           "scheduled_time": "08:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -349,7 +337,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "10:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -373,7 +361,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "10:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -397,7 +385,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "11:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -409,7 +397,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "11:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
