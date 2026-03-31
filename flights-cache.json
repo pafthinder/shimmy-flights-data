@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-03-31T15:31:18.059Z",
+  "fetched_at": "2026-03-31T16:27:09.418Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-31": {
       "arrivals": [
-        {
-          "flight_no": "FR 9953",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "17:30",
-          "expected_time": "2026-03-31T15:25:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "17:55",
-          "expected_time": "2026-03-31T15:42:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-13"
-        },
         {
           "flight_no": "FR 6221",
           "airline": "Ryanair",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:40",
-          "expected_time": "2026-03-31T17:29:00.000000Z",
+          "expected_time": "2026-03-31T17:28:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-12"
         },
         {
           "flight_no": "EZY 2937",
@@ -121,7 +97,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "18:20",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +109,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "18:35",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +121,7 @@
           "destination": "ABERDEEN",
           "scheduled_time": "19:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
