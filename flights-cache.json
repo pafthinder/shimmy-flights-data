@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-03-31T08:29:06.970Z",
+  "fetched_at": "2026-03-31T09:29:09.661Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-31": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3053",
-          "airline": "EasyJet",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "10:15",
-          "expected_time": "2026-03-31T08:01:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "FR 2343",
           "airline": "Ryanair",
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": "2026-03-31T09:17:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-31T09:14:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 2362",
@@ -35,7 +23,7 @@
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:40",
           "expected_time": "2026-03-31T09:24:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-16"
@@ -70,11 +58,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "12:50",
-          "expected_time": "2026-03-31T10:40:00.000000Z",
+          "expected_time": "2026-03-31T10:38:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-12"
         },
         {
           "flight_no": "EZY 8821",
@@ -83,7 +71,7 @@
           "origin": "LONDON GATWICK",
           "scheduled_time": "12:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -229,10 +217,10 @@
           "destination": "BELFAST",
           "scheduled_time": "11:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:05"
         },
         {
           "flight_no": "FR 1466",
@@ -241,7 +229,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:20",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -253,7 +241,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "11:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -265,7 +253,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "13:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
