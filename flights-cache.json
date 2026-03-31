@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-31T07:35:18.229Z",
+  "fetched_at": "2026-03-31T08:29:06.970Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-31": {
@@ -10,11 +10,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "10:15",
-          "expected_time": "2026-03-31T08:07:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-31T08:01:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 2343",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": "2026-03-31T09:18:00.000000Z",
+          "expected_time": "2026-03-31T09:17:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 2362",
@@ -34,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-31T09:24:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "W6 2008",
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-31T09:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "BA 872",
@@ -58,11 +58,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-31T10:17:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 4204",
@@ -70,11 +70,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "12:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-31T10:40:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         },
         {
           "flight_no": "EZY 8821",
@@ -223,25 +223,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6359",
-          "airline": "Ryanair",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "09:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 3054",
           "airline": "EasyJet",
           "destination_iata": "BFS",
           "destination": "BELFAST",
           "scheduled_time": "11:00",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -253,7 +241,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
