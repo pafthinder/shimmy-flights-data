@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-31T05:37:10.883Z",
+  "fetched_at": "2026-03-31T06:35:23.871Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-31": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "09:20",
-          "expected_time": "2026-03-31T07:12:00.000000Z",
+          "expected_time": "2026-03-31T07:11:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-9"
         },
         {
           "flight_no": "EZY 3053",
@@ -22,11 +22,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "10:15",
-          "expected_time": "2026-03-31T08:08:00.000000Z",
+          "expected_time": "2026-03-31T08:10:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-7"
+          "delay": "00:-5"
         },
         {
           "flight_no": "FR 2343",
