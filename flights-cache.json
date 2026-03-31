@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-31T18:24:39.817Z",
+  "fetched_at": "2026-03-31T19:26:46.144Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-03-31": {
@@ -10,11 +10,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": "2026-03-31T19:24:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-03-31T19:19:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:24"
+          "delay": "00:20"
         },
         {
           "flight_no": "FR 6624",
@@ -22,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": "2026-03-31T19:42:00.000000Z",
+          "expected_time": "2026-03-31T19:40:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:02"
+          "delayed": false,
+          "delay": "00:00"
         },
         {
           "flight_no": "FR 2499",
@@ -34,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-03-31T20:07:00.000000Z",
+          "expected_time": "2026-03-31T20:05:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:07"
+          "delay": "00:05"
         },
         {
           "flight_no": "FR 2141",
@@ -46,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-31T21:20:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:45"
         },
         {
           "flight_no": "FR 2351",
@@ -58,11 +58,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "23:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-31T21:07:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2332",
@@ -85,7 +85,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:30",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
