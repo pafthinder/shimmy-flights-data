@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-01T19:28:12.066Z",
+  "fetched_at": "2026-04-01T20:18:08.189Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-01": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "21:50",
-          "expected_time": "2026-04-01T20:14:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:24"
-        },
         {
           "flight_no": "FR 2434",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-04-01T19:48:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-01T19:44:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 6624",
@@ -34,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:40",
-          "expected_time": "2026-04-01T21:02:00.000000Z",
+          "expected_time": "2026-04-01T20:58:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:22"
+          "delay": "00:18"
         },
         {
           "flight_no": "FR 1940",
@@ -46,11 +34,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": "2026-04-01T20:52:00.000000Z",
+          "expected_time": "2026-04-01T20:54:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-6"
         },
         {
           "flight_no": "FR 5756",
@@ -58,37 +46,25 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:25",
-          "expected_time": "2026-04-01T21:19:00.000000Z",
+          "expected_time": "2026-04-01T21:20:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-5"
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "21:40",
-          "expected_time": "2026-04-01T19:50:00.000000Z",
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:10"
-        },
         {
           "flight_no": "FR 1812",
           "airline": "Ryanair",
           "destination_iata": "LTN",
           "destination": "LONDON LUTON",
           "scheduled_time": "22:15",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-04-01T20:35:00.000000Z",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:20"
         },
         {
           "flight_no": "FR 2435",
@@ -97,7 +73,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -136,11 +112,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "00:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-03-31T22:10:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-15"
         },
         {
           "flight_no": "EZY 8821",
