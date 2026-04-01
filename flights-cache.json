@@ -1,61 +1,7 @@
 {
-  "fetched_at": "2026-04-01T21:19:14.994Z",
+  "fetched_at": "2026-04-01T22:15:23.739Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-01": {
-      "arrivals": [
-        {
-          "flight_no": "FR 1940",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-04-01T20:53:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-6"
-        },
-        {
-          "flight_no": "FR 5756",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "23:25",
-          "expected_time": "2026-04-01T21:23:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-2"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-04-01T21:20:00.000000Z",
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:15"
-        },
-        {
-          "flight_no": "FR 1941",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "23:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
-    },
     "2026-04-02": {
       "arrivals": [
         {
@@ -64,11 +10,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "00:25",
-          "expected_time": "2026-03-31T22:07:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-01T22:04:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-21"
         },
         {
           "flight_no": "EZY 8821",
@@ -493,6 +439,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-04-03": {
+      "arrivals": [
+        {
+          "flight_no": "FR 1724",
+          "airline": "Ryanair",
+          "origin_iata": "EMA",
+          "origin": "EAST MIDLANDS",
+          "scheduled_time": "00:35",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
