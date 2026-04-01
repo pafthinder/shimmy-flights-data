@@ -1,41 +1,17 @@
 {
-  "fetched_at": "2026-04-01T20:18:08.189Z",
+  "fetched_at": "2026-04-01T21:19:14.994Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-01": {
       "arrivals": [
-        {
-          "flight_no": "FR 2434",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "22:00",
-          "expected_time": "2026-04-01T19:44:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "22:40",
-          "expected_time": "2026-04-01T20:58:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:18"
-        },
         {
           "flight_no": "FR 1940",
           "airline": "Ryanair",
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": "2026-04-01T20:54:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-01T20:53:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-6"
@@ -46,49 +22,25 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:25",
-          "expected_time": "2026-04-01T21:20:00.000000Z",
+          "expected_time": "2026-04-01T21:23:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-5"
+          "delay": "00:-2"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "22:15",
-          "expected_time": "2026-04-01T20:35:00.000000Z",
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:20"
-        },
-        {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "22:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "23:05",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-04-01T21:20:00.000000Z",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:15"
         },
         {
           "flight_no": "FR 1941",
@@ -97,7 +49,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "23:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -112,11 +64,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "00:25",
-          "expected_time": "2026-03-31T22:10:00.000000Z",
+          "expected_time": "2026-03-31T22:07:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-18"
         },
         {
           "flight_no": "EZY 8821",
