@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-01T05:43:22.378Z",
+  "fetched_at": "2026-04-01T06:41:14.461Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-01": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "09:10",
-          "expected_time": "2026-04-01T06:57:00.000000Z",
+          "expected_time": "2026-04-01T06:58:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2343",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "09:25",
-          "expected_time": "2026-04-01T07:12:00.000000Z",
+          "expected_time": "2026-04-01T07:13:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2148",
@@ -34,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "10:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-01T08:04:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2362",
@@ -234,18 +234,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 4203",
-          "airline": "Ryanair",
-          "destination_iata": "GLA",
-          "destination": "GLASGOW",
-          "scheduled_time": "07:50",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 1466",
           "airline": "Ryanair",
