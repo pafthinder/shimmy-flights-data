@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-01T14:37:02.446Z",
+  "fetched_at": "2026-04-01T15:33:39.792Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-01": {
@@ -10,11 +10,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-01T17:29:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:19"
         },
         {
           "flight_no": "FR 5517",
@@ -22,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-01T17:16:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 2332",
@@ -115,25 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 7259",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "16:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "17:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
