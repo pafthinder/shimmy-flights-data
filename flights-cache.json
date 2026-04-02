@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-02T13:35:57.097Z",
+  "fetched_at": "2026-04-02T14:31:29.878Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-02": {
@@ -10,11 +10,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-02T16:11:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-4"
         },
         {
           "flight_no": "FR 1465",
@@ -22,8 +22,8 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "18:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-02T16:25:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "18:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-02T16:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "BA 872",
@@ -126,18 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "16:25",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
