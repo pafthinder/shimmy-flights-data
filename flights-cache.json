@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-04-02T09:26:42.357Z",
+  "fetched_at": "2026-04-02T10:24:09.742Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-02": {
       "arrivals": [
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "11:25",
-          "expected_time": "2026-04-02T09:37:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:12"
-        },
-        {
-          "flight_no": "W6 2008",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "11:50",
-          "expected_time": "2026-04-02T09:36:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "FR 6806",
           "airline": "Ryanair",
@@ -35,7 +11,7 @@
           "origin": "BELFAST",
           "scheduled_time": "12:05",
           "expected_time": "2026-04-02T09:58:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-7"
@@ -46,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:20",
-          "expected_time": "2026-04-02T10:09:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-02T10:08:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 5517",
@@ -58,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "12:35",
-          "expected_time": "2026-04-02T10:22:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-02T10:18:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 2141",
@@ -193,7 +169,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "12:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +181,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "12:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
