@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-02T19:24:00.887Z",
+  "fetched_at": "2026-04-02T20:14:40.903Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-02": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:30",
-          "expected_time": "2026-04-02T20:07:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-02T20:02:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-28"
         },
         {
           "flight_no": "FR 2434",
@@ -22,27 +22,14 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:00",
-          "expected_time": "2026-04-02T20:43:00.000000Z",
+          "expected_time": "2026-04-02T20:42:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-18"
         }
       ],
-      "departures": [
-        {
-          "flight_no": "EZY 2938",
-          "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
+      "departures": []
     },
     "2026-04-03": {
       "arrivals": [
@@ -53,7 +40,7 @@
           "origin": "EAST MIDLANDS",
           "scheduled_time": "00:35",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
