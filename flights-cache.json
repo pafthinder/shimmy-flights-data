@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-04-02T06:32:43.171Z",
+  "fetched_at": "2026-04-02T07:34:23.255Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-02": {
       "arrivals": [
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "09:15",
-          "expected_time": "2026-04-02T06:50:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-25"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
@@ -217,7 +205,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "10:00",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -229,7 +217,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "10:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
