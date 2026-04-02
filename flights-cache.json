@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-02T18:22:52.887Z",
+  "fetched_at": "2026-04-02T19:24:00.887Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-02": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2937",
-          "airline": "EasyJet",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "20:30",
-          "expected_time": "2026-04-02T18:28:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-2"
-        },
         {
           "flight_no": "FR 6624",
           "airline": "Ryanair",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:30",
-          "expected_time": "2026-04-02T20:11:00.000000Z",
+          "expected_time": "2026-04-02T20:07:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2434",
@@ -34,26 +22,14 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-02T20:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         }
       ],
       "departures": [
-        {
-          "flight_no": "LS 950",
-          "airline": "Jet2.com",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "20:25",
-          "expected_time": "2026-04-02T19:25:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:00"
-        },
         {
           "flight_no": "EZY 2938",
           "airline": "EasyJet",
@@ -61,7 +37,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:10",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -522,18 +498,6 @@
           "destination_iata": "LPL",
           "destination": "LIVERPOOL",
           "scheduled_time": "12:00",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1466",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "12:55",
           "expected_time": null,
           "status": "ON TIME",
           "is_cancelled": false,
