@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-03T19:18:54.541Z",
+  "fetched_at": "2026-04-03T20:12:59.551Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-03": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2263",
-          "airline": "EasyJet",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "21:10",
-          "expected_time": "2026-04-03T18:45:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-24"
-        },
-        {
-          "flight_no": "EZY 3053",
-          "airline": "EasyJet",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "21:20",
-          "expected_time": "2026-04-03T18:57:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-22"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-04-03T20:14:00.000000Z",
+          "expected_time": "2026-04-03T20:09:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:14"
+          "delay": "00:09"
         },
         {
           "flight_no": "FR 2141",
@@ -46,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:45",
-          "expected_time": "2026-04-03T20:50:00.000000Z",
+          "expected_time": "2026-04-03T20:48:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:05"
+          "delay": "00:03"
         },
         {
           "flight_no": "FR 1940",
@@ -58,11 +34,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": "2026-04-03T20:33:00.000000Z",
+          "expected_time": "2026-04-03T20:31:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-27"
+          "delay": "00:-29"
         },
         {
           "flight_no": "FR 6624",
@@ -70,11 +46,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "23:00",
-          "expected_time": "2026-04-03T20:51:00.000000Z",
+          "expected_time": "2026-04-03T20:47:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-9"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 5756",
@@ -82,73 +58,25 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-03T21:44:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         }
       ],
       "departures": [
-        {
-          "flight_no": "BA 873",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:02"
-        },
-        {
-          "flight_no": "EZY 2938",
-          "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "21:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 8824",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "21:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "21:50",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 3054",
           "airline": "EasyJet",
           "destination_iata": "BFS",
           "destination": "BELFAST",
-          "scheduled_time": "21:55",
+          "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 2498",
@@ -157,7 +85,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": "2026-04-03T20:55:00.000000Z",
-          "status": "OPÓŹNIONY",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": true,
           "delay": "00:30"
@@ -169,7 +97,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "23:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -181,7 +109,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "23:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
