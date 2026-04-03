@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-03T15:19:11.262Z",
+  "fetched_at": "2026-04-03T16:15:33.680Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-03": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:10",
-          "expected_time": "2026-04-03T17:11:00.000000Z",
+          "expected_time": "2026-04-03T17:05:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:01"
+          "delayed": false,
+          "delay": "00:-5"
         },
         {
           "flight_no": "LS 113",
@@ -22,11 +22,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-03T18:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:55"
         },
         {
           "flight_no": "LS 295",
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-03T18:05:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:15"
         },
         {
           "flight_no": "BA 872",
@@ -181,7 +181,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "18:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
