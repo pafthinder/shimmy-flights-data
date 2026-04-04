@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-04T12:15:33.807Z",
+  "fetched_at": "2026-04-04T13:26:23.684Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-04": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
-          "expected_time": "2026-04-04T13:27:00.000000Z",
+          "expected_time": "2026-04-04T13:20:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-25"
         },
         {
           "flight_no": "EZY 8821",
@@ -22,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "16:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-04T14:36:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 7258",
@@ -133,7 +133,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +145,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "16:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
