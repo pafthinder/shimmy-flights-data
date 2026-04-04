@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-04T16:12:08.075Z",
+  "fetched_at": "2026-04-04T17:12:24.298Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-04": {
       "arrivals": [
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "18:20",
-          "expected_time": "2026-04-04T16:19:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-1"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:35",
-          "expected_time": "2026-04-04T17:25:00.000000Z",
+          "expected_time": "2026-04-04T17:23:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 5517",
@@ -34,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": "2026-04-04T17:28:00.000000Z",
+          "expected_time": "2026-04-04T17:31:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-22"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 2432",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "20:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-04T18:41:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 2148",
@@ -109,7 +97,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +121,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "20:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
