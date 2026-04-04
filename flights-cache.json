@@ -1,59 +1,23 @@
 {
-  "fetched_at": "2026-04-04T20:10:01.148Z",
+  "fetched_at": "2026-04-04T21:11:17.843Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-04": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "22:20",
-          "expected_time": "2026-04-04T19:56:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-24"
-        },
-        {
-          "flight_no": "FR 4204",
-          "airline": "Ryanair",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "22:35",
-          "expected_time": "2026-04-04T20:40:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:05"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:05",
-          "expected_time": "2026-04-04T20:35:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-04T20:30:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-30"
+          "delay": "00:-35"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2149",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2498",
           "airline": "Ryanair",
@@ -61,7 +25,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "23:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -76,11 +40,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "00:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-03T22:52:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-3"
         },
         {
           "flight_no": "LS 3011",
