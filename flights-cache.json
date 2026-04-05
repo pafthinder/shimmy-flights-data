@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-05T06:32:10.288Z",
+  "fetched_at": "2026-04-05T07:28:48.540Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-05": {
@@ -22,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "10:20",
-          "expected_time": "2026-04-05T08:01:00.000000Z",
+          "expected_time": "2026-04-05T07:59:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 2362",
@@ -34,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "10:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-05T08:34:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 6360",
@@ -46,11 +46,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-05T09:22:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "W6 2008",
@@ -253,7 +253,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "09:05",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
