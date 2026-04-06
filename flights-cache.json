@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-06T06:44:50.223Z",
+  "fetched_at": "2026-04-06T07:37:14.584Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-06": {
       "arrivals": [
-        {
-          "flight_no": "FR 1465",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "09:10",
-          "expected_time": "2026-04-06T06:46:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-24"
-        },
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "09:15",
-          "expected_time": "2026-04-06T06:58:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-17"
-        },
         {
           "flight_no": "RK 6806",
           "airline": "Ryanair United Kingdom",
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "09:40",
-          "expected_time": "2026-04-06T07:15:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-06T07:08:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-25"
+          "delay": "00:-31"
         },
         {
           "flight_no": "EZY 3313",
@@ -46,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "10:00",
-          "expected_time": "2026-04-06T07:42:00.000000Z",
+          "expected_time": "2026-04-06T07:37:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2141",
@@ -58,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "10:45",
-          "expected_time": "2026-04-06T08:29:00.000000Z",
+          "expected_time": "2026-04-06T08:30:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-15"
         },
         {
           "flight_no": "EZY 2937",
@@ -70,11 +46,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "10:55",
-          "expected_time": "2026-04-06T08:42:00.000000Z",
+          "expected_time": "2026-04-06T08:38:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-17"
         },
         {
           "flight_no": "EZY 3489",
@@ -307,25 +283,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6359",
-          "airline": "Ryanair",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "08:55",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 1466",
           "airline": "Ryanair",
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "09:35",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -337,7 +301,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "10:05",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -349,7 +313,7 @@
           "destination": "BELFAST",
           "scheduled_time": "10:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
