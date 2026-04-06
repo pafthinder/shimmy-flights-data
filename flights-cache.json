@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-04-06T10:28:58.280Z",
+  "fetched_at": "2026-04-06T11:22:12.540Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-06": {
       "arrivals": [
-        {
-          "flight_no": "FR 2362",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "12:15",
-          "expected_time": "2026-04-06T09:49:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-26"
-        },
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "12:20",
-          "expected_time": "2026-04-06T10:04:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-16"
-        },
         {
           "flight_no": "FR 6624",
           "airline": "Ryanair",
@@ -46,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "13:30",
-          "expected_time": "2026-04-06T11:33:00.000000Z",
+          "expected_time": "2026-04-06T11:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:03"
+          "delay": "00:06"
         },
         {
           "flight_no": "FR 6360",
@@ -58,11 +34,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "14:35",
-          "expected_time": "2026-04-06T12:17:00.000000Z",
+          "expected_time": "2026-04-06T12:16:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-19"
         },
         {
           "flight_no": "LS 113",
