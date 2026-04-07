@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-07T05:38:08.762Z",
+  "fetched_at": "2026-04-07T06:37:28.307Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-07": {
@@ -22,11 +22,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "10:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-07T08:01:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 2343",
