@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-07T20:16:45.114Z",
+  "fetched_at": "2026-04-07T21:19:47.761Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-07": {
       "arrivals": [
-        {
-          "flight_no": "FR 2499",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "22:00",
-          "expected_time": "2026-04-07T19:48:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-11"
-        },
-        {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "22:35",
-          "expected_time": "2026-04-07T20:31:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-4"
-        },
         {
           "flight_no": "FR 2351",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "23:15",
-          "expected_time": "2026-04-07T20:59:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-07T20:54:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 2332",
@@ -46,38 +22,14 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "23:55",
-          "expected_time": "2026-04-07T21:43:00.000000Z",
+          "expected_time": "2026-04-07T21:42:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-13"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "22:05",
-          "expected_time": "2026-04-07T20:20:00.000000Z",
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:15"
-        },
-        {
-          "flight_no": "FR 2498",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "22:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2142",
           "airline": "Ryanair",
@@ -85,7 +37,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "23:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -97,7 +49,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "23:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -112,11 +64,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "01:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-06T22:53:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 1465",
