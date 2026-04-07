@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-07T18:24:15.602Z",
+  "fetched_at": "2026-04-07T19:28:43.855Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-07": {
@@ -10,11 +10,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": "2026-04-07T18:45:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-07T18:37:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 6624",
@@ -22,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": "2026-04-07T19:55:00.000000Z",
+          "expected_time": "2026-04-07T19:52:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:15"
+          "delay": "00:12"
         },
         {
           "flight_no": "FR 2499",
@@ -34,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-04-07T19:56:00.000000Z",
+          "expected_time": "2026-04-07T19:54:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-4"
+          "delay": "00:-6"
         },
         {
           "flight_no": "FR 2141",
@@ -46,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-07T20:32:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-3"
         },
         {
           "flight_no": "FR 2351",
@@ -58,11 +58,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "23:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-07T21:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 2332",
@@ -85,7 +85,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:30",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -96,11 +96,11 @@
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "22:05",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-04-07T20:20:00.000000Z",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:15"
         },
         {
           "flight_no": "FR 2498",
