@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-08T09:29:53.813Z",
+  "fetched_at": "2026-04-08T10:27:32.559Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-08": {
       "arrivals": [
-        {
-          "flight_no": "W6 2008",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "11:50",
-          "expected_time": "2026-04-08T09:32:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-18"
-        },
         {
           "flight_no": "FR 450",
           "airline": "Ryanair",
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": "2026-04-08T10:19:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-08T10:16:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 6360",
@@ -34,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "12:25",
-          "expected_time": "2026-04-08T10:11:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-08T10:08:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 4204",
@@ -46,11 +34,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "14:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-08T12:09:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 2432",
