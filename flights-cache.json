@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-08T16:31:20.600Z",
+  "fetched_at": "2026-04-08T17:28:41.571Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-08": {
@@ -10,11 +10,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:10",
-          "expected_time": "2026-04-08T17:18:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-08T17:19:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:08"
+          "delay": "00:10"
         },
         {
           "flight_no": "FR 5517",
@@ -22,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:25",
-          "expected_time": "2026-04-08T17:20:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-08T17:15:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-5"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 2332",
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "20:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-08T19:04:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:09"
         },
         {
           "flight_no": "FR 1813",
@@ -115,25 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 8200",
-          "airline": "Ryanair",
-          "destination_iata": "ABZ",
-          "destination": "ABERDEEN",
-          "scheduled_time": "18:45",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "BA 873",
           "airline": "British Airways",
           "destination_iata": "LHR",
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "19:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +133,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "21:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
