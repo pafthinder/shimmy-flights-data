@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-08T10:27:32.559Z",
+  "fetched_at": "2026-04-08T11:24:02.087Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-08": {
       "arrivals": [
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "12:25",
-          "expected_time": "2026-04-08T10:16:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-9"
-        },
-        {
-          "flight_no": "FR 6360",
-          "airline": "Ryanair",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "12:25",
-          "expected_time": "2026-04-08T10:08:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-17"
-        },
         {
           "flight_no": "FR 4204",
           "airline": "Ryanair",
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "14:05",
-          "expected_time": "2026-04-08T12:09:00.000000Z",
+          "expected_time": "2026-04-08T12:07:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:04"
+          "delay": "00:02"
         },
         {
           "flight_no": "FR 2432",
@@ -46,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-08T12:47:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 7258",
@@ -181,7 +157,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "13:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
