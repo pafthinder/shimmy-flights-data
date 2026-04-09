@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-09T20:21:28.324Z",
+  "fetched_at": "2026-04-09T21:19:29.274Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-09": {
       "arrivals": [
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "22:30",
-          "expected_time": "2026-04-09T20:11:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-19"
-        },
         {
           "flight_no": "FR 2434",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:00",
-          "expected_time": "2026-04-09T20:47:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-09T20:44:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-16"
         }
       ],
       "departures": []
@@ -39,11 +27,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "00:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-08T22:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:07"
         },
         {
           "flight_no": "FR 1813",
@@ -334,10 +322,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 1940",
+          "flight_no": "FR 6624",
           "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
+          "origin_iata": "EDI",
+          "origin": "EDINBURGH",
           "scheduled_time": "23:00",
           "expected_time": null,
           "status": "ON TIME",
@@ -346,10 +334,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 6624",
+          "flight_no": "FR 1940",
           "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
+          "origin_iata": "EMA",
+          "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
           "expected_time": null,
           "status": "ON TIME",
