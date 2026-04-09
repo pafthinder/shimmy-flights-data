@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-09T05:39:16.740Z",
+  "fetched_at": "2026-04-09T06:38:54.123Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-09": {
@@ -10,11 +10,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "09:15",
-          "expected_time": "2026-04-09T06:55:00.000000Z",
+          "expected_time": "2026-04-09T06:57:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 1813",
@@ -22,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "09:40",
-          "expected_time": "2026-04-09T07:29:00.000000Z",
+          "expected_time": "2026-04-09T07:27:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 7258",
@@ -217,7 +217,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "10:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
