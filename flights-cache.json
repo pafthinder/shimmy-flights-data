@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-09T13:37:59.723Z",
+  "fetched_at": "2026-04-09T14:40:46.344Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-09": {
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "18:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-09T16:29:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 2332",
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "18:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-09T16:36:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "BA 872",
@@ -46,11 +46,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "18:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-09T16:30:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-25"
         },
         {
           "flight_no": "LS 3011",
@@ -126,18 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "16:25",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
