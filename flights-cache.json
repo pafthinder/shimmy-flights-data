@@ -1,73 +1,7 @@
 {
-  "fetched_at": "2026-04-10T21:14:43.646Z",
+  "fetched_at": "2026-04-10T22:14:54.971Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-10": {
-      "arrivals": [
-        {
-          "flight_no": "FR 1940",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-04-10T20:31:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-29"
-        },
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-04-10T20:52:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
-        {
-          "flight_no": "FR 5756",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "23:55",
-          "expected_time": "2026-04-10T21:52:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-3"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "23:10",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1941",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "23:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
-    },
     "2026-04-11": {
       "arrivals": [
         {
@@ -283,7 +217,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "05:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -307,7 +241,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "06:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -319,7 +253,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "06:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -331,7 +265,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -343,7 +277,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "12:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -379,7 +313,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -391,7 +325,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "16:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -403,7 +337,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "16:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -415,7 +349,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "17:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -439,7 +373,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -451,7 +385,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "20:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -475,7 +409,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -487,12 +421,29 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "23:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
         }
       ]
+    },
+    "2026-04-12": {
+      "arrivals": [
+        {
+          "flight_no": "FR 5756",
+          "airline": "Ryanair",
+          "origin_iata": "BHX",
+          "origin": "BIRMINGHAM",
+          "scheduled_time": "00:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
