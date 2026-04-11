@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-04-11T11:12:24.399Z",
+  "fetched_at": "2026-04-11T12:16:31.645Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-11": {
       "arrivals": [
-        {
-          "flight_no": "RK 6624",
-          "airline": "Ryanair United Kingdom",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "13:30",
-          "expected_time": "2026-04-11T11:16:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
@@ -23,7 +11,7 @@
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
           "expected_time": "2026-04-11T13:20:00.000000Z",
-          "status": "ON TIME",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-25"
@@ -138,30 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "BA 877",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "RK 6625",
-          "airline": "Ryanair United Kingdom",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
