@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-11T16:12:03.299Z",
+  "fetched_at": "2026-04-11T17:13:21.833Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-11": {
       "arrivals": [
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "18:20",
-          "expected_time": "2026-04-11T16:53:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:33"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:35",
-          "expected_time": "2026-04-11T17:11:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-11T17:08:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-27"
         },
         {
           "flight_no": "FR 5517",
@@ -34,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": "2026-04-11T17:39:00.000000Z",
+          "expected_time": "2026-04-11T17:40:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 2432",
@@ -109,7 +97,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +121,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "20:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
