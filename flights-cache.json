@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-12T12:17:37.404Z",
+  "fetched_at": "2026-04-12T13:29:46.264Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-12": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:00",
-          "expected_time": "2026-04-12T13:08:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-12T13:01:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:08"
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 2332",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-12T14:16:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "LS 949",
@@ -127,25 +127,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "14:15",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 451",
           "airline": "Ryanair",
           "destination_iata": "NCL",
           "destination": "NEWCASTLE",
           "scheduled_time": "15:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
