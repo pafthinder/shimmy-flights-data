@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-12T15:16:32.296Z",
+  "fetched_at": "2026-04-12T16:14:09.945Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-12": {
@@ -10,11 +10,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-12T18:17:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-3"
         },
         {
           "flight_no": "EZY 2937",
@@ -22,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-12T18:16:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 2141",
@@ -102,30 +102,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1725",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "17:40",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
