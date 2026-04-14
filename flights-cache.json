@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-04-14T06:43:42.746Z",
+  "fetched_at": "2026-04-14T07:38:00.968Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-14": {
       "arrivals": [
-        {
-          "flight_no": "FR 6360",
-          "airline": "Ryanair",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "09:20",
-          "expected_time": "2026-04-14T07:06:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "EZY 3053",
           "airline": "EasyJet",
@@ -34,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-14T09:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 2362",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-14T09:27:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "W6 2008",
@@ -229,7 +217,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "09:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -241,7 +229,7 @@
           "destination": "BELFAST",
           "scheduled_time": "11:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
