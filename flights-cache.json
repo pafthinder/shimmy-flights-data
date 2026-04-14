@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-14T12:28:22.041Z",
+  "fetched_at": "2026-04-14T13:38:06.736Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-14": {
@@ -10,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:30",
-          "expected_time": "2026-04-14T13:15:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-14T13:13:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 1465",
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-14T14:44:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 9953",
@@ -34,11 +34,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "17:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-14T15:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:12"
         },
         {
           "flight_no": "FR 1813",
@@ -127,25 +127,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6220",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "14:05",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:03"
-        },
-        {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
           "destination_iata": "STN",
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
