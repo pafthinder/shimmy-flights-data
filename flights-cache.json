@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-14T14:39:32.906Z",
+  "fetched_at": "2026-04-14T15:30:41.788Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-14": {
       "arrivals": [
-        {
-          "flight_no": "FR 1465",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "17:05",
-          "expected_time": "2026-04-14T14:39:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-26"
-        },
         {
           "flight_no": "FR 9953",
           "airline": "Ryanair",
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "17:30",
-          "expected_time": "2026-04-14T15:40:00.000000Z",
+          "expected_time": "2026-04-14T15:39:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:10"
+          "delay": "00:09"
         },
         {
           "flight_no": "FR 1813",
@@ -34,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "17:55",
-          "expected_time": "2026-04-14T15:45:00.000000Z",
+          "expected_time": "2026-04-14T15:46:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 6221",
@@ -46,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-14T17:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 6624",
