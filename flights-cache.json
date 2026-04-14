@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-04-14T19:33:49.487Z",
+  "fetched_at": "2026-04-14T20:23:56.444Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-14": {
       "arrivals": [
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "21:40",
-          "expected_time": "2026-04-14T19:30:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-10"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
@@ -23,10 +11,10 @@
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
           "expected_time": "2026-04-14T19:36:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2141",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:35",
-          "expected_time": "2026-04-14T20:20:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-14T20:12:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 2351",
@@ -58,11 +46,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-14T21:50:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         }
       ],
       "departures": [
@@ -73,7 +61,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "22:05",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -85,7 +73,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -97,7 +85,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "23:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
