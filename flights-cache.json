@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-14T18:30:46.446Z",
+  "fetched_at": "2026-04-14T19:33:49.487Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-14": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": "2026-04-14T19:36:00.000000Z",
+          "expected_time": "2026-04-14T19:30:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-4"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 2499",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-04-14T19:45:00.000000Z",
+          "expected_time": "2026-04-14T19:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-24"
         },
         {
           "flight_no": "FR 2141",
@@ -46,11 +46,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "23:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-14T21:03:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2332",
@@ -73,7 +73,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "22:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -85,7 +85,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -97,7 +97,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "23:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -109,7 +109,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "23:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
