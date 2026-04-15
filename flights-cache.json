@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-15T12:28:37.778Z",
+  "fetched_at": "2026-04-15T13:37:30.363Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-15": {
       "arrivals": [
-        {
-          "flight_no": "FR 4204",
-          "airline": "Ryanair",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "14:05",
-          "expected_time": "2026-04-15T11:38:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-26"
-        },
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "15:00",
-          "expected_time": "2026-04-15T12:35:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-25"
-        },
         {
           "flight_no": "FR 7258",
           "airline": "Ryanair",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "16:15",
-          "expected_time": "2026-04-15T14:04:00.000000Z",
+          "expected_time": "2026-04-15T14:02:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-13"
         },
         {
           "flight_no": "BA 872",
@@ -150,30 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "14:55",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "15:25",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 7259",
           "airline": "Ryanair",
