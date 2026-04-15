@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-15T10:35:06.163Z",
+  "fetched_at": "2026-04-15T11:26:21.677Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-15": {
@@ -10,11 +10,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "14:05",
-          "expected_time": "2026-04-15T11:43:00.000000Z",
+          "expected_time": "2026-04-15T11:42:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-22"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2432",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-15T12:35:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 7258",
@@ -157,7 +157,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "13:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
