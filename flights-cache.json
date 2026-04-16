@@ -1,24 +1,7 @@
 {
-  "fetched_at": "2026-04-16T21:19:48.415Z",
+  "fetched_at": "2026-04-16T22:17:51.786Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-16": {
-      "arrivals": [
-        {
-          "flight_no": "FR 2434",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-04-16T20:52:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        }
-      ],
-      "departures": []
-    },
     "2026-04-17": {
       "arrivals": [
         {
@@ -27,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "00:35",
-          "expected_time": "2026-04-15T22:19:00.000000Z",
+          "expected_time": "2026-04-16T22:13:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 1813",
