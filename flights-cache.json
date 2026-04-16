@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-16T13:38:21.250Z",
+  "fetched_at": "2026-04-16T14:40:33.026Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-16": {
@@ -10,8 +10,8 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-16T16:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "18:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-16T16:18:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 2332",
@@ -58,11 +58,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "19:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-16T16:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2432",
@@ -126,18 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "16:25",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
