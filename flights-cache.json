@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-16T12:30:04.411Z",
+  "fetched_at": "2026-04-16T13:38:21.250Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-16": {
@@ -133,7 +133,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "16:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
