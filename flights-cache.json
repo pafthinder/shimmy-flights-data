@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-16T07:37:41.243Z",
+  "fetched_at": "2026-04-16T08:39:56.652Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-16": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "09:40",
-          "expected_time": "2026-04-16T07:17:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-22"
-        },
         {
           "flight_no": "FR 7258",
           "airline": "Ryanair",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "11:25",
-          "expected_time": "2026-04-16T09:05:00.000000Z",
+          "expected_time": "2026-04-16T09:04:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-21"
         },
         {
           "flight_no": "W6 2008",
@@ -34,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-16T09:32:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 6806",
@@ -46,11 +34,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "12:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-16T10:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "FR 2362",
@@ -58,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-16T09:56:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-24"
         },
         {
           "flight_no": "FR 5517",
@@ -70,11 +58,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "12:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-16T10:30:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "FR 2141",
@@ -198,30 +186,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "10:00",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "10:05",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2142",
           "airline": "Ryanair",
