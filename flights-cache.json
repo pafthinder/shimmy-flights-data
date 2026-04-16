@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-16T05:47:17.538Z",
+  "fetched_at": "2026-04-16T06:44:35.493Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-16": {
@@ -22,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "09:40",
-          "expected_time": "2026-04-16T07:19:00.000000Z",
+          "expected_time": "2026-04-16T07:20:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 7258",
@@ -217,7 +217,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "10:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
