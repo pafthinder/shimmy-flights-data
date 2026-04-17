@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-04-17T17:20:53.167Z",
+  "fetched_at": "2026-04-17T18:22:54.505Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-17": {
       "arrivals": [
-        {
-          "flight_no": "FR 1465",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "19:10",
-          "expected_time": "2026-04-17T17:01:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
-        {
-          "flight_no": "LS 113",
-          "airline": "Jet2.com",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "19:20",
-          "expected_time": "2026-04-17T17:10:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-10"
-        },
-        {
-          "flight_no": "LS 295",
-          "airline": "Jet2.com",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "19:50",
-          "expected_time": "2026-04-17T17:38:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-12"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "20:25",
-          "expected_time": "2026-04-17T18:01:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-17T18:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 2434",
@@ -58,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "20:25",
-          "expected_time": "2026-04-17T18:23:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-17T18:19:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-2"
+          "delay": "00:-5"
         },
         {
           "flight_no": "EZY 2937",
@@ -70,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:40",
-          "expected_time": "2026-04-17T18:44:00.000000Z",
+          "expected_time": "2026-04-17T18:43:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:04"
+          "delay": "00:03"
         },
         {
           "flight_no": "EZY 8823",
@@ -94,11 +58,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:10",
-          "expected_time": "2026-04-17T18:53:00.000000Z",
+          "expected_time": "2026-04-17T18:54:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-16"
         },
         {
           "flight_no": "EZY 3053",
@@ -106,11 +70,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "21:20",
-          "expected_time": "2026-04-17T19:10:00.000000Z",
+          "expected_time": "2026-04-17T19:12:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2499",
@@ -118,11 +82,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-17T20:04:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 2141",
@@ -181,10 +145,10 @@
           "destination": "GLASGOW",
           "scheduled_time": "20:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:03"
         },
         {
           "flight_no": "LS 296",
@@ -193,7 +157,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "20:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
