@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-17T19:27:48.149Z",
+  "fetched_at": "2026-04-17T20:18:22.069Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-17": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2263",
-          "airline": "EasyJet",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "21:10",
-          "expected_time": "2026-04-17T18:46:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-24"
-        },
-        {
-          "flight_no": "EZY 3053",
-          "airline": "EasyJet",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "21:20",
-          "expected_time": "2026-04-17T19:10:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-10"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-04-17T20:05:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-17T20:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:05"
+          "delayed": false,
+          "delay": "00:00"
         },
         {
           "flight_no": "FR 2141",
@@ -58,11 +34,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": "2026-04-17T20:44:00.000000Z",
+          "expected_time": "2026-04-17T20:41:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 6624",
@@ -82,74 +58,14 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-17T21:45:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         }
       ],
       "departures": [
-        {
-          "flight_no": "BA 873",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:05"
-        },
-        {
-          "flight_no": "EZY 2938",
-          "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "21:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 8824",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "21:20",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "21:50",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 3054",
-          "airline": "EasyJet",
-          "destination_iata": "BFS",
-          "destination": "BELFAST",
-          "scheduled_time": "21:55",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2498",
           "airline": "Ryanair",
@@ -157,7 +73,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
