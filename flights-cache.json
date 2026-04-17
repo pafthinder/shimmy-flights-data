@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-04-17T13:36:11.932Z",
+  "fetched_at": "2026-04-17T14:31:30.726Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-17": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "15:35",
-          "expected_time": "2026-04-17T13:25:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-10"
-        },
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "16:15",
-          "expected_time": "2026-04-17T15:25:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:10"
-        },
         {
           "flight_no": "FR 1465",
           "airline": "Ryanair",
@@ -199,25 +175,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "16:00",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "16:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
