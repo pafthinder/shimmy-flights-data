@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-17T15:27:13.240Z",
+  "fetched_at": "2026-04-17T16:24:23.476Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-17": {
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-17T17:41:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-9"
         },
         {
           "flight_no": "BA 872",
@@ -46,11 +46,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "20:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-17T18:02:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2434",
@@ -137,10 +137,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 1940",
+          "flight_no": "FR 6624",
           "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
+          "origin_iata": "EDI",
+          "origin": "EDINBURGH",
           "scheduled_time": "23:00",
           "expected_time": null,
           "status": "ON TIME",
@@ -149,10 +149,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 6624",
+          "flight_no": "FR 1940",
           "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
+          "origin_iata": "EMA",
+          "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
           "expected_time": null,
           "status": "ON TIME",
@@ -181,7 +181,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "18:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,7 +193,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "20:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +205,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "20:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
