@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-17T05:46:36.096Z",
+  "fetched_at": "2026-04-17T06:44:20.819Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-17": {
@@ -10,11 +10,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "09:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-17T07:35:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "LS 1901",
@@ -22,11 +22,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "10:05",
-          "expected_time": "2026-04-17T07:44:00.000000Z",
+          "expected_time": "2026-04-17T07:40:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-25"
         },
         {
           "flight_no": "EZY 8821",
@@ -34,11 +34,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "10:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-17T08:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "LS 949",
@@ -58,11 +58,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:20",
-          "expected_time": null,
+          "expected_time": "2026-04-17T08:55:00.000000Z",
           "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 6360",
@@ -343,18 +343,6 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "07:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 1812",
           "airline": "Ryanair",
           "destination_iata": "LTN",
@@ -373,7 +361,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "10:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -409,7 +397,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "11:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -433,7 +421,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "12:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
