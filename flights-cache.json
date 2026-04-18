@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-18T10:18:32.541Z",
+  "fetched_at": "2026-04-18T11:16:45.892Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-18": {
       "arrivals": [
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "12:25",
-          "expected_time": "2026-04-18T10:01:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-23"
-        },
-        {
-          "flight_no": "BA 876",
-          "airline": "British Airways",
-          "origin_iata": "LHR",
-          "origin": "LONDYN HEATHROW",
-          "scheduled_time": "12:50",
-          "expected_time": "2026-04-18T10:56:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:06"
-        },
         {
           "flight_no": "RK 6624",
           "airline": "Ryanair United Kingdom",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "13:30",
-          "expected_time": "2026-04-18T11:20:00.000000Z",
+          "expected_time": "2026-04-18T11:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 6360",
@@ -46,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
-          "expected_time": null,
+          "expected_time": "2026-04-18T13:25:00.000000Z",
           "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "EZY 8821",
@@ -163,25 +139,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 7259",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "12:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "BA 877",
           "airline": "British Airways",
           "destination_iata": "LHR",
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,7 +157,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "13:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
