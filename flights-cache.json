@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-18T13:30:40.689Z",
+  "fetched_at": "2026-04-18T14:18:23.614Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-18": {
       "arrivals": [
-        {
-          "flight_no": "FR 6360",
-          "airline": "Ryanair",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "15:45",
-          "expected_time": "2026-04-18T13:24:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
         {
           "flight_no": "EZY 8821",
           "airline": "EasyJet",
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "16:55",
-          "expected_time": "2026-04-18T14:31:00.000000Z",
+          "expected_time": "2026-04-18T14:34:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 7258",
@@ -127,25 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "15:30",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
-        {
           "flight_no": "FR 6359",
           "airline": "Ryanair",
           "destination_iata": "LPL",
           "destination": "LIVERPOOL",
           "scheduled_time": "16:10",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +133,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "16:30",
           "expected_time": "2026-04-18T15:15:00.000000Z",
-          "status": "ODPRAWA %checkin",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": true,
           "delay": "00:45"
@@ -168,11 +144,11 @@
           "destination_iata": "LTN",
           "destination": "LONDON LUTON",
           "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-04-18T15:30:00.000000Z",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:25"
         },
         {
           "flight_no": "EZY 8822",
@@ -181,7 +157,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "17:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
