@@ -1,37 +1,7 @@
 {
-  "fetched_at": "2026-04-18T21:13:51.816Z",
+  "fetched_at": "2026-04-18T22:11:36.565Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-18": {
-      "arrivals": [
-        {
-          "flight_no": "FR 2499",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-04-18T20:32:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-32"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 2498",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "23:30",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
-    },
     "2026-04-19": {
       "arrivals": [
         {
@@ -40,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "00:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-18T23:41:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:46"
         },
         {
           "flight_no": "LS 3011",
@@ -331,7 +301,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "07:35",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -517,6 +487,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-04-20": {
+      "arrivals": [
+        {
+          "flight_no": "FR 2434",
+          "airline": "Ryanair",
+          "origin_iata": "STN",
+          "origin": "LONDON STANSTED",
+          "scheduled_time": "00:30",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
