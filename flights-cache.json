@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T07:30:01.058Z",
+  "fetched_at": "2026-04-18T08:18:58.682Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-18": {
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": "2026-04-18T09:17:00.000000Z",
+          "expected_time": "2026-04-18T09:16:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 2332",
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": "2026-04-18T09:18:00.000000Z",
+          "expected_time": "2026-04-18T09:17:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-13"
         },
         {
           "flight_no": "W6 2008",
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-18T09:29:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-26"
         },
         {
           "flight_no": "FR 450",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-18T10:06:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "BA 876",
