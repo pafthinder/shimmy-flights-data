@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-18T16:15:14.265Z",
+  "fetched_at": "2026-04-18T17:15:40.008Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-18": {
       "arrivals": [
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "18:20",
-          "expected_time": "2026-04-18T16:15:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:35",
-          "expected_time": "2026-04-18T17:03:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-18T16:58:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-32"
+          "delay": "00:-36"
         },
         {
           "flight_no": "FR 5517",
@@ -34,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": "2026-04-18T17:31:00.000000Z",
+          "expected_time": "2026-04-18T17:32:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 2432",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "20:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-18T18:13:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-27"
         },
         {
           "flight_no": "FR 2148",
@@ -103,18 +91,6 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 5757",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "19:25",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 5518",
           "airline": "Ryanair",
           "destination_iata": "BRS",
@@ -133,7 +109,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "20:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
