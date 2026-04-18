@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-18T11:16:45.892Z",
+  "fetched_at": "2026-04-18T12:17:30.153Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-18": {
       "arrivals": [
-        {
-          "flight_no": "RK 6624",
-          "airline": "Ryanair United Kingdom",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "13:30",
-          "expected_time": "2026-04-18T11:14:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-16"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
-          "expected_time": "2026-04-18T13:25:00.000000Z",
-          "status": "ON TIME",
+          "expected_time": "2026-04-18T13:28:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-17"
         },
         {
           "flight_no": "EZY 8821",
@@ -138,30 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "BA 877",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "RK 6625",
-          "airline": "Ryanair United Kingdom",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
