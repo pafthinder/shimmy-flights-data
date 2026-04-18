@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-18T08:18:58.682Z",
+  "fetched_at": "2026-04-18T09:20:56.055Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-18": {
@@ -10,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:15",
-          "expected_time": "2026-04-18T08:47:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-18T08:45:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-28"
+          "delay": "00:-30"
         },
         {
           "flight_no": "FR 1465",
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": "2026-04-18T09:16:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-18T09:13:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-9"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2332",
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:55",
-          "expected_time": "2026-04-18T09:29:00.000000Z",
+          "expected_time": "2026-04-18T09:30:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-26"
+          "delay": "00:-25"
         },
         {
           "flight_no": "FR 450",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": "2026-04-18T10:06:00.000000Z",
+          "expected_time": "2026-04-18T10:03:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-19"
+          "delay": "00:-22"
         },
         {
           "flight_no": "BA 876",
@@ -70,11 +70,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-18T10:56:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:06"
         },
         {
           "flight_no": "RK 6624",
@@ -82,11 +82,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "13:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-18T11:22:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 6360",
@@ -217,7 +217,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
