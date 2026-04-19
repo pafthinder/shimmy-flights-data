@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-19T13:30:08.886Z",
+  "fetched_at": "2026-04-19T14:18:23.568Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-19": {
@@ -10,11 +10,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:15",
-          "expected_time": "2026-04-19T14:04:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-19T14:01:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-14"
         },
         {
           "flight_no": "BA 876",
@@ -133,7 +133,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
