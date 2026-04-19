@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-19T10:17:44.819Z",
+  "fetched_at": "2026-04-19T11:16:34.259Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-19": {
@@ -10,11 +10,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:10",
-          "expected_time": "2026-04-19T11:21:00.000000Z",
+          "expected_time": "2026-04-19T11:22:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:11"
+          "delay": "00:12"
         },
         {
           "flight_no": "FR 8201",
@@ -22,11 +22,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "13:40",
-          "expected_time": "2026-04-19T11:20:00.000000Z",
+          "expected_time": "2026-04-19T11:19:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-21"
         },
         {
           "flight_no": "EZY 8821",
@@ -34,11 +34,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "13:45",
-          "expected_time": "2026-04-19T11:22:00.000000Z",
+          "expected_time": "2026-04-19T11:24:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-21"
         },
         {
           "flight_no": "FR 6624",
@@ -46,11 +46,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-19T12:53:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 2332",
@@ -181,7 +181,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "14:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
