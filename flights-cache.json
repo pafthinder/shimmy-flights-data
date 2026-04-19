@@ -1,24 +1,7 @@
 {
-  "fetched_at": "2026-04-19T21:14:34.753Z",
+  "fetched_at": "2026-04-19T22:12:39.754Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-19": {
-      "arrivals": [
-        {
-          "flight_no": "FR 1724",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-04-18T22:06:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:01"
-        }
-      ],
-      "departures": []
-    },
     "2026-04-20": {
       "arrivals": [
         {
@@ -27,7 +10,7 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "00:30",
-          "expected_time": "2026-04-18T22:36:00.000000Z",
+          "expected_time": "2026-04-19T22:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
@@ -660,6 +643,35 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-04-21": {
+      "arrivals": [
+        {
+          "flight_no": "FR 2432",
+          "airline": "Ryanair",
+          "origin_iata": "STN",
+          "origin": "LONDON STANSTED",
+          "scheduled_time": "00:20",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 450",
+          "airline": "Ryanair",
+          "origin_iata": "NCL",
+          "origin": "NEWCASTLE",
+          "scheduled_time": "00:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
