@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-19T05:45:10.299Z",
+  "fetched_at": "2026-04-19T06:40:41.408Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-19": {
@@ -22,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "10:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-19T08:07:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 2362",
@@ -235,25 +235,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "07:35",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "09:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -265,7 +253,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "10:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -277,7 +265,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "10:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
