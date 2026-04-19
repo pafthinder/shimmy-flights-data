@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-04-19T11:16:34.259Z",
+  "fetched_at": "2026-04-19T12:17:25.094Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-19": {
       "arrivals": [
-        {
-          "flight_no": "FR 5517",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "13:10",
-          "expected_time": "2026-04-19T11:22:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:12"
-        },
-        {
-          "flight_no": "FR 8201",
-          "airline": "Ryanair",
-          "origin_iata": "ABZ",
-          "origin": "ABERDEEN",
-          "scheduled_time": "13:40",
-          "expected_time": "2026-04-19T11:19:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "13:45",
-          "expected_time": "2026-04-19T11:24:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
         {
           "flight_no": "FR 6624",
           "airline": "Ryanair",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:00",
-          "expected_time": "2026-04-19T12:53:00.000000Z",
+          "expected_time": "2026-04-19T12:52:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-7"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2332",
@@ -58,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-19T14:04:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "BA 876",
@@ -181,7 +145,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "14:15",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
