@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-19T16:14:58.447Z",
+  "fetched_at": "2026-04-19T17:15:42.380Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-19": {
@@ -10,8 +10,8 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:00",
-          "expected_time": "2026-04-19T16:45:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-19T16:44:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-15"
@@ -22,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:20",
-          "expected_time": "2026-04-19T18:04:00.000000Z",
+          "expected_time": "2026-04-19T18:02:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-18"
         },
         {
           "flight_no": "EZY 2937",
@@ -34,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:35",
-          "expected_time": "2026-04-19T18:14:00.000000Z",
+          "expected_time": "2026-04-19T18:12:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2141",
@@ -46,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-19T18:18:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 450",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "20:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-19T18:32:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "EZY 8823",
@@ -70,11 +70,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-19T18:50:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 1813",
@@ -121,7 +121,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "19:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +133,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "19:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +145,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "21:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +157,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +169,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "21:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
