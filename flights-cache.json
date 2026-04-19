@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-04-19T12:17:25.094Z",
+  "fetched_at": "2026-04-19T13:30:08.886Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-19": {
       "arrivals": [
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "15:00",
-          "expected_time": "2026-04-19T12:52:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
         {
           "flight_no": "FR 2332",
           "airline": "Ryanair",
@@ -138,30 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "14:15",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 451",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "15:10",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
