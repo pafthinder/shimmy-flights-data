@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-20T08:51:54.017Z",
+  "fetched_at": "2026-04-20T09:41:01.284Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-20": {
       "arrivals": [
-        {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "10:45",
-          "expected_time": "2026-04-20T08:39:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
-        {
-          "flight_no": "EZY 2937",
-          "airline": "EasyJet",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "10:55",
-          "expected_time": "2026-04-20T08:43:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-12"
-        },
         {
           "flight_no": "W6 2008",
           "airline": "Wizz Air",
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": "2026-04-20T09:32:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-20T09:34:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 2362",
@@ -70,11 +46,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "13:15",
-          "expected_time": "2026-04-20T11:02:00.000000Z",
+          "expected_time": "2026-04-20T10:59:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 2332",
@@ -82,11 +58,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "13:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-20T11:10:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 6360",
@@ -246,54 +222,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 3314",
-          "airline": "EasyJet",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "10:30",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 3490",
-          "airline": "EasyJet",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "10:55",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "11:10",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 2938",
-          "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "11:25",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 4203",
           "airline": "Ryanair",
