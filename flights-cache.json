@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-04-20T17:27:01.786Z",
+  "fetched_at": "2026-04-20T18:26:27.547Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-20": {
       "arrivals": [
-        {
-          "flight_no": "LS 113",
-          "airline": "Jet2.com",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "19:20",
-          "expected_time": "2026-04-20T17:11:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
-        {
-          "flight_no": "LS 295",
-          "airline": "Jet2.com",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "19:50",
-          "expected_time": "2026-04-20T17:24:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-26"
-        },
-        {
-          "flight_no": "LS 1251",
-          "airline": "Jet2.com",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "19:55",
-          "expected_time": "2026-04-20T17:55:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "LS 949",
           "airline": "Jet2.com",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:00",
-          "expected_time": "2026-04-20T17:47:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-20T17:43:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-17"
         },
         {
           "flight_no": "LS 1901",
@@ -82,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:10",
-          "expected_time": "2026-04-20T19:09:00.000000Z",
+          "expected_time": "2026-04-20T19:10:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-1"
+          "delay": "00:00"
         },
         {
           "flight_no": "FR 1724",
@@ -94,11 +58,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "21:15",
-          "expected_time": "2026-04-20T18:52:00.000000Z",
+          "expected_time": "2026-04-20T18:47:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-28"
         },
         {
           "flight_no": "EZY 8823",
@@ -151,37 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 451",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "LS 114",
           "airline": "Jet2.com",
           "destination_iata": "GLA",
           "destination": "GLASGOW",
           "scheduled_time": "20:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,7 +133,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "20:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +145,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "20:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -217,7 +157,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "20:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -228,11 +168,11 @@
           "destination_iata": "NCL",
           "destination": "NEWCASTLE",
           "scheduled_time": "21:10",
-          "expected_time": null,
+          "expected_time": "2026-04-20T19:40:00.000000Z",
           "status": "ODPRAWA %checkin",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:30"
         },
         {
           "flight_no": "FR 2498",
