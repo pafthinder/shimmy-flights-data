@@ -1,49 +1,7 @@
 {
-  "fetched_at": "2026-04-20T21:20:52.998Z",
+  "fetched_at": "2026-04-20T22:19:37.608Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-20": {
-      "arrivals": [
-        {
-          "flight_no": "FR 4204",
-          "airline": "Ryanair",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-04-20T20:42:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-23"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-04-19T22:05:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:05"
-        },
-        {
-          "flight_no": "FR 2149",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "23:10",
-          "expected_time": "2026-04-20T21:30:00.000000Z",
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:20"
-        }
-      ]
-    },
     "2026-04-21": {
       "arrivals": [
         {
@@ -52,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "00:20",
-          "expected_time": "2026-04-19T22:12:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-20T22:08:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 450",
@@ -64,11 +22,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "00:55",
-          "expected_time": "2026-04-19T22:37:00.000000Z",
+          "expected_time": "2026-04-20T22:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-19"
         },
         {
           "flight_no": "EZY 3053",
@@ -517,6 +475,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-04-22": {
+      "arrivals": [
+        {
+          "flight_no": "FR 8842",
+          "airline": "Ryanair",
+          "origin_iata": "ABZ",
+          "origin": "ABERDEEN",
+          "scheduled_time": "01:00",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
