@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-20T15:34:24.550Z",
+  "fetched_at": "2026-04-20T16:31:09.249Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-20": {
@@ -10,11 +10,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "19:20",
-          "expected_time": "2026-04-20T17:15:00.000000Z",
+          "expected_time": "2026-04-20T17:18:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-5"
+          "delay": "00:-2"
         },
         {
           "flight_no": "LS 295",
@@ -34,11 +34,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-20T17:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-1"
         },
         {
           "flight_no": "LS 949",
@@ -46,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-20T17:48:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-12"
         },
         {
           "flight_no": "LS 1901",
@@ -157,7 +157,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "19:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
