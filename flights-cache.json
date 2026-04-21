@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-21T19:31:32.478Z",
+  "fetched_at": "2026-04-21T20:22:06.492Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-21": {
       "arrivals": [
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "21:40",
-          "expected_time": "2026-04-21T19:24:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-04-21T20:07:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-21T20:06:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:07"
+          "delay": "00:06"
         },
         {
           "flight_no": "FR 2141",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:35",
-          "expected_time": "2026-04-21T20:22:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-21T20:18:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 2351",
@@ -70,11 +58,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-21T21:39:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         }
       ],
       "departures": [
@@ -85,10 +73,10 @@
           "destination": "EDINBURGH",
           "scheduled_time": "22:05",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:13"
         },
         {
           "flight_no": "FR 2498",
@@ -97,7 +85,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -109,7 +97,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "23:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
