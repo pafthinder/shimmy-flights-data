@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-21T06:45:14.083Z",
+  "fetched_at": "2026-04-21T07:38:23.837Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-21": {
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-21T09:17:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 2362",
@@ -34,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-21T09:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "W6 2008",
@@ -229,7 +229,7 @@
           "destination": "BELFAST",
           "scheduled_time": "11:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
