@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-21T18:28:48.823Z",
+  "fetched_at": "2026-04-21T19:31:32.478Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-21": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": "2026-04-21T19:28:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-21T19:24:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 2499",
@@ -46,11 +46,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "23:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-21T20:55:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "W6 2010",
@@ -58,11 +58,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-21T21:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 2332",
@@ -85,7 +85,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "22:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
