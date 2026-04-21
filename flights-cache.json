@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-04-21T09:36:59.416Z",
+  "fetched_at": "2026-04-21T10:34:22.440Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-21": {
       "arrivals": [
-        {
-          "flight_no": "FR 2343",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "11:30",
-          "expected_time": "2026-04-21T09:10:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-18"
-        },
-        {
-          "flight_no": "FR 2362",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "11:40",
-          "expected_time": "2026-04-21T09:17:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-22"
-        },
-        {
-          "flight_no": "W6 2008",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "11:50",
-          "expected_time": "2026-04-21T09:34:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-16"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:30",
-          "expected_time": "2026-04-21T10:49:00.000000Z",
+          "expected_time": "2026-04-21T10:48:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:19"
+          "delay": "00:18"
         },
         {
           "flight_no": "FR 4204",
@@ -58,11 +22,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "12:50",
-          "expected_time": "2026-04-21T10:36:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-21T10:27:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-22"
         },
         {
           "flight_no": "EZY 8821",
@@ -70,11 +34,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "12:55",
-          "expected_time": "2026-04-21T10:23:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-21T10:18:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-32"
+          "delay": "00:-36"
         },
         {
           "flight_no": "FR 2434",
@@ -210,18 +174,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 9954",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "11:55",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 8822",
           "airline": "EasyJet",
