@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-04-22T13:37:14.406Z",
+  "fetched_at": "2026-04-22T14:38:16.362Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-22": {
       "arrivals": [
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "16:15",
-          "expected_time": "2026-04-22T14:00:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
@@ -133,7 +121,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "16:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
