@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-22T18:29:10.689Z",
+  "fetched_at": "2026-04-22T19:33:01.987Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-22": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "20:15",
-          "expected_time": "2026-04-22T18:01:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "20:55",
-          "expected_time": "2026-04-22T18:43:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-12"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "21:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-22T20:38:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:48"
         },
         {
           "flight_no": "FR 2434",
@@ -46,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-04-22T19:54:00.000000Z",
+          "expected_time": "2026-04-22T19:55:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-5"
         },
         {
           "flight_no": "FR 6624",
@@ -58,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-22T21:05:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:25"
         },
         {
           "flight_no": "FR 1940",
@@ -70,11 +46,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-22T21:22:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:22"
         },
         {
           "flight_no": "FR 5756",
@@ -82,11 +58,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-22T21:18:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-7"
         }
       ],
       "departures": [
@@ -97,7 +73,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "21:40",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
