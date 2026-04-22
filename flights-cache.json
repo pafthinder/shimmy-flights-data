@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T11:28:31.284Z",
+  "fetched_at": "2026-04-22T12:28:37.835Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-22": {
@@ -10,11 +10,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "14:05",
-          "expected_time": "2026-04-22T11:50:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-22T11:47:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 2432",
@@ -34,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "16:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-22T14:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-15"
         },
         {
           "flight_no": "BA 872",
@@ -151,25 +151,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "13:50",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2333",
           "airline": "Ryanair",
           "destination_iata": "LBA",
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "14:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
