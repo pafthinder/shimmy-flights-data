@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T05:46:08.638Z",
+  "fetched_at": "2026-04-22T06:44:36.394Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-22": {
@@ -234,18 +234,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 4203",
-          "airline": "Ryanair",
-          "destination_iata": "GLA",
-          "destination": "GLASGOW",
-          "scheduled_time": "07:50",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 1466",
           "airline": "Ryanair",
