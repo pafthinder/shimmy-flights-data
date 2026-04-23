@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-23T18:30:35.114Z",
+  "fetched_at": "2026-04-23T19:33:28.263Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-23": {
       "arrivals": [
-        {
-          "flight_no": "EZY 2937",
-          "airline": "EasyJet",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "20:30",
-          "expected_time": "2026-04-23T18:39:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:09"
-        },
         {
           "flight_no": "FR 6624",
           "airline": "Ryanair",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:30",
-          "expected_time": "2026-04-23T20:32:00.000000Z",
+          "expected_time": "2026-04-23T20:29:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:02"
+          "delayed": false,
+          "delay": "00:-1"
         },
         {
           "flight_no": "FR 2434",
@@ -34,27 +22,14 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-23T20:56:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-4"
         }
       ],
-      "departures": [
-        {
-          "flight_no": "EZY 2938",
-          "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
+      "departures": []
     },
     "2026-04-24": {
       "arrivals": [
@@ -649,10 +624,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 8824",
+          "flight_no": "EZY 2938",
           "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
+          "destination_iata": "BRS",
+          "destination": "BRISTOL",
           "scheduled_time": "21:20",
           "expected_time": null,
           "status": "ON TIME",
@@ -661,10 +636,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 2938",
+          "flight_no": "EZY 8824",
           "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
+          "destination_iata": "LGW",
+          "destination": "LONDON GATWICK",
           "scheduled_time": "21:20",
           "expected_time": null,
           "status": "ON TIME",
