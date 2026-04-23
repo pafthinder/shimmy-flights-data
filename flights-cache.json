@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-23T17:35:07.227Z",
+  "fetched_at": "2026-04-23T18:30:35.114Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-23": {
       "arrivals": [
-        {
-          "flight_no": "LS 949",
-          "airline": "Jet2.com",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "19:35",
-          "expected_time": "2026-04-23T17:30:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
         {
           "flight_no": "EZY 2937",
           "airline": "EasyJet",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:30",
-          "expected_time": "2026-04-23T18:43:00.000000Z",
+          "expected_time": "2026-04-23T18:39:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:13"
+          "delay": "00:09"
         },
         {
           "flight_no": "FR 6624",
@@ -34,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-23T20:32:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:02"
         },
         {
           "flight_no": "FR 2434",
@@ -54,30 +42,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "BA 873",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "19:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "LS 950",
-          "airline": "Jet2.com",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "20:25",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 2938",
           "airline": "EasyJet",
@@ -685,10 +649,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 2938",
+          "flight_no": "EZY 8824",
           "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
+          "destination_iata": "LGW",
+          "destination": "LONDON GATWICK",
           "scheduled_time": "21:20",
           "expected_time": null,
           "status": "ON TIME",
@@ -697,10 +661,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 8824",
+          "flight_no": "EZY 2938",
           "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
+          "destination_iata": "BRS",
+          "destination": "BRISTOL",
           "scheduled_time": "21:20",
           "expected_time": null,
           "status": "ON TIME",
