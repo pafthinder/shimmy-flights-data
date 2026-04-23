@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-04-23T16:38:30.277Z",
+  "fetched_at": "2026-04-23T17:35:07.227Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-23": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "18:35",
-          "expected_time": "2026-04-23T16:30:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
-        {
-          "flight_no": "BA 872",
-          "airline": "British Airways",
-          "origin_iata": "LHR",
-          "origin": "LONDYN HEATHROW",
-          "scheduled_time": "18:55",
-          "expected_time": "2026-04-23T16:53:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-2"
-        },
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "19:20",
-          "expected_time": "2026-04-23T17:15:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
         {
           "flight_no": "LS 949",
           "airline": "Jet2.com",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "19:35",
-          "expected_time": "2026-04-23T17:29:00.000000Z",
+          "expected_time": "2026-04-23T17:30:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-5"
         },
         {
           "flight_no": "EZY 2937",
@@ -58,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:30",
-          "expected_time": "2026-04-23T18:45:00.000000Z",
+          "expected_time": "2026-04-23T18:43:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:15"
+          "delay": "00:13"
         },
         {
           "flight_no": "FR 6624",
@@ -91,25 +55,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 1725",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "BA 873",
           "airline": "British Airways",
           "destination_iata": "LHR",
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "19:40",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +85,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
