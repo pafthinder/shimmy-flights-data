@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-23T12:28:12.293Z",
+  "fetched_at": "2026-04-23T13:37:38.016Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-23": {
@@ -115,25 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "14:10",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:11"
-        },
-        {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "16:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +133,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +145,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "19:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
