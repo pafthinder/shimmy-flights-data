@@ -1,41 +1,17 @@
 {
-  "fetched_at": "2026-04-24T08:46:43.565Z",
+  "fetched_at": "2026-04-24T09:38:34.563Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-24": {
       "arrivals": [
-        {
-          "flight_no": "LS 949",
-          "airline": "Jet2.com",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "11:05",
-          "expected_time": "2026-04-24T09:11:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:06"
-        },
-        {
-          "flight_no": "EZY 3489",
-          "airline": "EasyJet",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "11:20",
-          "expected_time": "2026-04-24T09:12:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:30",
-          "expected_time": "2026-04-24T09:12:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-24T09:11:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-18"
@@ -46,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": "2026-04-24T09:47:00.000000Z",
+          "expected_time": "2026-04-24T09:49:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-3"
+          "delay": "00:-1"
         },
         {
           "flight_no": "LS 1251",
@@ -70,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-24T10:45:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:25"
         },
         {
           "flight_no": "FR 5517",
@@ -82,11 +58,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-24T11:16:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "EZY 3313",
@@ -106,11 +82,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "14:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-24T11:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 2332",
@@ -295,52 +271,16 @@
       ],
       "departures": [
         {
-          "flight_no": "LS 1902",
-          "airline": "Jet2.com",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "10:55",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "LS 950",
           "airline": "Jet2.com",
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "11:55",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-04-24T10:10:00.000000Z",
+          "status": "BOARDING",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:15"
         },
         {
           "flight_no": "EZY 3490",
@@ -349,7 +289,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "12:00",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
