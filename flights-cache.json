@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-24T14:37:42.137Z",
+  "fetched_at": "2026-04-24T15:30:57.466Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-24": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-24T16:57:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "LS 113",
@@ -22,11 +22,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-24T17:06:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "LS 295",
@@ -162,18 +162,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "16:55",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
