@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T15:18:31.001Z",
+  "fetched_at": "2026-04-25T16:16:27.430Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-25": {
@@ -22,11 +22,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-25T17:12:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 5517",
@@ -34,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-25T17:41:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 2432",
@@ -102,30 +102,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:09"
-        },
-        {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "17:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
