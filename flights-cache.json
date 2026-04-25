@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T12:19:46.106Z",
+  "fetched_at": "2026-04-25T13:32:46.441Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-25": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
-          "expected_time": "2026-04-25T13:28:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-25T13:22:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-23"
         },
         {
           "flight_no": "EZY 8821",
@@ -22,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "16:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-25T14:36:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 7258",
@@ -133,7 +133,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -145,7 +145,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "16:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -181,7 +181,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "17:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
