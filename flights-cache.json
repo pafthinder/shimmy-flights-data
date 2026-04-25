@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-04-25T19:20:53.569Z",
+  "fetched_at": "2026-04-25T20:15:58.790Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-25": {
       "arrivals": [
-        {
-          "flight_no": "FR 2148",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "21:35",
-          "expected_time": "2026-04-25T19:07:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-27"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
@@ -61,7 +49,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
