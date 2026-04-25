@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-04-25T10:19:12.808Z",
+  "fetched_at": "2026-04-25T11:19:01.202Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-25": {
       "arrivals": [
-        {
-          "flight_no": "FR 450",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "12:25",
-          "expected_time": "2026-04-25T09:55:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-30"
-        },
-        {
-          "flight_no": "BA 876",
-          "airline": "British Airways",
-          "origin_iata": "LHR",
-          "origin": "LONDYN HEATHROW",
-          "scheduled_time": "12:50",
-          "expected_time": "2026-04-25T10:53:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:03"
-        },
         {
           "flight_no": "RK 6624",
           "airline": "Ryanair United Kingdom",
@@ -46,11 +22,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
-          "expected_time": null,
+          "expected_time": "2026-04-25T13:31:00.000000Z",
           "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "EZY 8821",
@@ -163,25 +139,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 7259",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "12:45",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "BA 877",
           "airline": "British Airways",
           "destination_iata": "LHR",
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -192,11 +156,11 @@
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-04-25T12:30:00.000000Z",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:35"
         },
         {
           "flight_no": "FR 2433",
