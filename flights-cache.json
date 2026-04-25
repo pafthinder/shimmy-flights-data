@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T06:36:33.720Z",
+  "fetched_at": "2026-04-25T07:33:49.078Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-25": {
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-25T09:02:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 2332",
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-25T09:16:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "W6 2008",
@@ -235,10 +235,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "RK 6625",
-          "airline": "Ryanair United Kingdom",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
+          "flight_no": "BA 877",
+          "airline": "British Airways",
+          "destination_iata": "LHR",
+          "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:55",
           "expected_time": null,
           "status": "ON TIME",
@@ -247,10 +247,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "BA 877",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
+          "flight_no": "RK 6625",
+          "airline": "Ryanair United Kingdom",
+          "destination_iata": "EDI",
+          "destination": "EDINBURGH",
           "scheduled_time": "13:55",
           "expected_time": null,
           "status": "ON TIME",
