@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-25T05:38:57.022Z",
+  "fetched_at": "2026-04-25T06:36:33.720Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-25": {
@@ -235,10 +235,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "BA 877",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
+          "flight_no": "RK 6625",
+          "airline": "Ryanair United Kingdom",
+          "destination_iata": "EDI",
+          "destination": "EDINBURGH",
           "scheduled_time": "13:55",
           "expected_time": null,
           "status": "ON TIME",
@@ -247,10 +247,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "RK 6625",
-          "airline": "Ryanair United Kingdom",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
+          "flight_no": "BA 877",
+          "airline": "British Airways",
+          "destination_iata": "LHR",
+          "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:55",
           "expected_time": null,
           "status": "ON TIME",
