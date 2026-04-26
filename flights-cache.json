@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-26T13:32:59.071Z",
+  "fetched_at": "2026-04-26T14:19:49.439Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-26": {
@@ -10,11 +10,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:15",
-          "expected_time": "2026-04-26T14:15:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-26T14:09:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-5"
         },
         {
           "flight_no": "LS 949",
@@ -121,7 +121,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
