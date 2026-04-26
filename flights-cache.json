@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-04-26T09:24:34.817Z",
+  "fetched_at": "2026-04-26T10:19:55.609Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-26": {
       "arrivals": [
-        {
-          "flight_no": "FR 6360",
-          "airline": "Ryanair",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "11:40",
-          "expected_time": "2026-04-26T09:24:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-16"
-        },
-        {
-          "flight_no": "W6 2008",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "11:50",
-          "expected_time": "2026-04-26T09:47:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-3"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:20",
-          "expected_time": "2026-04-26T10:11:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-04-26T10:12:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-9"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 5517",
@@ -46,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:10",
-          "expected_time": "2026-04-26T10:58:00.000000Z",
+          "expected_time": "2026-04-26T10:59:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 8201",
@@ -70,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "13:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-26T11:34:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 6624",
@@ -205,7 +181,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -217,7 +193,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "14:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
