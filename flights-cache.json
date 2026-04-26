@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-26T06:44:10.133Z",
+  "fetched_at": "2026-04-26T07:35:37.548Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-26": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "10:20",
-          "expected_time": "2026-04-26T07:55:00.000000Z",
+          "expected_time": "2026-04-26T07:53:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-25"
+          "delay": "00:-27"
         },
         {
           "flight_no": "FR 2362",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "10:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-26T08:51:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-4"
         },
         {
           "flight_no": "FR 6360",
@@ -34,11 +34,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-26T09:26:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "W6 2008",
@@ -222,18 +222,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "09:05",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 3314",
           "airline": "EasyJet",
