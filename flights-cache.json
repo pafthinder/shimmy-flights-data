@@ -1,24 +1,7 @@
 {
-  "fetched_at": "2026-04-26T21:14:54.339Z",
+  "fetched_at": "2026-04-26T22:14:54.066Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-26": {
-      "arrivals": [
-        {
-          "flight_no": "FR 1724",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-04-26T21:32:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:27"
-        }
-      ],
-      "departures": []
-    },
     "2026-04-27": {
       "arrivals": [
         {
@@ -27,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "00:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-26T23:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "01:07"
         },
         {
           "flight_no": "FR 1465",
@@ -660,6 +643,35 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-04-28": {
+      "arrivals": [
+        {
+          "flight_no": "FR 2432",
+          "airline": "Ryanair",
+          "origin_iata": "STN",
+          "origin": "LONDON STANSTED",
+          "scheduled_time": "00:20",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 450",
+          "airline": "Ryanair",
+          "origin_iata": "NCL",
+          "origin": "NEWCASTLE",
+          "scheduled_time": "00:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
