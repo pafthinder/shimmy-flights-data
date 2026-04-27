@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-27T14:45:23.346Z",
+  "fetched_at": "2026-04-27T15:38:32.719Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-27": {
@@ -10,11 +10,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-27T17:21:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "LS 295",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-27T17:26:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-24"
         },
         {
           "flight_no": "LS 1251",
@@ -34,11 +34,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-27T17:22:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-33"
         },
         {
           "flight_no": "LS 949",
@@ -151,18 +151,6 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 4203",
-          "airline": "Ryanair",
-          "destination_iata": "GLA",
-          "destination": "GLASGOW",
-          "scheduled_time": "16:50",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
           "destination_iata": "STN",
@@ -193,7 +181,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "20:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +193,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "20:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -217,7 +205,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "20:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -229,7 +217,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "20:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -241,7 +229,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "21:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
