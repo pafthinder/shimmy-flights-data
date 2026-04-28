@@ -1,61 +1,7 @@
 {
-  "fetched_at": "2026-04-28T21:27:23.835Z",
+  "fetched_at": "2026-04-28T22:24:09.191Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-04-28": {
-      "arrivals": [
-        {
-          "flight_no": "FR 2351",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "23:15",
-          "expected_time": "2026-04-28T21:07:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-7"
-        },
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "23:55",
-          "expected_time": "2026-04-28T21:50:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:01"
-        },
-        {
-          "flight_no": "FR 2350",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "23:40",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
-    },
     "2026-04-29": {
       "arrivals": [
         {
@@ -64,11 +10,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "01:00",
-          "expected_time": "2026-04-27T22:50:00.000000Z",
+          "expected_time": "2026-04-28T22:47:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 1465",
@@ -589,6 +535,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-04-30": {
+      "arrivals": [
+        {
+          "flight_no": "FR 8201",
+          "airline": "Ryanair",
+          "origin_iata": "ABZ",
+          "origin": "ABERDEEN",
+          "scheduled_time": "00:25",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
