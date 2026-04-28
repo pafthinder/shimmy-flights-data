@@ -1,68 +1,20 @@
 {
-  "fetched_at": "2026-04-28T12:43:12.142Z",
+  "fetched_at": "2026-04-28T16:42:21.424Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-28": {
       "arrivals": [
-        {
-          "flight_no": "FR 2434",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "15:30",
-          "expected_time": "2026-04-28T13:56:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:26"
-        },
-        {
-          "flight_no": "FR 1465",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 9953",
-          "airline": "Ryanair",
-          "origin_iata": "NCL",
-          "origin": "NEWCASTLE",
-          "scheduled_time": "17:30",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "17:55",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 6221",
           "airline": "Ryanair",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T18:11:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:31"
         },
         {
           "flight_no": "FR 6624",
@@ -127,40 +79,16 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "15:55",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "18:20",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2333",
           "airline": "Ryanair",
           "destination_iata": "LBA",
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "18:35",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:09"
         },
         {
           "flight_no": "FR 8843",
@@ -169,7 +97,7 @@
           "destination": "ABERDEEN",
           "scheduled_time": "19:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
