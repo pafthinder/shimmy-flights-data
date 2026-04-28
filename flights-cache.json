@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-28T17:36:50.118Z",
+  "fetched_at": "2026-04-28T18:38:34.472Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-28": {
       "arrivals": [
-        {
-          "flight_no": "FR 6221",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "19:40",
-          "expected_time": "2026-04-28T18:11:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:31"
-        },
         {
           "flight_no": "FR 6624",
           "airline": "Ryanair",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": "2026-04-28T19:39:00.000000Z",
+          "expected_time": "2026-04-28T19:38:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-1"
+          "delay": "00:-2"
         },
         {
           "flight_no": "FR 2499",
@@ -34,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T19:56:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-4"
         },
         {
           "flight_no": "FR 2141",
@@ -46,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T20:21:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 2351",
