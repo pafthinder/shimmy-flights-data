@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:42:21.424Z",
+  "fetched_at": "2026-04-28T17:36:50.118Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-28": {
@@ -22,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T19:39:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-1"
         },
         {
           "flight_no": "FR 2499",
@@ -78,30 +78,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "18:35",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:09"
-        },
-        {
-          "flight_no": "FR 8843",
-          "airline": "Ryanair",
-          "destination_iata": "ABZ",
-          "destination": "ABERDEEN",
-          "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
