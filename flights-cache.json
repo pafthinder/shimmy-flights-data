@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-04-28T07:50:19.837Z",
+  "fetched_at": "2026-04-28T08:55:34.351Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-28": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3053",
-          "airline": "EasyJet",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "10:15",
-          "expected_time": "2026-04-28T08:06:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-9"
-        },
         {
           "flight_no": "FR 2343",
           "airline": "Ryanair",
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": "2026-04-28T09:24:00.000000Z",
+          "expected_time": "2026-04-28T09:23:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-7"
         },
         {
           "flight_no": "FR 2362",
@@ -34,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T09:46:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:06"
         },
         {
           "flight_no": "BA 872",
@@ -46,11 +34,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T10:13:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 4204",
@@ -58,11 +46,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "12:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T10:52:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:02"
         },
         {
           "flight_no": "EZY 8821",
@@ -70,11 +58,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "12:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T10:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 2434",
@@ -205,7 +193,7 @@
           "destination": "BELFAST",
           "scheduled_time": "11:00",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -217,7 +205,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
