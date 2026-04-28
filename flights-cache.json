@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T11:36:39.356Z",
+  "fetched_at": "2026-04-28T12:43:12.142Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-28": {
@@ -10,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-04-28T13:56:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:26"
         },
         {
           "flight_no": "FR 1465",
@@ -126,30 +126,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "BA 873",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "13:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 6220",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "14:05",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
