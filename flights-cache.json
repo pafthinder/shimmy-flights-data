@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-30T11:34:30.829Z",
+  "fetched_at": "2026-04-30T12:39:39.848Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-04-30": {
@@ -114,18 +114,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "14:10",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
