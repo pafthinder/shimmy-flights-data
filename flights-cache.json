@@ -1,73 +1,7 @@
 {
-  "fetched_at": "2026-05-01T21:21:09.850Z",
+  "fetched_at": "2026-05-01T22:20:39.419Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-05-01": {
-      "arrivals": [
-        {
-          "flight_no": "FR 1940",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-05-01T20:49:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-11"
-        },
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-05-01T20:46:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
-        {
-          "flight_no": "FR 5756",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "23:10",
-          "expected_time": "2026-05-01T21:40:00.000000Z",
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:30"
-        },
-        {
-          "flight_no": "FR 1941",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "23:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
-    },
     "2026-05-02": {
       "arrivals": [
         {
@@ -469,6 +403,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-05-03": {
+      "arrivals": [
+        {
+          "flight_no": "FR 5756",
+          "airline": "Ryanair",
+          "origin_iata": "BHX",
+          "origin": "BIRMINGHAM",
+          "scheduled_time": "00:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
