@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-01T06:05:32.983Z",
+  "fetched_at": "2026-05-01T07:48:20.217Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-01": {
@@ -10,11 +10,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "09:55",
-          "expected_time": "2026-05-01T07:43:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-01T07:39:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-16"
         },
         {
           "flight_no": "EZY 8821",
@@ -22,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "10:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T08:04:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-21"
         },
         {
           "flight_no": "LS 949",
@@ -34,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T09:24:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:19"
         },
         {
           "flight_no": "FR 6360",
@@ -46,11 +46,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T09:17:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "W6 2008",
@@ -58,11 +58,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T09:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2362",
@@ -337,7 +337,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "10:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -373,7 +373,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "11:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -385,7 +385,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "12:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -523,10 +523,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 2938",
+          "flight_no": "EZY 8824",
           "airline": "EasyJet",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
+          "destination_iata": "LGW",
+          "destination": "LONDON GATWICK",
           "scheduled_time": "21:20",
           "expected_time": null,
           "status": "ON TIME",
@@ -535,10 +535,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 8824",
+          "flight_no": "EZY 2938",
           "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
+          "destination_iata": "BRS",
+          "destination": "BRISTOL",
           "scheduled_time": "21:20",
           "expected_time": null,
           "status": "ON TIME",
