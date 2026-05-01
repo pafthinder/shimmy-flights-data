@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-01T08:45:20.899Z",
+  "fetched_at": "2026-05-01T09:37:50.442Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-01": {
       "arrivals": [
-        {
-          "flight_no": "LS 949",
-          "airline": "Jet2.com",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "11:05",
-          "expected_time": "2026-05-01T09:25:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:20"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:30",
-          "expected_time": "2026-05-01T09:17:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-01T09:11:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-17"
         },
         {
           "flight_no": "W6 2008",
@@ -34,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": "2026-05-01T09:43:00.000000Z",
+          "expected_time": "2026-05-01T09:42:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-7"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2362",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:20",
-          "expected_time": "2026-05-01T10:11:00.000000Z",
+          "expected_time": "2026-05-01T10:10:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-9"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 5517",
@@ -58,8 +46,8 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T11:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -70,11 +58,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T12:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:05"
         },
         {
           "flight_no": "FR 224",
@@ -307,37 +295,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "LS 950",
           "airline": "Jet2.com",
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "11:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -349,7 +313,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "12:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
