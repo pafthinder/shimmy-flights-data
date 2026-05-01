@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-01T12:27:10.218Z",
+  "fetched_at": "2026-05-01T13:34:27.009Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-01": {
       "arrivals": [
-        {
-          "flight_no": "FR 224",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "14:00",
-          "expected_time": "2026-05-01T11:55:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-5"
-        },
         {
           "flight_no": "FR 2332",
           "airline": "Ryanair",
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "15:35",
-          "expected_time": "2026-05-01T13:24:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-01T13:22:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2432",
@@ -34,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "16:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T14:25:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:10"
         },
         {
           "flight_no": "EZY 3489",
@@ -46,11 +34,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "17:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-01T15:18:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 1465",
@@ -235,37 +223,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 3314",
-          "airline": "EasyJet",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "14:25",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "15:15",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2333",
           "airline": "Ryanair",
           "destination_iata": "LBA",
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "16:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
