@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-02T07:36:27.763Z",
+  "fetched_at": "2026-05-02T08:36:07.469Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-02": {
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-02T09:35:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 450",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-02T10:11:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "RK 6624",
