@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-02T08:36:07.469Z",
+  "fetched_at": "2026-05-02T09:29:35.386Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-02": {
@@ -10,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:15",
-          "expected_time": "2026-05-02T09:07:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-02T09:05:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 1465",
@@ -23,10 +23,10 @@
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
           "expected_time": "2026-05-02T09:13:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2332",
@@ -35,7 +35,7 @@
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:55",
-          "expected_time": "2026-05-02T09:35:00.000000Z",
+          "expected_time": "2026-05-02T09:38:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-20"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 450",
@@ -63,6 +63,18 @@
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-14"
+        },
+        {
+          "flight_no": "FR 2332",
+          "airline": "Ryanair",
+          "origin_iata": "LBA",
+          "origin": "LEEDS BRADFORD",
+          "scheduled_time": "13:30",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
         },
         {
           "flight_no": "RK 6624",
@@ -205,7 +217,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -228,6 +240,18 @@
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "13:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "RYR2644",
+          "airline": "Ryanair",
+          "destination_iata": "LBA",
+          "destination": "LEEDS BRADFORD",
+          "scheduled_time": "14:15",
           "expected_time": null,
           "status": "ON TIME",
           "is_cancelled": false,
