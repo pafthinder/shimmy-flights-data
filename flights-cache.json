@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-02T18:22:59.746Z",
+  "fetched_at": "2026-05-02T19:25:53.854Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-02": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "20:40",
-          "expected_time": "2026-05-02T18:27:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-13"
-        },
         {
           "flight_no": "FR 2148",
           "airline": "Ryanair",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-02T20:24:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:49"
         },
         {
           "flight_no": "FR 1813",
@@ -34,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "22:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-02T20:24:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 4204",
@@ -46,11 +34,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "22:35",
-          "expected_time": "2026-05-02T20:27:00.000000Z",
+          "expected_time": "2026-05-02T20:24:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2499",
@@ -58,38 +46,14 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-02T20:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "20:15",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "BA 873",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2149",
           "airline": "Ryanair",
@@ -97,7 +61,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
