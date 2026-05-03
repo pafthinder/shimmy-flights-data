@@ -1,24 +1,7 @@
 {
-  "fetched_at": "2026-05-03T21:18:48.756Z",
+  "fetched_at": "2026-05-03T22:17:26.436Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-05-03": {
-      "arrivals": [
-        {
-          "flight_no": "FR 1724",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-05-03T20:56:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        }
-      ],
-      "departures": []
-    },
     "2026-05-04": {
       "arrivals": [
         {
@@ -27,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "00:30",
-          "expected_time": "2026-05-02T22:58:00.000000Z",
+          "expected_time": "2026-05-03T23:00:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:28"
+          "delay": "00:30"
         },
         {
           "flight_no": "FR 1465",
@@ -600,6 +583,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-05-05": {
+      "arrivals": [
+        {
+          "flight_no": "FR 450",
+          "airline": "Ryanair",
+          "origin_iata": "NCL",
+          "origin": "NEWCASTLE",
+          "scheduled_time": "00:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
