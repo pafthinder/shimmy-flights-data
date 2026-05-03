@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-03T14:22:56.900Z",
+  "fetched_at": "2026-05-03T15:18:44.012Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-03": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "16:25",
-          "expected_time": "2026-05-03T14:17:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
         {
           "flight_no": "BA 876",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-03T16:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 1465",
@@ -145,10 +133,10 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:10",
           "expected_time": null,
-          "status": "GO TO GATE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-2"
         },
         {
           "flight_no": "FR 1725",
@@ -157,7 +145,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -216,11 +204,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "21:05",
-          "expected_time": null,
+          "expected_time": "2026-05-03T20:45:00.000000Z",
           "status": "ON TIME",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "01:40"
         },
         {
           "flight_no": "EZY 2938",
