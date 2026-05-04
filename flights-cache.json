@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-04T13:40:02.229Z",
+  "fetched_at": "2026-05-04T14:50:43.875Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-04": {
@@ -145,7 +145,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "16:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
