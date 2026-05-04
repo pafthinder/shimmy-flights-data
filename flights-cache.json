@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-04T16:39:20.100Z",
+  "fetched_at": "2026-05-04T17:36:31.487Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-04": {
       "arrivals": [
-        {
-          "flight_no": "LS 113",
-          "airline": "Jet2.com",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "19:20",
-          "expected_time": "2026-05-04T17:17:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-3"
-        },
         {
           "flight_no": "LS 295",
           "airline": "Jet2.com",
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "19:50",
-          "expected_time": "2026-05-04T17:39:00.000000Z",
+          "expected_time": "2026-05-04T17:40:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-10"
         },
         {
           "flight_no": "LS 1251",
@@ -58,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "21:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-04T18:47:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "EZY 2263",
@@ -70,11 +58,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-04T19:14:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 1724",
@@ -94,11 +82,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "21:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-04T19:07:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-23"
         },
         {
           "flight_no": "FR 5517",
