@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-05T17:38:32.005Z",
+  "fetched_at": "2026-05-05T18:37:06.013Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-05": {
       "arrivals": [
-        {
-          "flight_no": "FR 6221",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "19:40",
-          "expected_time": "2026-05-05T17:26:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "EZY 2937",
           "airline": "EasyJet",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": "2026-05-05T18:44:00.000000Z",
+          "expected_time": "2026-05-05T18:38:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 6624",
@@ -34,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-05T20:03:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:23"
         },
         {
           "flight_no": "FR 2499",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-05T19:43:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "FR 2141",
@@ -58,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-05T20:27:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2351",
