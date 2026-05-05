@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-05T16:39:32.582Z",
+  "fetched_at": "2026-05-05T17:38:32.005Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-05": {
@@ -11,7 +11,7 @@
           "origin": "BRISTOL",
           "scheduled_time": "19:40",
           "expected_time": "2026-05-05T17:26:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-14"
@@ -22,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": "2026-05-05T18:46:00.000000Z",
+          "expected_time": "2026-05-05T18:44:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 6624",
@@ -89,7 +89,68 @@
           "delay": "00:00"
         }
       ],
-      "departures": []
+      "departures": [
+        {
+          "flight_no": "EZY 2938",
+          "airline": "EasyJet",
+          "destination_iata": "BRS",
+          "destination": "BRISTOL",
+          "scheduled_time": "21:30",
+          "expected_time": null,
+          "status": "NADAWANIE BAGAŻU %checkin",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 6625",
+          "airline": "Ryanair",
+          "destination_iata": "EDI",
+          "destination": "EDINBURGH",
+          "scheduled_time": "22:05",
+          "expected_time": null,
+          "status": "ODPRAWA %checkin",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2498",
+          "airline": "Ryanair",
+          "destination_iata": "STN",
+          "destination": "LONDON STANSTED",
+          "scheduled_time": "22:25",
+          "expected_time": null,
+          "status": "ODPRAWA %checkin",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2142",
+          "airline": "Ryanair",
+          "destination_iata": "MAN",
+          "destination": "MANCHESTER",
+          "scheduled_time": "23:00",
+          "expected_time": null,
+          "status": "ODPRAWA %checkin",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2350",
+          "airline": "Ryanair",
+          "destination_iata": "LTN",
+          "destination": "LONDON LUTON",
+          "scheduled_time": "23:40",
+          "expected_time": null,
+          "status": "ODPRAWA %checkin",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ]
     },
     "2026-05-06": {
       "arrivals": [
@@ -346,7 +407,260 @@
           "delay": "00:00"
         }
       ],
-      "departures": []
+      "departures": [
+        {
+          "flight_no": "FR 2363",
+          "airline": "Ryanair",
+          "destination_iata": "STN",
+          "destination": "LONDON STANSTED",
+          "scheduled_time": "05:45",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "W6 2007",
+          "airline": "Wizz Air",
+          "destination_iata": "LGW",
+          "destination": "LONDON GATWICK",
+          "scheduled_time": "06:00",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 6359",
+          "airline": "Ryanair",
+          "destination_iata": "LPL",
+          "destination": "LIVERPOOL",
+          "scheduled_time": "06:45",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 451",
+          "airline": "Ryanair",
+          "destination_iata": "NCL",
+          "destination": "NEWCASTLE",
+          "scheduled_time": "06:50",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 4203",
+          "airline": "Ryanair",
+          "destination_iata": "GLA",
+          "destination": "GLASGOW",
+          "scheduled_time": "07:50",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 1466",
+          "airline": "Ryanair",
+          "destination_iata": "BHX",
+          "destination": "BIRMINGHAM",
+          "scheduled_time": "09:40",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2342",
+          "airline": "Ryanair",
+          "destination_iata": "LBA",
+          "destination": "LEEDS BRADFORD",
+          "scheduled_time": "09:50",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2149",
+          "airline": "Ryanair",
+          "destination_iata": "MAN",
+          "destination": "MANCHESTER",
+          "scheduled_time": "10:40",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 5518",
+          "airline": "Ryanair",
+          "destination_iata": "BRS",
+          "destination": "BRISTOL",
+          "scheduled_time": "13:50",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "EZY 3314",
+          "airline": "EasyJet",
+          "destination_iata": "EDI",
+          "destination": "EDINBURGH",
+          "scheduled_time": "14:30",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2333",
+          "airline": "Ryanair",
+          "destination_iata": "LBA",
+          "destination": "LEEDS BRADFORD",
+          "scheduled_time": "14:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2433",
+          "airline": "Ryanair",
+          "destination_iata": "STN",
+          "destination": "LONDON STANSTED",
+          "scheduled_time": "15:25",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 7259",
+          "airline": "Ryanair",
+          "destination_iata": "MAN",
+          "destination": "MANCHESTER",
+          "scheduled_time": "16:40",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 5757",
+          "airline": "Ryanair",
+          "destination_iata": "BHX",
+          "destination": "BIRMINGHAM",
+          "scheduled_time": "17:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 8200",
+          "airline": "Ryanair",
+          "destination_iata": "ABZ",
+          "destination": "ABERDEEN",
+          "scheduled_time": "18:45",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "BA 873",
+          "airline": "British Airways",
+          "destination_iata": "LHR",
+          "destination": "LONDYN HEATHROW",
+          "scheduled_time": "19:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "EZY 8822",
+          "airline": "EasyJet",
+          "destination_iata": "LGW",
+          "destination": "LONDON GATWICK",
+          "scheduled_time": "21:40",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 1812",
+          "airline": "Ryanair",
+          "destination_iata": "LTN",
+          "destination": "LONDON LUTON",
+          "scheduled_time": "22:15",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 2435",
+          "airline": "Ryanair",
+          "destination_iata": "STN",
+          "destination": "LONDON STANSTED",
+          "scheduled_time": "22:25",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 6625",
+          "airline": "Ryanair",
+          "destination_iata": "EDI",
+          "destination": "EDINBURGH",
+          "scheduled_time": "23:05",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "FR 1941",
+          "airline": "Ryanair",
+          "destination_iata": "EMA",
+          "destination": "EAST MIDLANDS",
+          "scheduled_time": "23:25",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ]
     }
   }
 }
