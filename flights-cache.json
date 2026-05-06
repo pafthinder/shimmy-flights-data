@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-06T10:45:22.541Z",
+  "fetched_at": "2026-05-06T11:37:49.794Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-06": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "14:00",
-          "expected_time": "2026-05-06T11:48:00.000000Z",
+          "expected_time": "2026-05-06T11:41:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 4204",
@@ -34,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "15:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-06T12:51:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 7258",
@@ -169,7 +169,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "13:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
