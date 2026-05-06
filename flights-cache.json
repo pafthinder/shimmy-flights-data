@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-06T18:40:22.038Z",
+  "fetched_at": "2026-05-06T19:36:46.068Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-06": {
       "arrivals": [
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "20:55",
-          "expected_time": "2026-05-06T18:46:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-9"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "21:50",
-          "expected_time": "2026-05-06T20:29:00.000000Z",
-          "status": "OPÓŹNIONY",
+          "expected_time": "2026-05-06T20:25:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:39"
+          "delay": "00:35"
         },
         {
           "flight_no": "FR 2434",
@@ -34,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": "2026-05-06T19:43:00.000000Z",
+          "expected_time": "2026-05-06T19:44:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 6624",
@@ -46,11 +34,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:40",
-          "expected_time": "2026-05-06T20:42:00.000000Z",
+          "expected_time": "2026-05-06T20:41:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:02"
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 1940",
@@ -58,11 +46,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-06T20:41:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 5756",
@@ -70,11 +58,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-06T21:13:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-12"
         }
       ],
       "departures": [
@@ -85,7 +73,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "21:40",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -97,7 +85,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "22:15",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -109,7 +97,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -385,10 +373,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 5518",
+          "flight_no": "FR 2363",
           "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
+          "destination_iata": "STN",
+          "destination": "LONDON STANSTED",
           "scheduled_time": "07:00",
           "expected_time": null,
           "status": "ON TIME",
@@ -397,10 +385,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 2363",
+          "flight_no": "FR 5518",
           "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
+          "destination_iata": "BRS",
+          "destination": "BRISTOL",
           "scheduled_time": "07:00",
           "expected_time": null,
           "status": "ON TIME",
