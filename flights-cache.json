@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T12:45:29.417Z",
+  "fetched_at": "2026-05-07T13:39:16.926Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-07": {
@@ -121,7 +121,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "16:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
