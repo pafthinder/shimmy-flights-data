@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-07T13:39:16.926Z",
+  "fetched_at": "2026-05-07T15:00:28.804Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-07": {
@@ -10,11 +10,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-07T16:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:08"
         },
         {
           "flight_no": "FR 2332",
@@ -22,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "18:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-07T16:55:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:20"
         },
         {
           "flight_no": "BA 872",
@@ -34,11 +34,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "18:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-07T16:46:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 2432",
@@ -115,25 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "16:25",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
           "destination_iata": "STN",
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
