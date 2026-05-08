@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-05-08T07:36:47.829Z",
+  "fetched_at": "2026-05-08T08:37:38.958Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-08": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "09:55",
-          "expected_time": "2026-05-08T07:55:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "10:25",
-          "expected_time": "2026-05-08T08:09:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-16"
-        },
         {
           "flight_no": "LS 949",
           "airline": "Jet2.com",
@@ -58,11 +34,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-08T09:53:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:03"
         },
         {
           "flight_no": "FR 2362",
@@ -70,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-08T10:11:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-9"
         },
         {
           "flight_no": "FR 5517",
@@ -331,25 +307,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "10:20",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 8822",
           "airline": "EasyJet",
           "destination_iata": "LGW",
           "destination": "LONDON GATWICK",
           "scheduled_time": "11:05",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -361,7 +325,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "11:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
