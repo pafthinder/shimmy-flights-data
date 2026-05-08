@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-05-08T11:34:38.513Z",
+  "fetched_at": "2026-05-08T12:36:24.636Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-08": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "13:55",
-          "expected_time": "2026-05-08T12:54:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:59"
-        },
-        {
-          "flight_no": "FR 224",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "14:00",
-          "expected_time": "2026-05-08T11:58:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-2"
-        },
         {
           "flight_no": "FR 2332",
           "airline": "Ryanair",
@@ -46,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "16:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-08T14:16:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "EZY 3489",
@@ -247,25 +223,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 3314",
-          "airline": "EasyJet",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "14:25",
-          "expected_time": "2026-05-08T13:25:00.000000Z",
-          "status": "NADAWANIE BAGAŻU %checkin",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:00"
-        },
-        {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
           "destination_iata": "STN",
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:15",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
