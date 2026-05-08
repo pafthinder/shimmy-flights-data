@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:36:24.636Z",
+  "fetched_at": "2026-05-08T13:38:28.640Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-08": {
@@ -10,11 +10,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "15:35",
-          "expected_time": "2026-05-08T13:25:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-08T13:23:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2432",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "16:15",
-          "expected_time": "2026-05-08T14:16:00.000000Z",
+          "expected_time": "2026-05-08T14:17:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:01"
+          "delay": "00:02"
         },
         {
           "flight_no": "EZY 3489",
@@ -34,11 +34,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "17:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-08T15:20:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 1465",
@@ -223,25 +223,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "15:15",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2333",
           "airline": "Ryanair",
           "destination_iata": "LBA",
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "16:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
