@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-08T10:36:49.737Z",
+  "fetched_at": "2026-05-08T11:34:38.513Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-08": {
       "arrivals": [
-        {
-          "flight_no": "FR 5517",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "13:15",
-          "expected_time": "2026-05-08T10:56:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-19"
-        },
         {
           "flight_no": "EZY 3313",
           "airline": "EasyJet",
@@ -46,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "15:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-08T13:25:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 2432",
@@ -258,18 +246,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 1466",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "13:25",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 3314",
           "airline": "EasyJet",
