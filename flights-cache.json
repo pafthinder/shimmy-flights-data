@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-05-09T09:35:23.538Z",
+  "fetched_at": "2026-05-09T10:25:41.643Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-09": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "11:30",
-          "expected_time": "2026-05-09T09:09:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
-        {
-          "flight_no": "W6 2008",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "11:55",
-          "expected_time": "2026-05-09T10:03:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:08"
-        },
         {
           "flight_no": "FR 450",
           "airline": "Ryanair",
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": "2026-05-09T10:07:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-09T10:06:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-19"
         },
         {
           "flight_no": "RK 6624",
@@ -175,25 +151,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 1466",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 7259",
           "airline": "Ryanair",
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "12:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +169,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "13:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
