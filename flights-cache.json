@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-09T15:23:11.438Z",
+  "fetched_at": "2026-05-09T16:22:17.708Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-09": {
@@ -10,11 +10,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:20",
-          "expected_time": "2026-05-09T16:35:00.000000Z",
+          "expected_time": "2026-05-09T16:32:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:15"
+          "delay": "00:12"
         },
         {
           "flight_no": "BA 872",
@@ -22,11 +22,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-09T17:49:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:14"
         },
         {
           "flight_no": "FR 5517",
@@ -34,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-09T17:38:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2432",
@@ -103,30 +103,6 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:06"
-        },
-        {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "17:25",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
           "destination_iata": "BHX",
@@ -157,7 +133,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "20:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
