@@ -1,70 +1,34 @@
 {
-  "fetched_at": "2026-05-09T20:18:24.827Z",
+  "fetched_at": "2026-05-09T21:19:08.848Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-09": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "22:20",
-          "expected_time": "2026-05-09T20:06:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
-        {
-          "flight_no": "FR 4204",
-          "airline": "Ryanair",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "22:35",
-          "expected_time": "2026-05-09T20:21:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:05",
-          "expected_time": "2026-05-09T21:14:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-09T21:10:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:09"
+          "delay": "00:08"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2149",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "22:00",
-          "expected_time": "2026-05-09T20:40:00.000000Z",
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:40"
-        },
         {
           "flight_no": "FR 2498",
           "airline": "Ryanair",
           "destination_iata": "STN",
           "destination": "LONDON STANSTED",
           "scheduled_time": "23:30",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-05-09T21:45:00.000000Z",
+          "status": "BOARDING",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:15"
         }
       ]
     },
@@ -76,11 +40,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "00:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-08T22:28:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-27"
         },
         {
           "flight_no": "EZY 3313",
