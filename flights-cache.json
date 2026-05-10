@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-10T17:23:31.881Z",
+  "fetched_at": "2026-05-10T18:24:33.425Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-10": {
       "arrivals": [
-        {
-          "flight_no": "BA 876",
-          "airline": "British Airways",
-          "origin_iata": "LHR",
-          "origin": "LONDYN HEATHROW",
-          "scheduled_time": "19:00",
-          "expected_time": "2026-05-10T16:51:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-9"
-        },
         {
           "flight_no": "FR 1465",
           "airline": "Ryanair",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "20:20",
-          "expected_time": "2026-05-10T18:03:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-10T17:55:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-24"
         },
         {
           "flight_no": "LS 949",
@@ -46,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:35",
-          "expected_time": "2026-05-10T18:23:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-10T18:19:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 2141",
@@ -58,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:35",
-          "expected_time": "2026-05-10T18:43:00.000000Z",
+          "expected_time": "2026-05-10T18:42:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:08"
+          "delay": "00:07"
         },
         {
           "flight_no": "FR 450",
@@ -70,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "20:45",
-          "expected_time": "2026-05-10T18:28:00.000000Z",
+          "expected_time": "2026-05-10T18:26:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-19"
         },
         {
           "flight_no": "EZY 8823",
@@ -127,37 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "BA 877",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 1466",
           "airline": "Ryanair",
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "20:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +133,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "21:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -180,11 +144,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "21:05",
-          "expected_time": null,
+          "expected_time": "2026-05-10T19:45:00.000000Z",
           "status": "ODPRAWA %checkin",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:40"
         },
         {
           "flight_no": "EZY 2938",
