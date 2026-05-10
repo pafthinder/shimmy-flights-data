@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T10:30:21.600Z",
+  "fetched_at": "2026-05-10T11:23:18.718Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-10": {
@@ -10,11 +10,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:10",
-          "expected_time": "2026-05-10T11:02:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-10T10:57:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-8"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 8201",
@@ -22,11 +22,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "13:40",
-          "expected_time": "2026-05-10T11:17:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-10T11:14:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-25"
         },
         {
           "flight_no": "EZY 8821",
@@ -46,8 +46,8 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-10T13:00:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,10 +193,10 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:10",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:10"
         },
         {
           "flight_no": "EZY 8822",
