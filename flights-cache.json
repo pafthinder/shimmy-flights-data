@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-10T14:28:48.601Z",
+  "fetched_at": "2026-05-10T15:24:28.423Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-10": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "16:25",
-          "expected_time": "2026-05-10T14:12:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-13"
-        },
         {
           "flight_no": "BA 876",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-10T16:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-6"
         },
         {
           "flight_no": "FR 1465",
@@ -145,10 +133,10 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:10",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:02"
         },
         {
           "flight_no": "FR 1725",
@@ -157,7 +145,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +157,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "19:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,7 +181,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "20:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -205,7 +193,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "21:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -253,7 +241,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "21:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
