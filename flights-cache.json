@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-11T12:04:10.484Z",
+  "fetched_at": "2026-05-11T13:56:42.878Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-11": {
       "arrivals": [
-        {
-          "flight_no": "FR 6360",
-          "airline": "Ryanair",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "14:35",
-          "expected_time": "2026-05-11T12:22:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-13"
-        },
         {
           "flight_no": "LS 113",
           "airline": "Jet2.com",
