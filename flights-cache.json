@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-11T21:33:17.210Z",
+  "fetched_at": "2026-05-11T22:27:08.516Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-12": {
@@ -10,7 +10,7 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "00:55",
-          "expected_time": "2026-05-10T22:31:00.000000Z",
+          "expected_time": "2026-05-11T22:31:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
@@ -463,6 +463,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-05-13": {
+      "arrivals": [
+        {
+          "flight_no": "FR 8842",
+          "airline": "Ryanair",
+          "origin_iata": "ABZ",
+          "origin": "ABERDEEN",
+          "scheduled_time": "01:00",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
