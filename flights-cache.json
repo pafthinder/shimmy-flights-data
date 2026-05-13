@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-13T15:06:25.890Z",
+  "fetched_at": "2026-05-13T16:54:51.961Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-13": {
@@ -10,11 +10,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-13T18:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "01:05"
         },
         {
           "flight_no": "FR 5517",
@@ -22,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-13T17:17:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-8"
         },
         {
           "flight_no": "FR 2332",
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "20:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-13T18:09:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-6"
         },
         {
           "flight_no": "EZY 8821",
@@ -115,28 +115,16 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 5757",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "17:55",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 8200",
           "airline": "Ryanair",
           "destination_iata": "ABZ",
           "destination": "ABERDEEN",
           "scheduled_time": "18:45",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "BA 873",
@@ -145,7 +133,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "19:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
