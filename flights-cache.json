@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T13:39:38.476Z",
+  "fetched_at": "2026-05-14T14:56:18.864Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-14": {
@@ -11,7 +11,7 @@
           "origin": "MANCHESTER",
           "scheduled_time": "18:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -114,18 +114,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "16:25",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2435",
           "airline": "Ryanair",
