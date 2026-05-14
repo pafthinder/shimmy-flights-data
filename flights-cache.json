@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T19:35:42.128Z",
+  "fetched_at": "2026-05-14T20:35:19.695Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-14": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:30",
-          "expected_time": "2026-05-14T20:19:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-14T20:17:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2434",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-14T21:24:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:24"
         }
       ],
       "departures": []
@@ -39,8 +39,8 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "00:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-13T22:35:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -444,10 +444,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
+          "flight_no": "EZY 8822",
+          "airline": "EasyJet",
+          "destination_iata": "LGW",
+          "destination": "LONDON GATWICK",
           "scheduled_time": "11:05",
           "expected_time": null,
           "status": "ON TIME",
@@ -456,10 +456,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
+          "flight_no": "FR 2433",
+          "airline": "Ryanair",
+          "destination_iata": "STN",
+          "destination": "LONDON STANSTED",
           "scheduled_time": "11:05",
           "expected_time": null,
           "status": "ON TIME",
