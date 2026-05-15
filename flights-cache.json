@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-05-15T13:38:06.177Z",
+  "fetched_at": "2026-05-15T14:53:26.701Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-15": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "15:35",
-          "expected_time": "2026-05-15T13:36:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:01"
-        },
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "16:15",
-          "expected_time": "2026-05-15T13:54:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
         {
           "flight_no": "EZY 3489",
           "airline": "EasyJet",
@@ -46,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-15T16:51:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "LS 113",
@@ -223,25 +199,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "16:00",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "16:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -253,7 +217,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "18:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
