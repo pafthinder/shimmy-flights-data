@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-15T15:46:07.021Z",
+  "fetched_at": "2026-05-15T16:40:07.032Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-15": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3489",
-          "airline": "EasyJet",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "17:30",
-          "expected_time": "2026-05-15T15:17:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-13"
-        },
         {
           "flight_no": "FR 1465",
           "airline": "Ryanair",
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:10",
-          "expected_time": "2026-05-15T16:47:00.000000Z",
+          "expected_time": "2026-05-15T16:49:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-21"
         },
         {
           "flight_no": "LS 113",
@@ -34,11 +22,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "19:20",
-          "expected_time": "2026-05-15T17:17:00.000000Z",
+          "expected_time": "2026-05-15T17:16:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-3"
+          "delay": "00:-4"
         },
         {
           "flight_no": "LS 295",
@@ -46,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "19:50",
-          "expected_time": "2026-05-15T17:33:00.000000Z",
+          "expected_time": "2026-05-15T17:32:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-18"
         },
         {
           "flight_no": "LS 1251",
@@ -58,11 +46,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:55",
-          "expected_time": "2026-05-15T17:37:00.000000Z",
+          "expected_time": "2026-05-15T17:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-19"
         },
         {
           "flight_no": "BA 872",
@@ -70,11 +58,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "20:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-15T18:05:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 2434",
@@ -94,11 +82,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-15T18:45:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:05"
         },
         {
           "flight_no": "EZY 8823",
@@ -198,30 +186,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 3490",
-          "airline": "EasyJet",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
-          "scheduled_time": "18:00",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 5757",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "18:25",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "LS 114",
           "airline": "Jet2.com",
