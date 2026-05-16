@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T07:39:35.998Z",
+  "fetched_at": "2026-05-16T08:40:01.843Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-16": {
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": "2026-05-16T09:15:00.000000Z",
+          "expected_time": "2026-05-16T09:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2332",
@@ -34,11 +34,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-16T09:42:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:12"
         },
         {
           "flight_no": "W6 2008",
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-16T09:36:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 450",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-16T10:14:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "RK 6624",
