@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T12:27:19.272Z",
+  "fetched_at": "2026-05-16T13:34:32.470Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-16": {
@@ -10,11 +10,11 @@
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
-          "expected_time": "2026-05-16T13:24:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-16T13:22:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-23"
         },
         {
           "flight_no": "EZY 8821",
@@ -22,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "16:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-16T14:35:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 7258",
@@ -145,7 +145,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +157,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "16:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,7 +193,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "17:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
