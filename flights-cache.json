@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T16:24:41.009Z",
+  "fetched_at": "2026-05-17T17:25:07.969Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-17": {
@@ -10,11 +10,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-17T18:41:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:21"
         },
         {
           "flight_no": "LS 949",
@@ -22,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-17T18:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:34"
         },
         {
           "flight_no": "EZY 2937",
@@ -34,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "20:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-17T18:34:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-1"
         },
         {
           "flight_no": "FR 2141",
@@ -46,11 +46,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-17T19:20:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:45"
         },
         {
           "flight_no": "FR 450",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "20:45",
-          "expected_time": "2026-05-17T18:32:00.000000Z",
+          "expected_time": "2026-05-17T18:27:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-18"
         },
         {
           "flight_no": "EZY 8823",
@@ -121,7 +121,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "19:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +157,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "21:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +169,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "21:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -181,7 +181,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "21:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
