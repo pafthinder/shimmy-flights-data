@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T14:14:25.640Z",
+  "fetched_at": "2026-05-18T16:11:13.869Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-18": {
@@ -10,11 +10,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-18T17:37:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "LS 1251",
@@ -34,11 +34,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-18T17:56:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-4"
         },
         {
           "flight_no": "FR 2499",
@@ -127,18 +127,6 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 4203",
-          "airline": "Ryanair",
-          "destination_iata": "GLA",
-          "destination": "GLASGOW",
-          "scheduled_time": "17:00",
-          "expected_time": null,
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 451",
           "airline": "Ryanair",
           "destination_iata": "NCL",
@@ -157,7 +145,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "20:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA WSTRZYMANA",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -169,7 +157,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "20:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA WSTRZYMANA",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -181,7 +169,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "20:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA WSTRZYMANA",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
