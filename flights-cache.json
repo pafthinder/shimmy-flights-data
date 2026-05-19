@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-05-19T20:39:13.386Z",
+  "fetched_at": "2026-05-19T21:35:06.720Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-19": {
       "arrivals": [
-        {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "22:35",
-          "expected_time": "2026-05-19T20:48:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:13"
-        },
-        {
-          "flight_no": "FR 2351",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "23:15",
-          "expected_time": "2026-05-19T21:09:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-6"
-        },
         {
           "flight_no": "W6 2010",
           "airline": "Wizz Air",
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:30",
-          "expected_time": "2026-05-19T21:06:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-19T21:09:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-24"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 2332",
@@ -46,26 +22,14 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "23:55",
-          "expected_time": "2026-05-19T21:39:00.000000Z",
+          "expected_time": "2026-05-19T21:42:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-13"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2142",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-05-19T21:15:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:15"
-        },
         {
           "flight_no": "FR 2350",
           "airline": "Ryanair",
@@ -73,7 +37,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "23:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -88,11 +52,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "01:00",
-          "expected_time": "2026-05-18T22:49:00.000000Z",
+          "expected_time": "2026-05-18T22:47:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 1465",
