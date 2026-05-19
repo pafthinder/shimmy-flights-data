@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T06:26:49.873Z",
+  "fetched_at": "2026-05-19T08:13:49.143Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-19": {
@@ -10,11 +10,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "10:15",
-          "expected_time": "2026-05-19T08:19:00.000000Z",
+          "expected_time": "2026-05-19T08:20:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:04"
+          "delay": "00:05"
         },
         {
           "flight_no": "FR 2343",
@@ -23,7 +23,7 @@
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "11:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -241,7 +241,7 @@
           "destination": "BELFAST",
           "scheduled_time": "11:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
