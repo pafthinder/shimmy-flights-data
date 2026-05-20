@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-05-20T19:47:16.162Z",
+  "fetched_at": "2026-05-20T20:47:32.118Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-20": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "21:50",
-          "expected_time": "2026-05-20T19:42:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-8"
-        },
-        {
-          "flight_no": "FR 2434",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "22:00",
-          "expected_time": "2026-05-20T20:13:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:13"
-        },
         {
           "flight_no": "FR 6624",
           "airline": "Ryanair",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:40",
-          "expected_time": "2026-05-20T20:28:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-20T20:24:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-12"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 1940",
@@ -46,11 +22,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": "2026-05-20T20:46:00.000000Z",
+          "expected_time": "2026-05-20T20:42:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 5756",
@@ -58,50 +34,14 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:25",
-          "expected_time": "2026-05-20T21:19:00.000000Z",
+          "expected_time": "2026-05-20T21:20:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-6"
+          "delay": "00:-5"
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 8822",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "21:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "22:15",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2435",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "22:25",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 6625",
           "airline": "Ryanair",
@@ -109,7 +49,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "23:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -121,7 +61,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "23:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -136,11 +76,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "00:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-19T22:09:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "EZY 8821",
