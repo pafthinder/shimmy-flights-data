@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-05-20T13:12:25.536Z",
+  "fetched_at": "2026-05-20T15:08:24.821Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-20": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "15:00",
-          "expected_time": "2026-05-20T12:49:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-11"
-        },
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "16:15",
-          "expected_time": "2026-05-20T14:05:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-10"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
@@ -139,37 +115,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "15:25",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 7259",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "16:40",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "17:55",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
