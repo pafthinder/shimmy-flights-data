@@ -1,33 +1,9 @@
 {
-  "fetched_at": "2026-05-21T17:43:24.030Z",
+  "fetched_at": "2026-05-21T18:43:59.057Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-21": {
       "arrivals": [
-        {
-          "flight_no": "LS 949",
-          "airline": "Jet2.com",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "19:35",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1465",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 2937",
           "airline": "EasyJet",
@@ -66,30 +42,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "BA 873",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "19:40",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "LS 950",
-          "airline": "Jet2.com",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "20:25",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 2938",
           "airline": "EasyJet",
@@ -383,10 +335,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 6624",
+          "flight_no": "FR 1940",
           "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
+          "origin_iata": "EMA",
+          "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
           "expected_time": null,
           "status": "ON TIME",
@@ -395,10 +347,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 1940",
+          "flight_no": "FR 6624",
           "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
+          "origin_iata": "EDI",
+          "origin": "EDINBURGH",
           "scheduled_time": "23:00",
           "expected_time": null,
           "status": "ON TIME",
