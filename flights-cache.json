@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-22T06:25:51.243Z",
+  "fetched_at": "2026-05-22T08:10:50.753Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-22": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "09:55",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "EZY 8821",
           "airline": "EasyJet",
