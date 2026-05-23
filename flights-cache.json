@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-23T14:35:39.789Z",
+  "fetched_at": "2026-05-23T15:28:19.615Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-23": {
       "arrivals": [
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "16:55",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 7258",
           "airline": "Ryanair",
@@ -126,18 +114,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 4203",
-          "airline": "Ryanair",
-          "destination_iata": "GLA",
-          "destination": "GLASGOW",
-          "scheduled_time": "16:30",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 1812",
           "airline": "Ryanair",
