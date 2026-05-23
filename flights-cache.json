@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-23T18:25:48.080Z",
+  "fetched_at": "2026-05-23T19:30:51.882Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-23": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "20:40",
-          "expected_time": "2026-05-23T19:29:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:49"
-        },
         {
           "flight_no": "FR 2148",
           "airline": "Ryanair",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:35",
-          "expected_time": "2026-05-23T20:15:00.000000Z",
+          "expected_time": "2026-05-23T20:18:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:40"
+          "delay": "00:43"
         },
         {
           "flight_no": "FR 1813",
@@ -34,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "22:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-23T20:30:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:10"
         },
         {
           "flight_no": "FR 4204",
@@ -46,11 +34,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "22:35",
-          "expected_time": "2026-05-23T20:30:00.000000Z",
+          "expected_time": "2026-05-23T20:28:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-05"
+          "delay": "00:-07"
         },
         {
           "flight_no": "FR 2499",
@@ -58,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-23T20:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "W6 2010",
@@ -70,49 +58,25 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-23T21:15:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-15"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "20:15",
-          "expected_time": "2026-05-23T19:15:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "01:00"
-        },
-        {
-          "flight_no": "BA 873",
-          "airline": "British Airways",
-          "destination_iata": "LHR",
-          "destination": "LONDYN HEATHROW",
-          "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2149",
           "airline": "Ryanair",
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-05-23T20:45:00.000000Z",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:45"
         },
         {
           "flight_no": "FR 2498",
