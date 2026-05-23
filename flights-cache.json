@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T07:51:02.070Z",
+  "fetched_at": "2026-05-23T08:47:00.875Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-23": {
@@ -10,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:15",
-          "expected_time": "2026-05-23T08:54:00.000000Z",
+          "expected_time": "2026-05-23T08:56:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-19"
         },
         {
           "flight_no": "FR 1465",
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": "2026-05-23T09:16:00.000000Z",
+          "expected_time": "2026-05-23T09:17:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-09"
+          "delay": "00:-08"
         },
         {
           "flight_no": "FR 2332",
@@ -46,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:55",
-          "expected_time": "2026-05-23T09:46:00.000000Z",
+          "expected_time": "2026-05-23T09:44:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-09"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 450",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-23T10:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "RK 6624",
