@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T10:34:23.076Z",
+  "fetched_at": "2026-05-23T11:29:12.625Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-23": {
@@ -150,18 +150,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 7259",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "12:45",
-          "expected_time": "2026-05-23T11:05:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:20"
-        },
         {
           "flight_no": "RK 6625",
           "airline": "Ryanair United Kingdom",
