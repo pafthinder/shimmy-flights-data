@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-23T16:24:56.638Z",
+  "fetched_at": "2026-05-23T17:25:31.766Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-23": {
       "arrivals": [
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "18:20",
-          "expected_time": "2026-05-23T17:08:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:48"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:30",
-          "expected_time": "2026-05-23T17:13:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-23T17:09:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-17"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 5517",
@@ -34,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-23T18:49:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:59"
         },
         {
           "flight_no": "FR 2432",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "20:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-23T18:53:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:13"
         },
         {
           "flight_no": "FR 2148",
@@ -121,7 +109,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
