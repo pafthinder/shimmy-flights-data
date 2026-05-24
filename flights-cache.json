@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T14:35:13.325Z",
+  "fetched_at": "2026-05-24T15:28:47.001Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-24": {
@@ -10,11 +10,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-24T17:12:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:12"
         },
         {
           "flight_no": "FR 1465",
@@ -133,10 +133,10 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:10",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 1725",
@@ -145,7 +145,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
