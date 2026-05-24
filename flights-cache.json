@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-24T13:34:56.069Z",
+  "fetched_at": "2026-05-24T14:35:13.325Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-24": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "16:25",
-          "expected_time": "2026-05-24T14:08:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-17"
-        },
         {
           "flight_no": "BA 876",
           "airline": "British Airways",
@@ -145,7 +133,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
