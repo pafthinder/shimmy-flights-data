@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-24T20:24:51.444Z",
+  "fetched_at": "2026-05-24T21:22:18.291Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-24": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "22:20",
-          "expected_time": "2026-05-24T19:55:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-24"
-        },
         {
           "flight_no": "FR 1724",
           "airline": "Ryanair",
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:05",
-          "expected_time": "2026-05-24T20:49:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-24T20:51:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-13"
         }
       ],
       "departures": []
@@ -39,11 +27,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "00:30",
-          "expected_time": "2026-05-23T22:27:00.000000Z",
-          "status": "ON TIME",
+          "expected_time": "2026-05-23T22:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-03"
+          "delay": "00:-07"
         },
         {
           "flight_no": "FR 1465",
