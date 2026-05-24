@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-24T12:30:22.587Z",
+  "fetched_at": "2026-05-24T13:34:56.069Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-24": {
       "arrivals": [
-        {
-          "flight_no": "FR 6624",
-          "airline": "Ryanair",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "15:00",
-          "expected_time": "2026-05-24T13:28:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:28"
-        },
         {
           "flight_no": "FR 2332",
           "airline": "Ryanair",
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:25",
-          "expected_time": "2026-05-24T14:07:00.000000Z",
+          "expected_time": "2026-05-24T14:08:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-17"
         },
         {
           "flight_no": "BA 876",
@@ -150,18 +138,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 451",
-          "airline": "Ryanair",
-          "destination_iata": "NCL",
-          "destination": "NEWCASTLE",
-          "scheduled_time": "15:10",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
         {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
