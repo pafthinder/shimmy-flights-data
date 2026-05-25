@@ -1,49 +1,7 @@
 {
-  "fetched_at": "2026-05-25T21:29:15.866Z",
+  "fetched_at": "2026-05-25T22:26:32.132Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-05-25": {
-      "arrivals": [
-        {
-          "flight_no": "FR 4204",
-          "airline": "Ryanair",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-05-25T20:43:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-22"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 5518",
-          "airline": "Ryanair",
-          "destination_iata": "BRS",
-          "destination": "BRISTOL",
-          "scheduled_time": "23:00",
-          "expected_time": "2026-05-25T21:20:00.000000Z",
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:20"
-        },
-        {
-          "flight_no": "FR 2149",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "23:10",
-          "expected_time": "2026-05-25T21:50:00.000000Z",
-          "status": "GO TO GATE",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:40"
-        }
-      ]
-    },
     "2026-05-26": {
       "arrivals": [
         {
@@ -52,11 +10,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "00:55",
-          "expected_time": "2026-05-24T22:39:00.000000Z",
+          "expected_time": "2026-05-25T22:36:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-19"
         },
         {
           "flight_no": "EZY 3053",
@@ -529,6 +487,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-05-27": {
+      "arrivals": [
+        {
+          "flight_no": "FR 8842",
+          "airline": "Ryanair",
+          "origin_iata": "ABZ",
+          "origin": "ABERDEEN",
+          "scheduled_time": "01:00",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
