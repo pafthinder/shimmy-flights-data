@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T15:59:32.815Z",
+  "fetched_at": "2026-05-25T16:51:48.682Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-25": {
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-25T18:31:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:36"
         },
         {
           "flight_no": "FR 2499",
@@ -121,7 +121,7 @@
           "destination": "NEWCASTLE",
           "scheduled_time": "19:20",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -144,11 +144,11 @@
           "destination_iata": "BHX",
           "destination": "BIRMINGHAM",
           "scheduled_time": "20:45",
-          "expected_time": null,
+          "expected_time": "2026-05-25T19:15:00.000000Z",
           "status": "ODPRAWA %checkin",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:30"
         },
         {
           "flight_no": "FR 2498",
@@ -169,7 +169,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "21:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -193,7 +193,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "22:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
