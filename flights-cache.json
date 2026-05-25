@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-05-25T20:34:48.172Z",
+  "fetched_at": "2026-05-25T21:29:15.866Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-25": {
       "arrivals": [
-        {
-          "flight_no": "FR 5517",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "22:35",
-          "expected_time": "2026-05-25T20:20:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
-        {
-          "flight_no": "FR 2148",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "22:45",
-          "expected_time": "2026-05-25T21:27:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:42"
-        },
         {
           "flight_no": "FR 4204",
           "airline": "Ryanair",
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "23:05",
-          "expected_time": "2026-05-25T20:47:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-25T20:43:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-22"
         }
       ],
       "departures": [
@@ -48,11 +24,11 @@
           "destination_iata": "BRS",
           "destination": "BRISTOL",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "BOARDING",
+          "expected_time": "2026-05-25T21:20:00.000000Z",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:20"
         },
         {
           "flight_no": "FR 2149",
@@ -60,11 +36,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "23:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-25T21:50:00.000000Z",
+          "status": "GO TO GATE",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:40"
         }
       ]
     },
@@ -76,11 +52,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "00:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-24T22:39:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "EZY 3053",
