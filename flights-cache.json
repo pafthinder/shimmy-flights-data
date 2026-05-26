@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-26T16:20:59.521Z",
+  "fetched_at": "2026-05-26T18:02:33.612Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-26": {
       "arrivals": [
-        {
-          "flight_no": "FR 6221",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "19:40",
-          "expected_time": "2026-05-26T17:27:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-13"
-        },
         {
           "flight_no": "EZY 2937",
           "airline": "EasyJet",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-26T19:08:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:08"
         },
         {
           "flight_no": "FR 6624",
@@ -34,11 +22,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "21:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-26T19:48:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:08"
         },
         {
           "flight_no": "FR 2499",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-26T19:46:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 2141",
@@ -103,49 +91,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 1812",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "18:20",
-          "expected_time": "2026-05-26T16:45:00.000000Z",
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:25"
-        },
-        {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "18:35",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 8843",
-          "airline": "Ryanair",
-          "destination_iata": "ABZ",
-          "destination": "ABERDEEN",
-          "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 2938",
           "airline": "EasyJet",
           "destination_iata": "BRS",
           "destination": "BRISTOL",
           "scheduled_time": "21:30",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
