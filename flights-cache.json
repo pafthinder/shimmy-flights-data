@@ -1,49 +1,7 @@
 {
-  "fetched_at": "2026-05-26T21:35:29.797Z",
+  "fetched_at": "2026-05-26T22:32:37.459Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-05-26": {
-      "arrivals": [
-        {
-          "flight_no": "W6 2010",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "23:30",
-          "expected_time": "2026-05-26T21:15:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "23:55",
-          "expected_time": "2026-05-26T21:49:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-06"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 2350",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "23:40",
-          "expected_time": "2026-05-25T22:30:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "-23:-10"
-        }
-      ]
-    },
     "2026-05-27": {
       "arrivals": [
         {
@@ -52,11 +10,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "01:00",
-          "expected_time": "2026-05-25T22:39:00.000000Z",
+          "expected_time": "2026-05-26T22:38:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-21"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 1465",
@@ -553,6 +511,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-05-28": {
+      "arrivals": [
+        {
+          "flight_no": "FR 8201",
+          "airline": "Ryanair",
+          "origin_iata": "ABZ",
+          "origin": "ABERDEEN",
+          "scheduled_time": "00:25",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
