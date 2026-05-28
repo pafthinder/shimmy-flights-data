@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-05-28T06:28:30.867Z",
+  "fetched_at": "2026-05-28T08:22:23.788Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-28": {
       "arrivals": [
-        {
-          "flight_no": "EZY 8821",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "09:15",
-          "expected_time": "2026-05-28T07:00:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-15"
-        },
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "09:40",
-          "expected_time": "2026-05-28T07:33:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-07"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-28T09:49:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:24"
         },
         {
           "flight_no": "W6 2008",
@@ -46,11 +22,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-28T09:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:04"
         },
         {
           "flight_no": "FR 6806",
@@ -58,11 +34,11 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "12:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-28T09:59:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-06"
         },
         {
           "flight_no": "FR 2362",
@@ -70,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "12:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-28T10:06:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 5517",
@@ -82,6 +58,18 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "12:35",
+          "expected_time": "2026-05-28T10:27:00.000000Z",
+          "status": "OCZEKIWANY",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:-08"
+        },
+        {
+          "flight_no": "ZT XXX",
+          "airline": "Titan Airways",
+          "origin_iata": "STN",
+          "origin": "LONDON STANSTED",
+          "scheduled_time": "14:30",
           "expected_time": null,
           "status": "ON TIME",
           "is_cancelled": false,
@@ -205,10 +193,10 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "10:00",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU %checkin",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-03"
         },
         {
           "flight_no": "FR 1812",
@@ -216,11 +204,11 @@
           "destination_iata": "LTN",
           "destination": "LONDON LUTON",
           "scheduled_time": "10:05",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-05-28T08:15:00.000000Z",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:10"
         },
         {
           "flight_no": "FR 2142",
@@ -266,6 +254,18 @@
           "scheduled_time": "14:15",
           "expected_time": null,
           "status": "ODPRAWA %checkin",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        },
+        {
+          "flight_no": "XXX",
+          "airline": "Titan Airways",
+          "destination_iata": "STN",
+          "destination": "LONDON STANSTED",
+          "scheduled_time": "15:30",
+          "expected_time": null,
+          "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
