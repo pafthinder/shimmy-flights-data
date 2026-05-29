@@ -1,56 +1,20 @@
 {
-  "fetched_at": "2026-05-29T10:23:53.143Z",
+  "fetched_at": "2026-05-29T12:05:49.009Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-29": {
       "arrivals": [
-        {
-          "flight_no": "FR 2362",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "12:20",
-          "expected_time": "2026-05-29T09:53:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-26"
-        },
-        {
-          "flight_no": "FR 5517",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "13:15",
-          "expected_time": "2026-05-29T11:14:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-01"
-        },
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "13:55",
-          "expected_time": "2026-05-29T11:45:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-10"
-        },
         {
           "flight_no": "FR 224",
           "airline": "Ryanair",
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "14:00",
-          "expected_time": "2026-05-29T11:54:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-29T11:51:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-06"
+          "delay": "00:-09"
         },
         {
           "flight_no": "FR 2332",
@@ -58,11 +22,11 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "15:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-29T13:36:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:01"
         },
         {
           "flight_no": "FR 2432",
@@ -259,25 +223,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 1466",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "13:25",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 3314",
           "airline": "EasyJet",
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "14:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
