@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-30T16:26:30.615Z",
+  "fetched_at": "2026-05-30T17:27:08.924Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-30": {
       "arrivals": [
-        {
-          "flight_no": "FR 7258",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "18:20",
-          "expected_time": "2026-05-30T16:31:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:11"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
@@ -34,11 +22,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": "2026-05-30T17:40:00.000000Z",
+          "expected_time": "2026-05-30T17:30:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 2432",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "20:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-30T18:20:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-20"
         },
         {
           "flight_no": "FR 2148",
@@ -121,7 +109,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -133,7 +121,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "20:15",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -347,10 +335,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "EZY 2937",
-          "airline": "EasyJet",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
+          "flight_no": "FR 2141",
+          "airline": "Ryanair",
+          "origin_iata": "MAN",
+          "origin": "MANCHESTER",
           "scheduled_time": "20:35",
           "expected_time": null,
           "status": "ON TIME",
@@ -359,10 +347,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 2141",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
+          "flight_no": "EZY 2937",
+          "airline": "EasyJet",
+          "origin_iata": "BRS",
+          "origin": "BRISTOL",
           "scheduled_time": "20:35",
           "expected_time": null,
           "status": "ON TIME",
