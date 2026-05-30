@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-30T11:33:18.974Z",
+  "fetched_at": "2026-05-30T12:31:44.336Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-30": {
       "arrivals": [
-        {
-          "flight_no": "RK 6624",
-          "airline": "Ryanair United Kingdom",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "13:30",
-          "expected_time": "2026-05-30T11:22:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-06"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "15:45",
-          "expected_time": "2026-05-30T13:35:00.000000Z",
+          "expected_time": "2026-05-30T13:33:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-12"
         },
         {
           "flight_no": "EZY 8821",
@@ -151,18 +139,6 @@
       ],
       "departures": [
         {
-          "flight_no": "RK 6625",
-          "airline": "Ryanair United Kingdom",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "13:55",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 2433",
           "airline": "Ryanair",
           "destination_iata": "STN",
@@ -229,7 +205,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "17:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
