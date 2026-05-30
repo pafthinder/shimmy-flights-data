@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-30T15:30:43.847Z",
+  "fetched_at": "2026-05-30T16:26:30.615Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-30": {
@@ -10,11 +10,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:20",
-          "expected_time": "2026-05-30T16:28:00.000000Z",
+          "expected_time": "2026-05-30T16:31:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:08"
+          "delay": "00:11"
         },
         {
           "flight_no": "BA 872",
@@ -34,11 +34,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-30T17:40:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         },
         {
           "flight_no": "FR 2432",
@@ -115,18 +115,6 @@
       ],
       "departures": [
         {
-          "flight_no": "W6 2009",
-          "airline": "Wizz Air",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "17:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 5757",
           "airline": "Ryanair",
           "destination_iata": "BHX",
@@ -157,7 +145,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "20:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -457,10 +445,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "W6 2007",
-          "airline": "Wizz Air",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
+          "flight_no": "FR 6359",
+          "airline": "Ryanair",
+          "destination_iata": "LPL",
+          "destination": "LIVERPOOL",
           "scheduled_time": "06:00",
           "expected_time": null,
           "status": "ON TIME",
@@ -469,10 +457,10 @@
           "delay": "00:00"
         },
         {
-          "flight_no": "FR 6359",
-          "airline": "Ryanair",
-          "destination_iata": "LPL",
-          "destination": "LIVERPOOL",
+          "flight_no": "W6 2007",
+          "airline": "Wizz Air",
+          "destination_iata": "LGW",
+          "destination": "LONDON GATWICK",
           "scheduled_time": "06:00",
           "expected_time": null,
           "status": "ON TIME",
