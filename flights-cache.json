@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-30T19:33:23.276Z",
+  "fetched_at": "2026-05-30T20:26:12.129Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-30": {
       "arrivals": [
-        {
-          "flight_no": "FR 2148",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "21:35",
-          "expected_time": "2026-05-30T19:28:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-07"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
@@ -34,11 +22,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "22:35",
-          "expected_time": "2026-05-30T20:46:00.000000Z",
+          "expected_time": "2026-05-30T20:45:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:11"
+          "delay": "00:10"
         },
         {
           "flight_no": "FR 2499",
@@ -46,11 +34,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:05",
-          "expected_time": "2026-05-30T20:52:00.000000Z",
+          "expected_time": "2026-05-30T20:51:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-13"
+          "delay": "00:-14"
         },
         {
           "flight_no": "W6 2010",
@@ -58,11 +46,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:30",
-          "expected_time": "2026-05-30T21:12:00.000000Z",
+          "expected_time": "2026-05-30T21:10:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-18"
+          "delay": "00:-20"
         }
       ],
       "departures": [
@@ -73,10 +61,10 @@
           "destination": "MANCHESTER",
           "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "BOARDING",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:19"
         },
         {
           "flight_no": "FR 2498",
