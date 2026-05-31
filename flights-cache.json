@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-05-31T13:35:43.759Z",
+  "fetched_at": "2026-05-31T14:37:08.129Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-31": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "16:25",
-          "expected_time": "2026-05-31T14:29:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:04"
-        },
         {
           "flight_no": "BA 876",
           "airline": "British Airways",
@@ -145,7 +133,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "17:10",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -216,11 +204,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "21:05",
-          "expected_time": null,
+          "expected_time": "2026-05-31T19:25:00.000000Z",
           "status": "ON TIME",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:20"
         },
         {
           "flight_no": "EZY 2938",
