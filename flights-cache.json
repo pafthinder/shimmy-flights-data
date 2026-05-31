@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-05-31T20:28:38.043Z",
+  "fetched_at": "2026-05-31T21:24:32.533Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-31": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "22:20",
-          "expected_time": "2026-05-31T20:45:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:25"
-        },
         {
           "flight_no": "FR 1724",
           "airline": "Ryanair",
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:05",
-          "expected_time": "2026-05-31T21:12:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-31T21:06:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:07"
+          "delay": "00:04"
         }
       ],
       "departures": []
