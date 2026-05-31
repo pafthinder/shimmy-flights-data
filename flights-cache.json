@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-05-31T08:06:18.054Z",
+  "fetched_at": "2026-05-31T09:55:11.329Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-31": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3313",
-          "airline": "EasyJet",
-          "origin_iata": "EDI",
-          "origin": "EDINBURGH",
-          "scheduled_time": "10:20",
-          "expected_time": "2026-05-31T08:01:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-25"
-        },
-        {
-          "flight_no": "FR 2362",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "10:55",
-          "expected_time": "2026-05-31T09:01:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:06"
-        },
         {
           "flight_no": "FR 6360",
           "airline": "Ryanair",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "11:40",
-          "expected_time": "2026-05-31T09:26:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-05-31T09:24:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-16"
         },
         {
           "flight_no": "W6 2008",
@@ -47,7 +23,7 @@
           "origin": "LONDON GATWICK",
           "scheduled_time": "11:50",
           "expected_time": "2026-05-31T09:38:00.000000Z",
-          "status": "OCZEKIWANY",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-12"
@@ -58,11 +34,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-31T10:12:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-08"
         },
         {
           "flight_no": "FR 5517",
@@ -70,11 +46,11 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "13:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-31T10:56:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 8201",
@@ -82,11 +58,11 @@
           "origin_iata": "ABZ",
           "origin": "ABERDEEN",
           "scheduled_time": "13:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-31T11:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-17"
         },
         {
           "flight_no": "EZY 8821",
@@ -94,11 +70,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "13:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-05-31T11:32:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-13"
         },
         {
           "flight_no": "FR 6624",
@@ -247,37 +223,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 3314",
-          "airline": "EasyJet",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "10:50",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "11:05",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "BA 873",
           "airline": "British Airways",
           "destination_iata": "LHR",
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
