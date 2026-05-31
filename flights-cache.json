@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-31T14:37:08.129Z",
+  "fetched_at": "2026-05-31T15:32:04.597Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-05-31": {
@@ -127,25 +127,13 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2433",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "17:10",
-          "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 1725",
           "airline": "Ryanair",
           "destination_iata": "EMA",
           "destination": "EAST MIDLANDS",
           "scheduled_time": "17:40",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -204,11 +192,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "21:05",
-          "expected_time": "2026-05-31T19:25:00.000000Z",
+          "expected_time": "2026-05-31T20:00:00.000000Z",
           "status": "ON TIME",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:20"
+          "delay": "00:55"
         },
         {
           "flight_no": "EZY 2938",
