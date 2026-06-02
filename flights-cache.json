@@ -1,49 +1,7 @@
 {
-  "fetched_at": "2026-06-02T21:59:28.496Z",
+  "fetched_at": "2026-06-02T22:49:43.834Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-06-02": {
-      "arrivals": [
-        {
-          "flight_no": "W6 2010",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "23:30",
-          "expected_time": "2026-06-02T21:41:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:12"
-        },
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "23:55",
-          "expected_time": "2026-06-02T21:46:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-08"
-        }
-      ],
-      "departures": [
-        {
-          "flight_no": "FR 2350",
-          "airline": "Ryanair",
-          "destination_iata": "LTN",
-          "destination": "LONDON LUTON",
-          "scheduled_time": "23:40",
-          "expected_time": null,
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        }
-      ]
-    },
     "2026-06-03": {
       "arrivals": [
         {
@@ -505,6 +463,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-06-04": {
+      "arrivals": [
+        {
+          "flight_no": "FR 8201",
+          "airline": "Ryanair",
+          "origin_iata": "ABZ",
+          "origin": "ABERDEEN",
+          "scheduled_time": "00:25",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
