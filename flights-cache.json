@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T21:36:13.025Z",
+  "fetched_at": "2026-06-04T22:34:59.720Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-05": {
@@ -10,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "00:35",
-          "expected_time": "2026-06-03T23:25:00.000000Z",
+          "expected_time": "2026-06-04T23:21:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:50"
+          "delay": "00:46"
         },
         {
           "flight_no": "FR 1813",
