@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T19:44:52.039Z",
+  "fetched_at": "2026-06-04T20:46:52.008Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-04": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:30",
-          "expected_time": "2026-06-04T20:15:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-04T20:11:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-15"
+          "delay": "00:-18"
         },
         {
           "flight_no": "FR 2434",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-04T21:44:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:44"
         }
       ],
       "departures": []
