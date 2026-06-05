@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-06-05T13:59:40.582Z",
+  "fetched_at": "2026-06-05T15:11:46.118Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-05": {
       "arrivals": [
-        {
-          "flight_no": "FR 2332",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "15:35",
-          "expected_time": "2026-06-05T13:24:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-11"
-        },
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "16:15",
-          "expected_time": "2026-06-05T13:45:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-29"
-        },
         {
           "flight_no": "EZY 3489",
           "airline": "EasyJet",
           "origin_iata": "LPL",
           "origin": "LIVERPOOL",
           "scheduled_time": "17:05",
-          "expected_time": null,
-          "status": "OPÓŹNIONY",
+          "expected_time": "2026-06-05T16:23:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "01:18"
         },
         {
           "flight_no": "FR 1465",
@@ -46,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-05T16:54:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "LS 295",
@@ -211,40 +187,16 @@
       ],
       "departures": [
         {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "16:00",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 6625",
-          "airline": "Ryanair",
-          "destination_iata": "EDI",
-          "destination": "EDINBURGH",
-          "scheduled_time": "16:55",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "EZY 3490",
           "airline": "EasyJet",
           "destination_iata": "LPL",
           "destination": "LIVERPOOL",
           "scheduled_time": "17:35",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-06-05T16:50:00.000000Z",
+          "status": "OPÓZNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "01:15"
         },
         {
           "flight_no": "FR 5757",
