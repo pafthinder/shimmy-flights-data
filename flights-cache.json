@@ -1,24 +1,7 @@
 {
-  "fetched_at": "2026-06-05T21:34:29.949Z",
+  "fetched_at": "2026-06-05T22:30:00.318Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-06-05": {
-      "arrivals": [
-        {
-          "flight_no": "FR 5756",
-          "airline": "Ryanair",
-          "origin_iata": "BHX",
-          "origin": "BIRMINGHAM",
-          "scheduled_time": "23:55",
-          "expected_time": "2026-06-05T21:52:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-03"
-        }
-      ],
-      "departures": []
-    },
     "2026-06-06": {
       "arrivals": [
         {
@@ -444,6 +427,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-06-07": {
+      "arrivals": [
+        {
+          "flight_no": "FR 5756",
+          "airline": "Ryanair",
+          "origin_iata": "BHX",
+          "origin": "BIRMINGHAM",
+          "scheduled_time": "00:55",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
