@@ -1,29 +1,17 @@
 {
-  "fetched_at": "2026-06-06T19:33:50.611Z",
+  "fetched_at": "2026-06-06T20:29:49.735Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-06": {
       "arrivals": [
-        {
-          "flight_no": "FR 2148",
-          "airline": "Ryanair",
-          "origin_iata": "MAN",
-          "origin": "MANCHESTER",
-          "scheduled_time": "21:35",
-          "expected_time": "2026-06-06T19:20:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-14"
-        },
         {
           "flight_no": "FR 1813",
           "airline": "Ryanair",
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "22:20",
-          "expected_time": "2026-06-06T19:54:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-06T19:53:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:-26"
@@ -34,11 +22,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "22:35",
-          "expected_time": "2026-06-06T20:27:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-06T20:23:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-08"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 2499",
@@ -58,8 +46,8 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-06T21:30:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -73,10 +61,10 @@
           "destination": "MANCHESTER",
           "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "OSTATNIE WEZWANIE",
+          "status": "WYSTARTOWAŁ %real_time",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:11"
         },
         {
           "flight_no": "FR 2498",
