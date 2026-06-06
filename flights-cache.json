@@ -1,44 +1,20 @@
 {
-  "fetched_at": "2026-06-06T20:29:49.735Z",
+  "fetched_at": "2026-06-06T21:26:48.355Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-06": {
       "arrivals": [
-        {
-          "flight_no": "FR 1813",
-          "airline": "Ryanair",
-          "origin_iata": "LTN",
-          "origin": "LONDON LUTON",
-          "scheduled_time": "22:20",
-          "expected_time": "2026-06-06T19:53:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-26"
-        },
-        {
-          "flight_no": "FR 4204",
-          "airline": "Ryanair",
-          "origin_iata": "GLA",
-          "origin": "GLASGOW",
-          "scheduled_time": "22:35",
-          "expected_time": "2026-06-06T20:23:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-12"
-        },
         {
           "flight_no": "FR 2499",
           "airline": "Ryanair",
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:05",
-          "expected_time": "2026-06-06T21:03:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-06T21:01:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-02"
+          "delay": "00:-04"
         },
         {
           "flight_no": "W6 2010",
@@ -46,26 +22,14 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "23:30",
-          "expected_time": "2026-06-06T21:30:00.000000Z",
+          "expected_time": "2026-06-06T21:22:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-08"
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2149",
-          "airline": "Ryanair",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "WYSTARTOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:11"
-        },
         {
           "flight_no": "FR 2498",
           "airline": "Ryanair",
@@ -73,7 +37,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "23:30",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -88,11 +52,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "00:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-05T22:29:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-26"
         },
         {
           "flight_no": "EZY 3313",
