@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-06-06T18:32:32.684Z",
+  "fetched_at": "2026-06-06T19:33:50.611Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-06": {
       "arrivals": [
-        {
-          "flight_no": "FR 2432",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "20:40",
-          "expected_time": "2026-06-06T18:14:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-25"
-        },
         {
           "flight_no": "FR 2148",
           "airline": "Ryanair",
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "21:35",
-          "expected_time": "2026-06-06T19:24:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-06T19:20:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-11"
+          "delay": "00:-14"
         },
         {
           "flight_no": "FR 1813",
@@ -34,11 +22,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "22:20",
-          "expected_time": "2026-06-06T19:57:00.000000Z",
+          "expected_time": "2026-06-06T19:54:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-23"
+          "delay": "00:-26"
         },
         {
           "flight_no": "FR 4204",
@@ -46,11 +34,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "22:35",
-          "expected_time": "2026-06-06T20:25:00.000000Z",
+          "expected_time": "2026-06-06T20:27:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-08"
         },
         {
           "flight_no": "FR 2499",
@@ -58,11 +46,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-06T21:03:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-02"
         },
         {
           "flight_no": "W6 2010",
@@ -85,7 +73,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "22:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
