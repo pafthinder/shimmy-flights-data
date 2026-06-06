@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T07:58:30.156Z",
+  "fetched_at": "2026-06-06T09:03:29.802Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-06": {
@@ -10,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "11:15",
-          "expected_time": "2026-06-06T09:05:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-06T09:00:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-10"
+          "delay": "00:-15"
         },
         {
           "flight_no": "FR 1465",
@@ -22,11 +22,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "11:25",
-          "expected_time": "2026-06-06T09:17:00.000000Z",
+          "expected_time": "2026-06-06T09:14:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-08"
+          "delay": "00:-11"
         },
         {
           "flight_no": "FR 2332",
@@ -58,11 +58,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "12:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-06T10:20:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-05"
         },
         {
           "flight_no": "RK 6624",
@@ -217,7 +217,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "11:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
