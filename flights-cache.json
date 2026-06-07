@@ -1,24 +1,7 @@
 {
-  "fetched_at": "2026-06-07T20:31:09.847Z",
+  "fetched_at": "2026-06-07T21:30:14.649Z",
   "source": "krakowairport.pl",
   "dates": {
-    "2026-06-07": {
-      "arrivals": [
-        {
-          "flight_no": "FR 1724",
-          "airline": "Ryanair",
-          "origin_iata": "EMA",
-          "origin": "EAST MIDLANDS",
-          "scheduled_time": "23:05",
-          "expected_time": "2026-06-07T20:55:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-10"
-        }
-      ],
-      "departures": []
-    },
     "2026-06-08": {
       "arrivals": [
         {
@@ -27,11 +10,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "00:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-06T22:19:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-11"
         },
         {
           "flight_no": "EZY 8821",
