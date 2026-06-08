@@ -1,32 +1,20 @@
 {
-  "fetched_at": "2026-06-08T19:46:36.299Z",
+  "fetched_at": "2026-06-08T20:56:41.608Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-08": {
       "arrivals": [
-        {
-          "flight_no": "EZY 8823",
-          "airline": "EasyJet",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "21:45",
-          "expected_time": "2026-06-08T20:00:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:15"
-        },
         {
           "flight_no": "FR 5517",
           "airline": "Ryanair",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "22:35",
-          "expected_time": "2026-06-08T20:40:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-08T20:37:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:05"
+          "delay": "00:03"
         },
         {
           "flight_no": "FR 2148",
@@ -34,11 +22,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:45",
-          "expected_time": "2026-06-08T21:07:00.000000Z",
+          "expected_time": "2026-06-08T21:04:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:22"
+          "delay": "00:19"
         },
         {
           "flight_no": "FR 4204",
@@ -46,11 +34,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "23:05",
-          "expected_time": "2026-06-08T21:14:00.000000Z",
+          "expected_time": "2026-06-08T21:15:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:09"
+          "delay": "00:10"
         },
         {
           "flight_no": "FR 2432",
@@ -58,61 +46,25 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:10",
-          "expected_time": "2026-06-08T20:54:00.000000Z",
+          "expected_time": "2026-06-08T20:56:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-16"
+          "delay": "00:-14"
         }
       ],
       "departures": [
-        {
-          "flight_no": "EZY 2264",
-          "airline": "EasyJet",
-          "destination_iata": "MAN",
-          "destination": "MANCHESTER",
-          "scheduled_time": "21:40",
-          "expected_time": "2026-06-08T20:05:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:25"
-        },
-        {
-          "flight_no": "FR 1725",
-          "airline": "Ryanair",
-          "destination_iata": "EMA",
-          "destination": "EAST MIDLANDS",
-          "scheduled_time": "21:40",
-          "expected_time": null,
-          "status": "GATE ZAMKNIĘTY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "EZY 8824",
-          "airline": "EasyJet",
-          "destination_iata": "LGW",
-          "destination": "LONDON GATWICK",
-          "scheduled_time": "22:15",
-          "expected_time": "2026-06-08T20:30:00.000000Z",
-          "status": "OPÓŹNIONY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:15"
-        },
         {
           "flight_no": "FR 5518",
           "airline": "Ryanair",
           "destination_iata": "BRS",
           "destination": "BRISTOL",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-06-08T21:15:00.000000Z",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:15"
         },
         {
           "flight_no": "FR 2149",
@@ -120,11 +72,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "23:10",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "expected_time": "2026-06-08T21:35:00.000000Z",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
+          "delayed": true,
+          "delay": "00:25"
         }
       ]
     },
@@ -136,11 +88,11 @@
           "origin_iata": "NCL",
           "origin": "NEWCASTLE",
           "scheduled_time": "00:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-07T22:39:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-16"
         },
         {
           "flight_no": "FR 6360",
