@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-06-08T12:32:59.563Z",
+  "fetched_at": "2026-06-08T14:28:59.267Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-08": {
       "arrivals": [
-        {
-          "flight_no": "FR 6360",
-          "airline": "Ryanair",
-          "origin_iata": "LPL",
-          "origin": "LIVERPOOL",
-          "scheduled_time": "14:35",
-          "expected_time": "2026-06-08T12:44:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:09"
-        },
         {
           "flight_no": "LS 295",
           "airline": "Jet2.com",
@@ -145,7 +133,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "16:50",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -157,7 +145,7 @@
           "destination": "GLASGOW",
           "scheduled_time": "17:00",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
