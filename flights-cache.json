@@ -1,68 +1,20 @@
 {
-  "fetched_at": "2026-06-09T08:16:11.822Z",
+  "fetched_at": "2026-06-09T10:18:10.239Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-09": {
       "arrivals": [
-        {
-          "flight_no": "EZY 3053",
-          "airline": "EasyJet",
-          "origin_iata": "BFS",
-          "origin": "BELFAST",
-          "scheduled_time": "10:15",
-          "expected_time": "2026-06-09T07:54:00.000000Z",
-          "status": "WYLĄDOWAŁ %real_time",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-21"
-        },
-        {
-          "flight_no": "FR 2343",
-          "airline": "Ryanair",
-          "origin_iata": "LBA",
-          "origin": "LEEDS BRADFORD",
-          "scheduled_time": "11:30",
-          "expected_time": "2026-06-09T09:10:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-20"
-        },
-        {
-          "flight_no": "FR 2362",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "11:40",
-          "expected_time": "2026-06-09T09:45:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:05"
-        },
-        {
-          "flight_no": "W6 2008",
-          "airline": "Wizz Air",
-          "origin_iata": "LGW",
-          "origin": "LONDON GATWICK",
-          "scheduled_time": "11:50",
-          "expected_time": "2026-06-09T09:25:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-25"
-        },
         {
           "flight_no": "BA 872",
           "airline": "British Airways",
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "12:30",
-          "expected_time": "2026-06-09T10:16:00.000000Z",
-          "status": "ON TIME",
+          "expected_time": "2026-06-09T10:18:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-14"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 4204",
@@ -70,11 +22,11 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "12:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-09T10:40:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-10"
         },
         {
           "flight_no": "EZY 8821",
@@ -82,11 +34,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "12:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-09T10:33:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-22"
         },
         {
           "flight_no": "FR 2434",
@@ -223,37 +175,13 @@
       ],
       "departures": [
         {
-          "flight_no": "EZY 3054",
-          "airline": "EasyJet",
-          "destination_iata": "BFS",
-          "destination": "BELFAST",
-          "scheduled_time": "11:00",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
-          "flight_no": "FR 1466",
-          "airline": "Ryanair",
-          "destination_iata": "BHX",
-          "destination": "BIRMINGHAM",
-          "scheduled_time": "11:20",
-          "expected_time": null,
-          "status": "ODPRAWA %checkin",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:00"
-        },
-        {
           "flight_no": "FR 9954",
           "airline": "Ryanair",
           "destination_iata": "NCL",
           "destination": "NEWCASTLE",
           "scheduled_time": "12:05",
           "expected_time": null,
-          "status": "ODPRAWA %checkin",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -265,7 +193,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "13:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -277,7 +205,7 @@
           "destination": "LONDYN HEATHROW",
           "scheduled_time": "13:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
