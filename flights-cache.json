@@ -1,21 +1,9 @@
 {
-  "fetched_at": "2026-06-10T21:45:00.344Z",
+  "fetched_at": "2026-06-10T22:40:00.072Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-11": {
       "arrivals": [
-        {
-          "flight_no": "FR 8201",
-          "airline": "Ryanair",
-          "origin_iata": "ABZ",
-          "origin": "ABERDEEN",
-          "scheduled_time": "00:25",
-          "expected_time": "2026-06-09T22:21:00.000000Z",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": "00:-04"
-        },
         {
           "flight_no": "EZY 8821",
           "airline": "EasyJet",
@@ -415,6 +403,23 @@
           "delay": "00:00"
         }
       ]
+    },
+    "2026-06-12": {
+      "arrivals": [
+        {
+          "flight_no": "FR 1724",
+          "airline": "Ryanair",
+          "origin_iata": "EMA",
+          "origin": "EAST MIDLANDS",
+          "scheduled_time": "00:35",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": "00:00"
+        }
+      ],
+      "departures": []
     }
   }
 }
