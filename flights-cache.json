@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T21:44:04.978Z",
+  "fetched_at": "2026-06-11T22:38:57.102Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-12": {
@@ -10,11 +10,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "00:35",
-          "expected_time": "2026-06-10T22:26:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-11T22:23:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-09"
+          "delay": "00:-12"
         },
         {
           "flight_no": "FR 1813",
@@ -289,7 +289,7 @@
           "destination": "LIVERPOOL",
           "scheduled_time": "05:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -313,7 +313,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "07:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -325,7 +325,7 @@
           "destination": "BRISTOL",
           "scheduled_time": "07:40",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -337,7 +337,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "10:20",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -361,7 +361,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "11:05",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -385,7 +385,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "13:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -409,7 +409,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "15:15",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -421,7 +421,7 @@
           "destination": "LEEDS BRADFORD",
           "scheduled_time": "16:00",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -433,7 +433,7 @@
           "destination": "EDINBURGH",
           "scheduled_time": "16:55",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -445,7 +445,7 @@
           "destination": "BIRMINGHAM",
           "scheduled_time": "18:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -541,7 +541,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "22:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -553,7 +553,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "23:10",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
@@ -565,7 +565,7 @@
           "destination": "EAST MIDLANDS",
           "scheduled_time": "23:25",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA %checkin",
           "is_cancelled": false,
           "delayed": false,
           "delay": "00:00"
