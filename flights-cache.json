@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T19:52:08.773Z",
+  "fetched_at": "2026-06-11T20:53:40.242Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-06-11": {
@@ -10,11 +10,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:30",
-          "expected_time": "2026-06-11T20:25:00.000000Z",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-06-11T20:21:00.000000Z",
+          "status": "WYLĄDOWAŁ %real_time",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-05"
+          "delay": "00:-09"
         },
         {
           "flight_no": "FR 2434",
@@ -22,11 +22,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:00",
-          "expected_time": "2026-06-11T20:56:00.000000Z",
+          "expected_time": "2026-06-11T20:59:00.000000Z",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:-04"
+          "delay": "00:-01"
         }
       ],
       "departures": []
@@ -39,11 +39,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "00:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-06-10T22:27:00.000000Z",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
-          "delay": "00:00"
+          "delay": "00:-08"
         },
         {
           "flight_no": "FR 1813",
