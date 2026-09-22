@@ -1,40 +1,16 @@
 {
-  "fetched_at": "2026-09-22T16:30:23.078Z",
+  "fetched_at": "2026-09-22T18:33:49.262Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-09-22": {
       "arrivals": [
-        {
-          "flight_no": "FR 6221",
-          "airline": "Ryanair",
-          "origin_iata": "BRS",
-          "origin": "BRISTOL",
-          "scheduled_time": "19:40",
-          "expected_time": "2026-09-22T20:11:00+02:00",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": true,
-          "delay": "00:31"
-        },
-        {
-          "flight_no": "FR 8580",
-          "airline": "Ryanair",
-          "origin_iata": "STN",
-          "origin": "LONDON STANSTED",
-          "scheduled_time": "19:55",
-          "expected_time": "2026-09-22T19:32:00+02:00",
-          "status": "OCZEKIWANY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": null
-        },
         {
           "flight_no": "EZY 2937",
           "airline": "EasyJet",
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "21:00",
-          "expected_time": "2026-09-22T20:42:00+02:00",
+          "expected_time": "2026-09-22T20:35:00+02:00",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
@@ -46,8 +22,8 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-09-22T21:44:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null
@@ -90,42 +66,6 @@
         }
       ],
       "departures": [
-        {
-          "flight_no": "FR 2333",
-          "airline": "Ryanair",
-          "destination_iata": "LBA",
-          "destination": "LEEDS BRADFORD",
-          "scheduled_time": "18:35",
-          "expected_time": null,
-          "status": "GATE ZAMKNIETY",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": null
-        },
-        {
-          "flight_no": "FR 8843",
-          "airline": "Ryanair",
-          "destination_iata": "ABZ",
-          "destination": "ABERDEEN",
-          "scheduled_time": "19:20",
-          "expected_time": null,
-          "status": "BOARDING",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": null
-        },
-        {
-          "flight_no": "FR 8581",
-          "airline": "Ryanair",
-          "destination_iata": "STN",
-          "destination": "LONDON STANSTED",
-          "scheduled_time": "20:20",
-          "expected_time": null,
-          "status": "ODPRAWA",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": null
-        },
         {
           "flight_no": "EZY 2938",
           "airline": "EasyJet",
