@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-03T10:14:53.714Z",
+  "fetched_at": "2026-10-03T15:04:49.324Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-03": {
@@ -244,11 +244,11 @@
           "origin_iata": "LGW",
           "origin": "LONDON GATWICK",
           "scheduled_time": "16:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-03T17:00:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:05",
           "is_uk": true
         },
         {
@@ -257,11 +257,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-03T18:22:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:02",
           "is_uk": true
         },
         {
@@ -728,7 +728,7 @@
           "destination": "LONDON LUTON",
           "scheduled_time": "17:05",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -741,7 +741,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "17:25",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1304,7 +1304,7 @@
           "airline": "Freebird",
           "destination_iata": "AYT",
           "destination": "ANTALYA",
-          "scheduled_time": "01:25",
+          "scheduled_time": "00:10",
           "expected_time": null,
           "status": "ODPRAWA",
           "is_cancelled": false,
