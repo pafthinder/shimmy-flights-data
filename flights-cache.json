@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-10T10:59:40.985Z",
+  "fetched_at": "2026-10-10T16:11:45.019Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-10": {
@@ -244,8 +244,8 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-10T18:17:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -257,11 +257,11 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-10T19:36:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:01",
           "is_uk": true
         },
         {
@@ -270,8 +270,8 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-10T19:50:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -728,7 +728,7 @@
           "destination": "DUBLIN",
           "scheduled_time": "18:20",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
