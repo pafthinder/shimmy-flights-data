@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-11T17:27:35.820Z",
+  "fetched_at": "2026-10-11T21:36:16.564Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-11": {
@@ -426,11 +426,11 @@
           "origin_iata": "AYT",
           "origin": "ANTALYA",
           "scheduled_time": "23:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-11T23:41:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:31",
           "is_uk": false
         },
         {
@@ -857,11 +857,11 @@
           "destination_iata": "LTN",
           "destination": "LONDON LUTON",
           "scheduled_time": "21:55",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-11T23:30:00+02:00",
+          "status": "GATE ZAMKNIETY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:35",
           "is_uk": true
         },
         {
@@ -870,11 +870,11 @@
           "destination_iata": "TLV",
           "destination": "TEL AVIV",
           "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-11T00:25:00+02:00",
+          "status": "GO TO GATE",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:30",
           "is_uk": false
         }
       ]
@@ -887,8 +887,8 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "00:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-11T00:23:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1449,7 +1449,7 @@
           "destination": "ANTALYA",
           "scheduled_time": "00:20",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1720,6 +1720,19 @@
           "airline": "Wizz Air",
           "destination_iata": "TIA",
           "destination": "TIRANA",
+          "scheduled_time": "12:50",
+          "expected_time": null,
+          "status": "ODPRAWA",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": null,
+          "is_uk": false
+        },
+        {
+          "flight_no": "AMQ 1322",
+          "airline": "Aircraft Management and Consulting",
+          "destination_iata": "AYT",
+          "destination": "ANTALYA",
           "scheduled_time": "12:50",
           "expected_time": null,
           "status": "ODPRAWA",
