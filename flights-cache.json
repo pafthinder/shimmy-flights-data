@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T14:57:24.255Z",
+  "fetched_at": "2026-10-14T19:15:21.956Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-14": {
@@ -322,8 +322,8 @@
           "origin_iata": "TLV",
           "origin": "TEL AVIV",
           "scheduled_time": "21:05",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-14T20:47:00+02:00",
+          "status": "WYLĄDOWAŁ",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -335,11 +335,11 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "21:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-14T21:53:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:03",
           "is_uk": true
         },
         {
@@ -348,11 +348,11 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-14T22:52:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:52",
           "is_uk": true
         },
         {
@@ -361,11 +361,11 @@
           "origin_iata": "SHJ",
           "origin": "SHARJAH",
           "scheduled_time": "22:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-14T22:33:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:03",
           "is_uk": false
         },
         {
@@ -374,11 +374,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-14T22:44:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:04",
           "is_uk": true
         },
         {
@@ -400,11 +400,11 @@
           "origin_iata": "LCA",
           "origin": "LARNACA",
           "scheduled_time": "23:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-14T00:12:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:42",
           "is_uk": false
         }
       ],
@@ -727,11 +727,11 @@
           "destination_iata": "LGW",
           "destination": "LONDON GATWICK",
           "scheduled_time": "20:00",
-          "expected_time": null,
-          "status": "NADAWANIE BAGAŻU",
+          "expected_time": "2026-10-14T21:09:00+02:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:09",
           "is_uk": true
         },
         {
@@ -754,7 +754,7 @@
           "destination": "TEL AVIV",
           "scheduled_time": "22:10",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -841,6 +841,19 @@
           "delayed": false,
           "delay": null,
           "is_uk": true
+        },
+        {
+          "flight_no": "RYS7086",
+          "airline": "Ryanair Sun",
+          "origin_iata": "LCA",
+          "origin": "LARNACA",
+          "scheduled_time": "01:49",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": null,
+          "is_uk": false
         },
         {
           "flight_no": "XQ 432",
