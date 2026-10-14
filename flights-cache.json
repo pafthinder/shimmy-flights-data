@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T09:56:55.487Z",
+  "fetched_at": "2026-10-14T14:57:24.255Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-14": {
@@ -257,7 +257,7 @@
           "origin_iata": "LHR",
           "origin": "LONDYN HEATHROW",
           "scheduled_time": "19:10",
-          "expected_time": null,
+          "expected_time": "2026-10-14T18:51:00+02:00",
           "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
@@ -650,7 +650,7 @@
           "destination": "LARNACA",
           "scheduled_time": "16:20",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1254,7 +1254,7 @@
           "destination": "ANTALYA",
           "scheduled_time": "00:45",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "ODPRAWA",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
