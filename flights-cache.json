@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T18:39:32.275Z",
+  "fetched_at": "2026-10-16T21:56:47.562Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-16": {
@@ -517,11 +517,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-16T00:39:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:49",
           "is_uk": true
         },
         {
@@ -530,11 +530,11 @@
           "origin_iata": "EMA",
           "origin": "EAST MIDLANDS",
           "scheduled_time": "23:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-16T00:16:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:16",
           "is_uk": true
         },
         {
@@ -556,8 +556,8 @@
           "origin_iata": "AYT",
           "origin": "ANTALYA",
           "scheduled_time": "23:45",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-16T23:31:00+02:00",
+          "status": "WYLĄDOWAŁ",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -569,11 +569,11 @@
           "origin_iata": "BHX",
           "origin": "BIRMINGHAM",
           "scheduled_time": "23:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-16T23:56:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:01",
           "is_uk": true
         }
       ],
@@ -1039,11 +1039,11 @@
           "destination_iata": "BFS",
           "destination": "BELFAST",
           "scheduled_time": "21:55",
-          "expected_time": "2026-10-16T22:55:00+02:00",
-          "status": "NADAWANIE BAGAŻU",
+          "expected_time": "2026-10-16T23:37:00+02:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "01:00",
+          "delay": "01:42",
           "is_uk": true
         },
         {
@@ -1052,11 +1052,11 @@
           "destination_iata": "DUB",
           "destination": "DUBLIN",
           "scheduled_time": "22:25",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-16T23:20:00+02:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:55",
           "is_uk": false
         },
         {
@@ -1078,11 +1078,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "23:10",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-16T23:40:00+02:00",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:30",
           "is_uk": true
         },
         {
@@ -1091,11 +1091,11 @@
           "destination_iata": "EMA",
           "destination": "EAST MIDLANDS",
           "scheduled_time": "23:25",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-16T00:40:00+02:00",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:15",
           "is_uk": true
         },
         {
@@ -1104,11 +1104,11 @@
           "destination_iata": "SHJ",
           "destination": "SHARJAH",
           "scheduled_time": "23:25",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-16T23:40:00+02:00",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:15",
           "is_uk": false
         }
       ]
@@ -1501,7 +1501,7 @@
           "destination": "ANTALYA",
           "scheduled_time": "00:05",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1514,7 +1514,7 @@
           "destination": "ANTALYA",
           "scheduled_time": "00:55",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
