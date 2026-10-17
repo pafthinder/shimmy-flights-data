@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T19:03:31.122Z",
+  "fetched_at": "2026-10-17T21:59:46.234Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-17": {
@@ -387,11 +387,11 @@
           "origin_iata": "AYT",
           "origin": "ANTALYA",
           "scheduled_time": "23:10",
-          "expected_time": "2026-10-17T22:58:00+02:00",
-          "status": "OCZEKIWANY",
+          "expected_time": "2026-10-17T01:45:00+02:00",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "02:35",
           "is_uk": false
         },
         {
@@ -400,11 +400,11 @@
           "origin_iata": "TLV",
           "origin": "TEL AVIV",
           "scheduled_time": "23:30",
-          "expected_time": "2026-10-17T00:05:00+02:00",
+          "expected_time": "2026-10-17T00:49:00+02:00",
           "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "00:35",
+          "delay": "01:19",
           "is_uk": false
         }
       ],
@@ -818,11 +818,11 @@
           "destination_iata": "STN",
           "destination": "LONDON STANSTED",
           "scheduled_time": "23:30",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-17T23:45:00+02:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:15",
           "is_uk": true
         },
         {
@@ -832,7 +832,7 @@
           "destination": "TEL AVIV",
           "scheduled_time": "23:55",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1292,11 +1292,11 @@
           "destination_iata": "AYT",
           "destination": "ANTALYA",
           "scheduled_time": "00:20",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-17T02:15:00+02:00",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:55",
           "is_uk": false
         },
         {
