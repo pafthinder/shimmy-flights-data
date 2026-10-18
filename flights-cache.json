@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T09:21:30.867Z",
+  "fetched_at": "2026-10-18T13:48:05.699Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-18": {
@@ -244,11 +244,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "15:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-18T15:31:00+02:00",
+          "status": "WYLĄDOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:31",
           "is_uk": true
         },
         {
@@ -257,8 +257,8 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "16:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-18T16:11:00+02:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -649,11 +649,11 @@
           "destination_iata": "SHJ",
           "destination": "SHARJAH",
           "scheduled_time": "13:40",
-          "expected_time": "2026-10-18T14:50:00+02:00",
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-18T15:39:00+02:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "01:10",
+          "delay": "01:59",
           "is_uk": false
         },
         {
@@ -662,11 +662,11 @@
           "destination_iata": "AYT",
           "destination": "ANTALYA",
           "scheduled_time": "13:50",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-18T15:35:00+02:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:45",
           "is_uk": false
         },
         {
@@ -740,11 +740,11 @@
           "destination_iata": "AYT",
           "destination": "ANTALYA",
           "scheduled_time": "18:50",
-          "expected_time": null,
+          "expected_time": "2026-10-18T19:30:00+02:00",
           "status": "ODPRAWA",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:40",
           "is_uk": false
         },
         {
