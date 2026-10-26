@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T17:08:49.643Z",
+  "fetched_at": "2026-10-26T22:22:52.534Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-26": {
@@ -569,11 +569,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "23:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-26T00:50:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:10",
           "is_uk": true
         }
       ],
@@ -1143,11 +1143,11 @@
           "destination_iata": "DUB",
           "destination": "DUBLIN",
           "scheduled_time": "22:50",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-26T23:05:00+01:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:15",
           "is_uk": false
         },
         {
@@ -1157,7 +1157,7 @@
           "destination": "TEL AVIV",
           "scheduled_time": "23:55",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "GO TO GATE",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1532,19 +1532,6 @@
           "is_uk": true
         },
         {
-          "flight_no": "FH 753",
-          "airline": "Freebird",
-          "origin_iata": "AYT",
-          "origin": "ANTALYA",
-          "scheduled_time": "22:10",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
-          "is_uk": false
-        },
-        {
           "flight_no": "FR 8201",
           "airline": "Ryanair",
           "origin_iata": "ABZ",
@@ -1556,6 +1543,19 @@
           "delayed": false,
           "delay": null,
           "is_uk": true
+        },
+        {
+          "flight_no": "FH 753",
+          "airline": "Freebird",
+          "origin_iata": "AYT",
+          "origin": "ANTALYA",
+          "scheduled_time": "23:10",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": null,
+          "is_uk": false
         },
         {
           "flight_no": "FR 2362",
