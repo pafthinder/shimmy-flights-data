@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T11:02:43.877Z",
+  "fetched_at": "2026-10-28T18:00:22.692Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-28": {
@@ -330,16 +330,29 @@
           "is_uk": true
         },
         {
+          "flight_no": "G9 748",
+          "airline": "Air Arabia",
+          "origin_iata": "SHJ",
+          "origin": "SHARJAH",
+          "scheduled_time": "20:10",
+          "expected_time": "2026-10-28T20:00:00+01:00",
+          "status": "OCZEKIWANY",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": null,
+          "is_uk": false
+        },
+        {
           "flight_no": "FR 2023",
           "airline": "Ryanair",
           "origin_iata": "DUB",
           "origin": "DUBLIN",
           "scheduled_time": "20:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-28T20:27:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:02",
           "is_uk": false
         },
         {
@@ -348,25 +361,12 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "20:25",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-28T20:00:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
           "is_uk": true
-        },
-        {
-          "flight_no": "G9 748",
-          "airline": "Air Arabia",
-          "origin_iata": "SHJ",
-          "origin": "SHARJAH",
-          "scheduled_time": "21:20",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
-          "is_uk": false
         },
         {
           "flight_no": "FH 753",
@@ -741,7 +741,7 @@
           "destination": "LONDON GATWICK",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "NADAWANIE BAGAŻU",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -754,7 +754,7 @@
           "destination": "LONDON STANSTED",
           "scheduled_time": "19:25",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -778,7 +778,7 @@
           "airline": "Air Arabia",
           "destination_iata": "SHJ",
           "destination": "SHARJAH",
-          "scheduled_time": "22:10",
+          "scheduled_time": "21:00",
           "expected_time": "2026-10-28T21:00:00+01:00",
           "status": "ODPRAWA",
           "is_cancelled": false,
