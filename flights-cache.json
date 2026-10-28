@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T18:00:22.692Z",
+  "fetched_at": "2026-10-28T22:29:02.344Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-28": {
@@ -387,8 +387,8 @@
           "origin_iata": "BRS",
           "origin": "BRISTOL",
           "scheduled_time": "23:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-28T22:58:00+01:00",
+          "status": "WYLĄDOWAŁ",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -793,7 +793,7 @@
           "destination": "TEL AVIV",
           "scheduled_time": "23:55",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1722,7 +1722,7 @@
           "destination": "MANCHESTER",
           "scheduled_time": "20:50",
           "expected_time": null,
-          "status": "ON TIME",
+          "status": "NADAWANIE BAGAŻU",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
