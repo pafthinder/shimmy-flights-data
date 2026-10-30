@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T17:47:31.455Z",
+  "fetched_at": "2026-10-30T21:59:42.850Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-10-30": {
@@ -608,11 +608,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "22:00",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-30T22:34:00+01:00",
+          "status": "WYLĄDOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:34",
           "is_uk": true
         },
         {
@@ -621,8 +621,8 @@
           "origin_iata": "AYT",
           "origin": "ANTALYA",
           "scheduled_time": "22:40",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-30T22:32:00+01:00",
+          "status": "WYLĄDOWAŁ",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1169,11 +1169,11 @@
           "destination_iata": "EMA",
           "destination": "EAST MIDLANDS",
           "scheduled_time": "21:20",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-30T22:50:00+01:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:30",
           "is_uk": true
         },
         {
@@ -1208,11 +1208,11 @@
           "destination_iata": "DUB",
           "destination": "DUBLIN",
           "scheduled_time": "22:10",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-30T22:35:00+01:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:25",
           "is_uk": false
         },
         {
@@ -1221,11 +1221,11 @@
           "destination_iata": "SHJ",
           "destination": "SHARJAH",
           "scheduled_time": "22:10",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-30T22:50:00+01:00",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:40",
           "is_uk": false
         },
         {
@@ -1234,11 +1234,11 @@
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "22:25",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-10-30T22:50:00+01:00",
+          "status": "OSTATNIE WEZWANIE",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:25",
           "is_uk": true
         },
         {
@@ -1264,8 +1264,8 @@
           "origin_iata": "GLA",
           "origin": "GLASGOW",
           "scheduled_time": "00:15",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-10-30T23:54:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -1623,19 +1623,6 @@
           "is_uk": true
         },
         {
-          "flight_no": "FH 753",
-          "airline": "Freebird",
-          "origin_iata": "AYT",
-          "origin": "ANTALYA",
-          "scheduled_time": "22:10",
-          "expected_time": null,
-          "status": "ON TIME",
-          "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
-          "is_uk": false
-        },
-        {
           "flight_no": "FR 2030",
           "airline": "Ryanair",
           "origin_iata": "DUB",
@@ -1673,6 +1660,19 @@
           "delayed": false,
           "delay": null,
           "is_uk": true
+        },
+        {
+          "flight_no": "FH 753",
+          "airline": "Freebird",
+          "origin_iata": "AYT",
+          "origin": "ANTALYA",
+          "scheduled_time": "23:10",
+          "expected_time": null,
+          "status": "ON TIME",
+          "is_cancelled": false,
+          "delayed": false,
+          "delay": null,
+          "is_uk": false
         },
         {
           "flight_no": "FR 3327",
