@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T12:39:18.160Z",
+  "fetched_at": "2026-11-03T19:59:03.960Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-11-03": {
@@ -623,11 +623,11 @@
           "destination_iata": "DUB",
           "destination": "DUBLIN",
           "scheduled_time": "20:15",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-11-03T20:35:00+01:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:20",
           "is_uk": false
         },
         {
@@ -636,11 +636,11 @@
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "20:30",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-11-03T20:50:00+01:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:20",
           "is_uk": true
         },
         {
@@ -649,11 +649,11 @@
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "20:35",
-          "expected_time": null,
-          "status": "NADAWANIE BAGAŻU",
+          "expected_time": "2026-11-03T20:55:00+01:00",
+          "status": "GATE ZAMKNIĘTY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:20",
           "is_uk": true
         }
       ]
