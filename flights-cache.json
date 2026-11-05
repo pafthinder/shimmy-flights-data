@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T12:57:15.131Z",
+  "fetched_at": "2026-11-05T20:32:06.215Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-11-05": {
@@ -413,11 +413,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "22:55",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-11-05T23:03:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:08",
           "is_uk": true
         },
         {
@@ -426,8 +426,8 @@
           "origin_iata": "LBA",
           "origin": "LEEDS BRADFORD",
           "scheduled_time": "23:20",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-11-05T23:08:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
