@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T11:45:37.753Z",
+  "fetched_at": "2026-11-08T17:43:07.372Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-11-08": {
@@ -374,11 +374,11 @@
           "origin_iata": "MAN",
           "origin": "MANCHESTER",
           "scheduled_time": "18:30",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-11-08T18:54:00+01:00",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:24",
           "is_uk": true
         },
         {
@@ -387,8 +387,8 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "19:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-11-08T19:08:00+01:00",
+          "status": "PRZEKIEROWANY DO WROCŁAWIA",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -400,8 +400,8 @@
           "origin_iata": "LTN",
           "origin": "LONDON LUTON",
           "scheduled_time": "19:50",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-11-08T19:40:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -426,11 +426,11 @@
           "origin_iata": "EDI",
           "origin": "EDINBURGH",
           "scheduled_time": "20:35",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-11-08T20:59:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:24",
           "is_uk": true
         },
         {
@@ -922,11 +922,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "19:30",
-          "expected_time": null,
+          "expected_time": "2026-11-08T21:15:00+01:00",
           "status": "ODPRAWA",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:45",
           "is_uk": true
         },
         {
