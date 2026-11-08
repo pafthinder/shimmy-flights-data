@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T17:43:07.372Z",
+  "fetched_at": "2026-11-08T21:47:13.695Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-11-08": {
@@ -922,11 +922,11 @@
           "destination_iata": "MAN",
           "destination": "MANCHESTER",
           "scheduled_time": "19:30",
-          "expected_time": "2026-11-08T21:15:00+01:00",
-          "status": "ODPRAWA",
+          "expected_time": "2026-11-08T23:15:00+01:00",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
           "delayed": true,
-          "delay": "01:45",
+          "delay": "03:45",
           "is_uk": true
         },
         {
@@ -935,11 +935,11 @@
           "destination_iata": "STN",
           "destination": "LONDON STANSTED",
           "scheduled_time": "19:35",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-11-08T10:30:00+01:00",
+          "status": "OPÓŹNIONY NA 9.11",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "14:55",
           "is_uk": true
         },
         {
@@ -961,11 +961,11 @@
           "destination_iata": "EDI",
           "destination": "EDINBURGH",
           "scheduled_time": "21:00",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-11-08T22:41:00+01:00",
+          "status": "OPÓŹNIONY",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "01:41",
           "is_uk": true
         },
         {
