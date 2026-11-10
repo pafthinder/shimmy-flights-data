@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T13:16:51.758Z",
+  "fetched_at": "2026-11-10T20:43:00.825Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-11-10": {
@@ -283,7 +283,7 @@
           "origin_iata": "STN",
           "origin": "LONDON STANSTED",
           "scheduled_time": "23:55",
-          "expected_time": null,
+          "expected_time": "2026-11-10T23:36:00+01:00",
           "status": "ON TIME",
           "is_cancelled": false,
           "delayed": false,
