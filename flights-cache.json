@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T13:41:20.019Z",
+  "fetched_at": "2026-11-18T21:43:16.523Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-11-18": {
@@ -506,11 +506,11 @@
           "destination_iata": "SHJ",
           "destination": "SHARJAH",
           "scheduled_time": "22:10",
-          "expected_time": null,
-          "status": "ODPRAWA",
+          "expected_time": "2026-11-18T22:30:00+01:00",
+          "status": "WYSTARTOWAŁ",
           "is_cancelled": false,
-          "delayed": false,
-          "delay": null,
+          "delayed": true,
+          "delay": "00:20",
           "is_uk": false
         },
         {
