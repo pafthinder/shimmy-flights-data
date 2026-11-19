@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T14:09:28.927Z",
+  "fetched_at": "2026-11-19T22:35:01.636Z",
   "source": "krakowairport.pl",
   "dates": {
     "2026-11-19": {
@@ -910,7 +910,7 @@
           "destination": "TEL AVIV",
           "scheduled_time": "23:55",
           "expected_time": null,
-          "status": "ODPRAWA",
+          "status": "BOARDING",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
@@ -926,8 +926,8 @@
           "origin_iata": "BFS",
           "origin": "BELFAST",
           "scheduled_time": "00:10",
-          "expected_time": null,
-          "status": "ON TIME",
+          "expected_time": "2026-11-19T23:56:00+01:00",
+          "status": "OCZEKIWANY",
           "is_cancelled": false,
           "delayed": false,
           "delay": null,
